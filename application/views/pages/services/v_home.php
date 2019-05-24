@@ -38,9 +38,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <p class="zm-home-subtitle">Dengan gamification, tim leader dapat setiap saat mengontrol pekerjaan 
-                                    tim yang ada di lapangan, dan tim di lapanganpun akan lebih produktif 
-                                    karena pekerjaan yang dikerjakan terasa lebih menyenangkan</p>
+                                <p class="zm-home-subtitle">Gunak</p>
                                 <p class="zm-title">Meningkatkan produktivitas</p>
                                 <p class="zm-home-subtitle">Sistem poin dan reward di IT tools yang digunakan 
                                     akan mendorong produktivitas kerja loyalitas tim</p>

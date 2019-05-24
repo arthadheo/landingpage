@@ -11,10 +11,16 @@
 			<input type="checkbox" id="drop" />
 			<ul id="zm-large-view"class="menu ml-auto mt-3">
 				<li id="home" class=""><a href="<?php echo base_url(); ?>">Beranda</a></li>
-				<li id="services" class=""><a href="<?php echo base_url(); ?>services">Layanan</a></li>
-				<li id="product" class=""><a href="<?php echo base_url(); ?>products">Produk</a></li>
+				<li id="services" class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="">Solusi</a>
+				<span class="caret"></span></a>
+        			<ul class="dropdown-menu">
+          				<li id="aplikasi"><a href="<?php echo base_url(); ?>aplikasi">Aplikasi</a></li>
+          				<li><a href="#">Platform</a></li>
+        			</ul>
+      			</li>
 				<li id="blog" class=""><a href="<?php echo base_url(); ?>blog">Blog</a></li>
-				<li id="contact" class="last-grid"><a href="<?php echo base_url(); ?>contact">Hubungi Kami</a></li>
+				<li id="contact" class=""><a href="<?php echo base_url(); ?>contact">Kontak</a></li>
 			</ul>
 		</nav>
 		<!-- //nav -->

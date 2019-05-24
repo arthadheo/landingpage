@@ -1,28 +1,30 @@
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
 <div id="home"></div>
 <!-- section one -->
-<section class="section-one zm-bg-light-grey" id="home1">
-	<div class="container">
-		<div class="zm-content-one">
-			<div class="row">
-				<div class="col-lg-6 d-flex align-items-center">
-					<div>
-						<img src="<?php echo base_url(); echo $dist_img; ?>/illustrations/zm-illustration-01.png"
-							alt="">
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<h1 class="zm-home-title zm-xs-mobile-home_title">A simple way to achieve more</h1>
-					<p class="zm-home-subtitle">Zoomin adalah penyedia platform gamification pertama di Indonesia.
-						Kami dapat membantu meningkatkan produktivitas dan
-						motivasi karyawan serta loyalitas pelanggan Anda dengan konsep gamification.</p>
-					<div class="zm-xs-btn_contact">
-						<a href="<?php echo base_url(); ?>contact" class="btn zm-s_red-sm">hubungi kami</a>
-					</div>
-				</div>
-			</div>
-		</div>
+<section class="section-one zm-bg-light" id="home1">
+<div class="d-flex flex-column zm-xs-s_wrap_img" style="background-image: url('<?php echo base_url();?>/dist/Assets/Homepage/hero-homepage.png'); background-repeat:no-repeat; background-size:cover;">
+    <div class="container">
+        <div class="zm-content-one">
+            <div id="ops_and_main" class="zm-d-initial">
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center zm-s-s_wrap">
+                        <p class="zm-content-title zm-xs-s_text text-white">Solusi Gamification untuk<br> Aplikasi Karyawan<br/></p>
+                    </div>
+                    <div class="row">
+						<div class="col-lg-12 d-flex justify-content-center align-items-center zm-xs-s_wrap_img ">
+                    		<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/play-button.png" alt="">
+                    	</div>
+                        <p class="col-lg-12 zm-content-subtitle text-white" style="padding-bottom:20px">Zoomin menyediakan solusi gamification untuk aplikasi karyawan
+						, khususunya teknisi, <br>untuk membantu meningkatkan produktivitas kinerja teknisi Anda.<br/></p>
+                        <div class="col-lg-12 d-flex justify-content-center align-items-center ">
+		                    <a href="<?php echo base_url(); ?>" class="btn zm-s_red-sm">DEMO PRODUK GRATIS</a>
+		                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</div>
+</div>
 </section>
 <!-- /section one -->
 
