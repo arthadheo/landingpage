@@ -6,7 +6,7 @@
 			<div class="row">
 				<div class="col-lg-8">
 					<h1 class="zm-content-title zm-font-left">Hubungi Kami</h1>
-					<p class="zm-content-subtitle zm-mb_r-6 zm-font-left">Kami menyediakan solusi gamification untuk HR software Indonesia, khususnya untuk tenaga kerja teknisi, Anda tertarik? <br> Silahkan isi data dibawah ini dan ahli gamification kami akan segera menghubungi Anda kembali.
+					<p class="zm-subtitle zm-mb_r-2 zm-font-left">Kami menyediakan solusi gamification untuk HR software Indonesia, khususnya untuk tenaga kerja teknisi, Anda tertarik? <br> Silahkan isi data dibawah ini dan ahli gamification kami akan segera menghubungi Anda kembali.
                     </p>
                     <div class="row">
                         <div class="col-lg-12">
@@ -14,24 +14,24 @@
                             <form action="<?php echo base_url(); ?>contact/send_message" method="POST" enctype='multipart/form-data'>
                                 <div class="form-group">
                                     <label class="zm-font-s_16 zm-font-500" for="name">Nama</label>
-                                    <input type="text" autocomplete="off" class="form-control" 
-                                    id="name" name="nameContact" placeholder="Masukkan Namamu" required>
+                                    <input type="text" style="background-color: #D3D3D3" autocomplete="off" class="form-control" 
+                                    id="name" name="nameContact" required>
                                 </div>
                                 <div class="form-group">
                                     <label class="zm-font-s_16 zm-font-500" for="name">Asal Institusi / Perusahaan</label>
-                                    <input type="text" autocomplete="off" class="form-control zm-nmbr" 
-                                    id="hp" name="hpContact" placeholder="Masukkan No Hp" required>
+                                    <input type="text" style="background-color: #D3D3D3" autocomplete="off" class="form-control" 
+                                    id="institusi" name="institusiContact" required>
                                 </div>
                                 <div class="form-group">
                                     <label class="zm-font-s_16 zm-font-500" for="email">Email</label>
-                                    <input type="email" autocomplete="off" class="form-control" 
+                                    <input type="email" style="background-color: #D3D3D3" autocomplete="off" class="form-control" 
                                     id="email" name="emailContact" aria-describedby="emailHelp" 
-                                    placeholder="Masukkan Emailmu" required>
+                                    required>
                                 </div>
-                                <div class="form-group">
-                                    <label class="zm-font-s_16 zm-font-500" for="msg">Pesan</label>
-                                    <input type="text" autocomplete="off" class="form-control" name="msgContact" 
-                                    id="msg" placeholder="Saya ingin..." required>
+                                <div class="form-group" >
+                                    <label for="msg">Pesan</label>
+                                    <textarea class="zm-font-s_16 zm-font-500 form-control" name="msgContact" 
+                                    id="msg" style="height:150px; background-color: #D3D3D3;" required></textarea>
                                 </div>
                                 <button type="submit" class="btn zm-s_red-ct zm-font-500" title="Kirim pesan">kirim</button>
                             </form>
