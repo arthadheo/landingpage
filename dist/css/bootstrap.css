@@ -6006,8 +6006,8 @@ button.close {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
+  width: 6px;
+  height: 6px;
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
