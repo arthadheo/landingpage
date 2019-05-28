@@ -31,128 +31,139 @@
 <!-- section two -->
 <section class="section-two zm-bg-light-grey" id="gamification">
 	<div class="container">
-		<div class="zm-content-two">
-			<div class="row zm-mb_r-6">
-				<div class="col-lg-12">
-					<h1 class="zm-content-title">Apa itu gamification?</h1>
-					<p class="zm-content-subtitle">Gamification adalah proses yang menggunakan mekanisme
-						atau aturan yang ada dalam game pada aktivitas atau konteks non-gaming.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="row">
-						<div class="col-lg-3 d-flex align-items-start justify-content-center">
-							<div class="zm-icon-wrapper">
-								<img src="<?php echo base_url(); echo $dist_img; ?>/icons/zm_icon_productivity.png"
-									alt="">
-							</div>
-						</div>
-						<div class="col-lg-9">
-							<h4 class="zm-title">Produktivitas Karyawan</h4>
-							<p class="zm-subtitle">Bermain game akan membuat pemain fokus pada tantangan yang diberikan
-								karena ingin mendapatkan poin tertinggi dan reward, psikologi
-								inilah yang dimanfaatkan dalam gamification untuk meningkatkan
-								produktivitas karyawan.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 zm-xs-loyalty_desc">
-					<div class="row">
-						<div class="col-lg-3 d-flex align-items-start justify-content-center">
-							<div class="zm-icon-wrapper">
-								<img src="<?php echo base_url(); echo $dist_img; ?>/icons/zm_icon_loyalty.png" alt="">
-							</div>
-						</div>
-						<div class="col-lg-9">
-							<h4 class="zm-title">Loyalitas Pelanggan</h4>
-							<p class="zm-subtitle">Gamification juga dapat diaplikasikan untuk
-								meningkatkan loyalitas pelanggan. Semakin sering pelanggan membeli produk,
-								semakin bertambah pula poin yang didapat untuk ditukarkan dengan reward.</p>
-						</div>
-					</div>
-				</div>
+		<div class="zm-content-three">
+			<div id="carouselIndicators" class="carousel slide" style="border-radius: 100%;" data-ride="carousel">
+  				<ol class="carousel-indicators">
+    				<li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+    				<li data-target="#carouselIndicators" data-slide-to="1"></li>
+    				<li data-target="#carouselIndicators" data-slide-to="2"></li>
+  				</ol>
+  				<div class="carousel-inner">
+    				<div class="carousel-item active" style="text-align: center">
+						<div class="col-lg-12">
+                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/gamification.png" alt="" width="40" height="40">&nbsp; Gamification</span>
+                    	</div>
+						<p class="zm-subtitle">&nbsp; ... menurut <i>Merriam-Webster Dictionary</i> adalah proses penambahan 
+						elemen-elemen game (seperti poin, kompetisi, dll) ke dalam aktivitas tertentu untuk meningkatkan engangement
+						</p>
+    				</div>
+    				<div class="carousel-item" style="text-align: center">
+						<div class="col-lg-12">
+                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/gamification.png" alt="" width="40" height="40">&nbsp; Gamification </span>
+                    	</div>
+						<p class="zm-subtitle">&nbsp; ... menurut <i>Merriam-Webster Dictionary</i> adalah proses penambahan 
+						elemen-elemen game (seperti poin, kompetisi, dll) ke dalam aktivitas tertentu untuk meningkatkan engangement
+						</p>
+    				</div>
+    				<div class="carousel-item" style="text-align: center">
+						<div class="col-lg-12">
+                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/gamification.png" alt="" width="40" height="40">&nbsp; Gamification</span>
+                    	</div>
+						<p class="zm-subtitle">&nbsp; ... menurut <i>Merriam-Webster Dictionary</i> adalah proses penambahan 
+						elemen-elemen game (seperti poin, kompetisi, dll) ke dalam aktivitas tertentu untuk meningkatkan engangement
+						</p>
+    				</div>
+  				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<!-- /section one -->
+<!-- /section two -->
 
 <!-- section three -->
 <section class="section-three zm-bg-light" id="home1">
 	<div class="container">
-		<div class="zm-content-two">
+		<div class="zm-content-two" style="padding-top: 30px; padding-bottom: 30px">
 			<div class="row zm-mb_r-4">
 				<div class="col-lg-12">
-					<p class="zm-content-title">Jenis Layanan?</p>
-					<p class="zm-content-subtitle">Kami membantu meningkatkan motivasi dan
-						produktivitas kerja karyawan serta loyalitas pelanggan.</p>
+					<p class="zm-content-title">Solusi Gamification untuk <br>Berbagai Kondisi Perusahaan<br/></p>
 				</div>
 			</div>
-			<div class="row" style="text-align: center;">
-				<div class="col-lg-2" style="margin: 1rem;">
-					<div class="mobile-wrapper">
-						<div class="zm-card-type-service">
-							<img class="zm-mb-10"
-								src="<?php echo base_url(); echo $dist_img; ?>/icons/zm_icon_operation_and_management.png"
-								alt="">
-							<p class="zm-type-service-title zm-mb-10">Operation and Maintenance</p>
-							<p class="zm-type-service-subtitle zm-mb-10">Mempermudah monitoring pekerjaan teknisi
-								dilapangan</p>
-							<a href="<?php echo base_url(); ?>services" class="btn btn-block zm-o_red-xs">lebih lanjut</a>
+			<div class="row row-table">
+                <div class="col-lg-6" style="padding-left: 30px; padding-right: 30px">
+					<div class="col-10 row">
+						<div class="col-2 zm-xs-s_wrap_img">
+                        	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-app.png" alt="">
+                    	</div>
+						<p class="col-4 zm-title zm-font-left">Aplikasi</p>
+					</div>
+					<p class="zm-subtitle zm-mb_r-2 zm-font-left border-bottom" style="padding-bottom: 20px">Aplikasi mobile dengan fitur gamification di dalamnya
+					untuk meningkatkan produktivitas kerja teknisi Anda. Cocok untuk Anda yang belum memiliki aplikasi untuk pekerjaan teknisi Anda</p>
+					<div class="row ml-1">
+						<p style="font-size: 10px">
+						- Pembagian Work Order
+						<br>- Bantuan Navigasi<br/>
+						</p>
+						<div class="ml-2">
+							<p style="font-size: 10px">
+							- Pelaporan Hasil Kerja
+							<br>- Bantuan Navigasi<br/>
+							</p>
+						</div>
+						<div class="ml-3">
+							<p style="font-size: 10px">
+							- Dashboard monitoring dan konfigurasi
+							</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-2" style="margin: 1rem;">
-					<div class="mobile-wrapper">
-						<div class="zm-card-type-service">
-							<img class="zm-mb-10"
-								src="<?php echo base_url(); echo $dist_img; ?>/icons/zm_icon_sales_management.png"
-								alt="">
-							<p class="zm-type-service-title zm-mb-10">Sales Management</p>
-							<p class="zm-type-service-subtitle zm-mb-10">Meningkatkan sales di bisnis Anda dalam waktu
-								singkat</p>
-							<a href="<?php echo base_url(); ?>services" class="btn btn-block zm-o_red-xs">lebih lanjut</a>
-						</div>
+					<div class="text-center" style="padding-top: 20px">
+						<a href=""><button type="button" class="btn btn-float btn-float-lg btn-outline-danger btn-block" style="font-weight: bold">Pelajari Lebih Lanjut</button></a>
 					</div>
 				</div>
-				<div class="col-lg-2" style="margin: 1rem;">
-					<div class="mobile-wrapper">
-						
-						<div class="zm-card-type-service">
-							<img class="zm-mb-10"
-								src="<?php echo base_url(); echo $dist_img; ?>/icons/zm_icon_project_management.png"
-								alt="">
-							<p class="zm-type-service-title zm-mb-10">Project Management</p>
-							<p class="zm-type-service-subtitle zm-mb-10">Membantu mengontrol proyek antara client &
-								vendor</p>
-							<a href="<?php echo base_url(); ?>services" class="btn btn-block zm-o_red-xs">lebih lanjut</a>
+                <div class="col-lg-6 border-left" style="padding-left: 30px;">
+					<div class="col-10 row">
+						<div class="col-2 zm-xs-s_wrap_img">
+                        	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-platform.png" alt="">
+                    	</div>
+						<p class="zm-title zm-font-left">Platform</p>
+					</div>
+					<p class="zm-subtitle zm-mb_r-2 zm-font-left border-bottom" style="padding-bottom: 20px">Platform gamification untuk menambahkan elemen game ke dalam keseharian teknisi. Cocok untuk Anda yang sudah memiliki aplikasi untuk pekerjaan teknisi Anda.</p>
+					<div class="row ml-1">
+						<p style="font-size: 10px">
+						- Berbagai pilihan elemen gamification
+						<br>- Easy Integration<br/>
+						</p>	
+						<div class="ml-2">
+							<p style="font-size: 10px">
+							- Dashboard monitoring dan konfigurasi
+							</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-2" style="margin: 1rem;">
-					<div class="mobile-wrapper">
-						<div class="zm-card-type-service">
-							<img class="zm-mb-10"
-								src="<?php echo base_url(); echo $dist_img; ?>/icons/zm_icon_elearning.png" alt="">
-							<p class="zm-type-service-title zm-mb-10">E-learning</p>
-							<p class="zm-type-service-subtitle zm-mb-10">Meningkatkan motivasi karyawan untuk mendorong
-								pencapaian target</p>
-							<a href="<?php echo base_url(); ?>services" class="btn btn-block zm-o_red-xs">lebih lanjut</a>
-						</div>
+					<div class="text-center" style="padding-top: 20px">
+						<a href=""><button type="button" class="btn btn-float btn-float-lg btn-outline-danger btn-block" style="font-weight: bold">Pelajari Lebih Lanjut</button></a>
 					</div>
+			    </div>
+			</div>
+			<div class="row zm-mb_r-4" style="padding-top: 50px">
+				<div class="col-lg-12">
+					<p class="zm-content-title">Keuntungan Menggunakan Zoomin</p>
 				</div>
-				<div class="col-lg-2" style="margin: 1rem;">
-					<div class="mobile-wrapper">
-						<div class="zm-card-type-service">
-							<img class="zm-mb-10"
-								src="<?php echo base_url(); echo $dist_img; ?>/icons/zm_icon_loyalty_program.png"
-								alt="">
-							<p class="zm-type-service-title zm-mb-10">Loyalty Program</p>
-							<p class="zm-type-service-subtitle zm-mb-10">Menambah loyalitas & mendatangkan banyak
-								pelanggan baru</p>
-							<a href="<?php echo base_url(); ?>services" class="btn btn-block zm-o_red-xs">lebih lanjut</a>
-						</div>
+				<div class="col-lg-5" style="padding-left: 50px;">
+					<div class="col-10 row">						
+                        	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-tanpa-zoomin.png" alt="">
+						<h5 class="zm-title" style="padding-left: 0px; padding-top: 20px">Tanpa Gamification</h5>
+					</div>
+					<p class="zm-mb_r-2" style="font-size: 12px">- Pelaporan hasil kerja secara manual
+						<br>- Evaluasi karyawan setahun sekali
+						<br>- Perusahaan tidak tahu performansi masing-masing individu
+						<br>- Targer tidak tercapai
+						<br>- Karyawan tidak betah dan mudah resign<br/>
+					</p>
+				</div>
+				<div class="col-lg-7">
+					<div class="card">
+	  					<div class="card-body">
+	  						<div class="col-12 row">
+                        		<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-pakai-zoomin.png" alt="">
+	    						<h5 class="zm-title text-danger text-center">Dengan Gamification Zoomin</h5>
+	    						<p class="zm-mb_r-2" style="font-size: 12px">- Pelaporan hasil kerja mudah dan tersistem
+									<br>- Feedback diberikan secara langsung
+									<br>- Penilaian performansi masing-masing individu mudah dengan data gamification
+									<br>- Hasil pekerjaan melebihi target
+									<br>- Tidak perlu rekrut karyawan baru untuk mendapatkan hasil yang sama<br/>
+								</p>
+	    					</div>
+	  					</div>
 					</div>
 				</div>
 			</div>
@@ -162,38 +173,70 @@
 <!-- /section three -->
 
 <!-- section four -->
-<section class="section-three zm-bg-light-grey" id="home1">
+<section class="section-two zm-bg-light-grey" id="gamification">
 	<div class="container">
-		<div class="zm-content-two">
-			<div class="row zm-xs-type_product">
-				<div class="col-lg-6" style="padding-left: 0px;">
-					<p class="zm-content-title" style="text-align: left;">Jenis Produk</p>
-					<p class="zm-content-subtitle zm-mb_r-3" style="text-align: left;">Solusi yang efektif untuk
-						mendongkrak performa bisnis dan perusahaan Anda.
-						Produk Zoomin dapat di aplikasikan ke semua jenis pekerjaan dan bisnis Anda</p>
-					<a href="<?php echo base_url(); ?>products" class="btn zm-o_red-md">lebih lanjut</a>
-				</div>
-				<div class="col-lg-6 zm-xs-product">
-					<div class="row zm-mb_r-5">
-						<div class="col-4">
-							<img src="<?php echo base_url(); echo $dist_img; ?>/icons/zm_icon_api.png" alt="">
-						</div>
-						<div class="col-8">
-							<p class="zm-title">API Gamification</p>
-							<p class="zm-subtitle">Zoomin dapat menambahkan API gamification
-								ke dalam IT tools atau aplikasi perusahaan Anda</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-4">
-							<img src="<?php echo base_url(); echo $dist_img; ?>/icons/zm_icon_digitalisasi.png" alt="">
-						</div>
-						<div class="col-8">
-							<p class="zm-title">Digitalisasi</p>
-							<p class="zm-subtitle">Zoomin juga melayani
-								pembuatan IT tools atau aplikasi untuk perusahaan Anda</p>
-						</div>
-					</div>
+		<div class="zm-content-three">
+			<div id="carouselIndicators2" class="carousel slide" style="padding-bottom:30px"data-ride="carousel">
+  				<ol class="carousel-indicators">
+    				<li data-target="#carouselIndicators2" data-slide-to="0" class="active"></li>
+    				<li data-target="#carouselIndicators2" data-slide-to="1"></li>
+    				<li data-target="#carouselIndicators2" data-slide-to="2"></li>
+  				</ol>
+  				<div class="carousel-inner" role="listbox">
+    				<div class="carousel-item active">
+    					<div class="col-lg-12">
+							<h4 class="zm-title text-center">Apa Kata Mereka</h4>
+							<div class="row">
+								<div class="col-lg-5">
+									<img src="<?php echo base_url(); echo $dist_img; ?>/test.png" class="testimonial-user"/>
+								</div>
+								<div class="col-lg-7">
+									<p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat.</p>
+									<p class="name-comment"> John Dee</p>
+									<p class="job-comment">IT Corp</p>
+    							</div>
+    						</div>
+    					</div>
+  					</div>
+  					<div class="carousel-item">
+    					<div class="col-lg-12">
+							<h4 class="zm-title text-center">Apa Kata Mereka</h4>
+							<div class="row">
+								<div class="col-lg-5">
+									<img src="<?php echo base_url(); echo $dist_img; ?>/test.png" class="testimonial-user"/>
+								</div>
+								<div class="col-lg-7">
+									<p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat.</p>
+									<p class="name-comment">Mark Lee</p>
+									<p class="job-comment">IT Corp</p>
+    							</div>
+    						</div>
+    					</div>
+  					</div>
+  					<div class="carousel-item">
+    					<div class="col-lg-12">
+							<h4 class="zm-title text-center">Apa Kata Mereka</h4>
+							<div class="row">
+								<div class="col-lg-5">
+									<img src="<?php echo base_url(); echo $dist_img; ?>/test.png" class="testimonial-user"/>
+								</div>
+								<div class="col-lg-7">
+									<p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat.</p>
+									<p class="name-comment"> John Dee</p>
+									<p class="job-comment">IT Corp</p>
+    							</div>
+    						</div>
+    					</div>
+  					</div>
 				</div>
 			</div>
 		</div>
@@ -201,55 +244,17 @@
 </section>
 <!-- /section four -->
 
-<!-- section five -->
-<section class="section-three zm-bg-light" id="home1">
-	<div class="container">
-		<div class="zm-content-two">
-			<div class="row zm-mb_r-4">
-				<div class="col-lg-12">
-					<p class="zm-content-title">Keberhasilan client adalah kebanggaan kami</p>
-					<p class="zm-content-subtitle">Zoomin telah dipercaya oleh
-						perusahaan dan brand terbaik Indonesia untuk
-						membantu meningkatkan motivasi, produktivitas
-						dan keterlibatan karyawan dalam perusahaan
-						serta meningkatkan loyalitas pelanggan bisnisnya.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4">
-					<img src="<?php echo base_url(); echo $dist_img; ?>/clients/logo-bumn.jpg" alt="">
-				</div>
-				<div class="col-lg-4">
-					<img src="<?php echo base_url(); echo $dist_img; ?>/clients/logo-solohart.png" alt="">
-				</div>
-				<div class="col-lg-4">
-					<img src="<?php echo base_url(); echo $dist_img; ?>/clients/logo-jaya-konstruksi.jpg" alt="">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6">
-					<img src="<?php echo base_url(); echo $dist_img; ?>/clients/logo-brodo.jpg" alt="">
-				</div>
-				<div class="col-lg-6">
-					<img src="<?php echo base_url(); echo $dist_img; ?>/clients/logo-t-money.png" alt="">
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- /section five -->
 <!-- contact us -->
-<section class="section-three zm-bg-light-grey" id="home1">
+<section class="section-three zm-bg-light" id="home1">
 	<div class="container">
 		<div class="zm-content-three">
 			<div class="row ">
 				<div class="col-lg-12 zm-mb_r-3">
 					<p class="zm-content-title">Siap melakukan perubahan?</p>
-					<p class="zm-content-subtitle">Hubungi kami dan konsultasikan 
-						langsung dengan ahli gamification kami.</p>
+					<p class="zm-content-subtitle">Coba demo produk kami secara gratis dan rasakan manfaat gamification untuk Anda sekarang.</p>
 				</div>
 				<div class="col-lg-12 d-flex justify-content-center align-items-center">
-					<a href="<?php echo base_url(); ?>contact" class="btn zm-s_red-lg">hubungi kami</a>
+					<a href="<?php echo base_url(); ?>contact" class="btn zm-s_red-sm">Demo Produk Gratis</a>
 				</div>
 			</div>
 		</div>
