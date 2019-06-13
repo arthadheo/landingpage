@@ -3,7 +3,7 @@
 
 <!-- /section one -->
 <section class="section-one zm-bg-light" id="home1">
-<div class="d-flex flex-column zm-xs-s_wrap_img" style="background-image: url('<?php echo base_url(); echo $dist_img; ?>/illustrations/hero-platform.png'); background-repeat:no-repeat; background-size:cover;">
+<div class="d-flex flex-column responsive-image" >
     <div class="container">
         <div class="zm-content-one">
             <div id="ops_and_main" class="zm-d-initial">
@@ -34,21 +34,21 @@
 				</div>
 			</div>
 			<div class="card-deck" style="margin-top: 2rem">
-			  <div class="card" class="example z-depth-5" style="box-shadow: 5px 5px 5px grey;">
+			  <div class="card" class="example z-depth-5">
 			    <div class="card-body">
 			    	<img src="<?php echo base_url(); echo $dist_img; ?>/elemen/experience-point.png" alt="">
                         <span class="zm-type-service-title">Experience Point (XP)</span>
 			      <p class="zm-subtitle" style="padding-top: 20px; padding-left: 3%">Diberikan setelah menyelesaikan tugas. Dapat dikumpulkan untuk naik level.</p>
 			    </div>
 			  </div>
-			  <div class="card" style="box-shadow: 5px 5px 5px grey;">
+			  <div class="card">
 			    <div class="card-body">
 			    	<img src="<?php echo base_url(); echo $dist_img; ?>/elemen/redeemable-point.png" alt="">
                         <span class="zm-type-service-title">Redeemable Point (Coin)</span>
 			      <p class="zm-subtitle" style="padding-top: 20px; padding-left: 3%;">Diberikan setelah menyelesaikan tugas. Dapat ditukarkan dengan rewards yang tersedia.</p>
 			    </div>
 			  </div>
-			  <div class="card" style="box-shadow: 5px 5px 5px grey;">
+			  <div class="card">
 			    <div class="card-body">
 			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/badge.png" alt="">
                         <span class="zm-type-service-title">Badge</span>
@@ -58,21 +58,21 @@
 			</div>
 
 			<div class="card-deck" style="margin-top: 2rem">
-			  <div class="card" style="box-shadow: 5px 5px 5px grey;">
+			  <div class="card">
 			    <div class="card-body">
 			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/voucher.png" alt="">
                         <span class="zm-type-service-title">Voucher</span>
 			      <p class="zm-subtitle" style="padding-top: 20px; padding-left: 3%">Hadiah yang dapat ditukarkan dengan Coin. Voucher dapat berupa voucher belanja, pulsa, dll.</p>
 			    </div>
 			  </div>
-			  <div class="card" style="box-shadow: 5px 5px 5px grey;">
+			  <div class="card">
 			    <div class="card-body">
 			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/promo-code.png" alt="">
                         <span class="zm-type-service-title">Promo Code</span>
 			      <p class="zm-subtitle" style="padding-top: 20px; padding-left: 3%">Hadiah yang diberikan perusahaan kepada teknisi dalam bentuk kode khusus, misalnya kode promo diskon, gratis ongkir, dll.</p>
 			    </div>
 			  </div>
-			  <div class="card" style="box-shadow: 5px 5px 5px grey;">
+			  <div class="card">
 			    <div class="card-body">
 			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/coupon.png" alt="">
                         <span class="zm-type-service-title">Coupon</span>
@@ -83,20 +83,20 @@
 
 			<div class="card-deck" style="margin-top: 2rem">
 			  <div class="card">
-			    <div class="card-body" style="box-shadow: 5px 5px 5px grey;">
+			    <div class="card-body">
 			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/lucky-spin.png" alt="">
                         <span class="zm-type-service-title">Lucky Spin</span>
 			      <p class="zm-subtitle" style="padding-top: 20px; padding-left: 3%">Hadiah yang diberikan setelah teknisi berhasil melakukan tugas tertentu dalam bentuk roda berputar.</p>
 			    </div>
 			  </div>
-			  <div class="card" style="box-shadow: 5px 5px 5px grey;">
+			  <div class="card">
 			    <div class="card-body">
 			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/level.png" alt="">
                         <span class="zm-type-service-title">Level</span>
 			      <p class="zm-subtitle" style="padding-top: 20px; padding-left: 3%">Representasi dari semua progress yang telah dilakukan teknisi. Kenaikan level didapatkan ketika XP mencapai angka tertentu.</p>
 			    </div>
 			  </div>
-			  <div class="card" style="box-shadow: 5px 5px 5px grey;">
+			  <div class="card">
 			    <div class="card-body">
 			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/leaderboard.png" alt="">
                         <span class="zm-type-service-title">Leaderboard</span>
@@ -111,7 +111,7 @@
 			</div>
 		<div class="row">
 				<div class="col-md-6 d-flex align-items-right zm-xs-s_wrap_img">
-				        <img class="zm-xs-s_img" style="max-height: 350px; padding-bottom:30px" src="<?php echo base_url();?>dist/images/illustrations/platform-1.png" alt="">
+				        <img class="zm-xs-s_img" style="max-height: 350px; padding-bottom:30px;" src="<?php echo base_url();?>dist/images/illustrations/platform-1.png" alt="">
 				</div>
 				<div class="col-lg-6" style="padding-right: 0px;">
 				     <p class="zm-title " style="text-align: right;">API Gamification</p>
