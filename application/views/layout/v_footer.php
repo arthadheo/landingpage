@@ -3,7 +3,7 @@
 <footer class="footer py-5 zm-bg-dark">
 	<div class="container pt-lg-4">
 		<div class="row">
-            <div class="col-lg-5">
+            <div class="col-lg-6">
                 <div class="zm-d-block;">
                     <img src="<?php echo base_url(); echo $dist_img; ?>logos/zoomin_logo_white.png" alt="">
                 </div>
@@ -28,8 +28,12 @@
                 <div class="zm-d-block zm-xs-d-bottom-block">
                     <a href="<?php echo base_url(); ?>contact" class="zm-p text-white">Kontak</a>
                 </div>
-            </div>
-            <div class="col-lg-2">
+            </div> -->
+            <div class="col-lg-3">
+                <div class="zm-mb-10 zm-d-block">
+                    <h6><b>Subscribe</b></h6>
+                    <p class="zm-p zm-font-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                </div>
                 <div class="zm-mb-10 zm-d-block">
                     <p class="zm-p zm-font-500 text-white">Subscribe</p>
                 </div>
