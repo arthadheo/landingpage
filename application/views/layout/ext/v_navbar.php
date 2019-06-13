@@ -11,9 +11,6 @@
 			<input type="checkbox" id="drop" />
 			<ul id="zm-large-view"class="menu ml-auto mt-3">
 				<li id="home" class=""><a href="<?php echo base_url(); ?>">Beranda</a></li>
-<<<<<<< HEAD
-				<li id="Solusi" class=""><a href="<?php echo base_url(); ?>Solusi">Solusi</a></li>
-=======
 				<li id="services" class="dropdown">
 				<a class="dropdown-toggle" data-toggle="dropdown" href="">Solusi</a>
 				<span class="caret"></span></a>
@@ -22,7 +19,6 @@
           				<li><a href="#">Platform</a></li>
         			</ul>
       			</li>
->>>>>>> abb4e7b70f21110805cdac64e43c0396370af869
 				<li id="blog" class=""><a href="<?php echo base_url(); ?>blog">Blog</a></li>
 				<li id="contact" class=""><a href="<?php echo base_url(); ?>contact">Kontak</a></li>
 			</ul>

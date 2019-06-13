@@ -7,36 +7,14 @@
                 <div class="zm-d-block;">
                     <img src="<?php echo base_url(); echo $dist_img; ?>logos/zoomin_logo_white.png" alt="">
                 </div>
-<<<<<<< HEAD
-                <p class="zm-p">Zoomin menyediakan solusi <i>gamification</i> untuk aplikasi karyawan, khususnya teknisi, untuk membantu meningkatkan produktivitas kerja teknisi Anda.</p>
-=======
                 <p class="zm-p text-white">Zoomin, platform gamification membantu 
                     meningkatkan produktivitas karyawan dan 
                     loyalitas pelanggan. A Simple way to achieve more!</p>
->>>>>>> abb4e7b70f21110805cdac64e43c0396370af869
             </div>
             <div class="col-lg-2 zm-xs-bottom-nav">
                 <div class="zm-d-block zm-xs-d-bottom-block">
                     <a href="<?php echo base_url(); ?>" class="zm-p text-white">Beranda</a>
                 </div>
-<<<<<<< HEAD
-                <div class="zm-d-block zm-xs-d-bottom-block">
-                    <a href="" class="zm-p">Solusi</a>
-                    <ul style="margin-left: 2rem;">
-                        <li> <a href="" class="zm-p">Aplikasi</a> </li>
-                        <li> <a href="" class="zm-p">Platform</a></li>
-                    </ul>
-                </div>
-                <div class="zm-d-block zm-xs-d-bottom-block">
-                    <a href="" class="zm-p">Blog</a>
-                </div>
-                <div class="zm-d-block zm-xs-d-bottom-block">
-                    <a href="<?php echo base_url(); ?>contact" class="zm-p zm-color-red">Kontak</a>
-                </div>
-            </div>
-           <!--  <div class="col-lg-3">
-=======
->>>>>>> abb4e7b70f21110805cdac64e43c0396370af869
                 <div class="zm-mb-10 zm-d-block">
                     <a href="" class="zm-p zm-font-500 text-white">Solusi</a>
                     <ul style="margin-left: 2rem;">
