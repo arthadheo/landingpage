@@ -7,9 +7,8 @@
                 <div class="zm-d-block;">
                     <img src="<?php echo base_url(); echo $dist_img; ?>logos/zoomin_logo_white.png" alt="">
                 </div>
-                <p class="zm-p text-white">Zoomin, platform gamification membantu 
-                    meningkatkan produktivitas karyawan dan 
-                    loyalitas pelanggan. A Simple way to achieve more!</p>
+                <p class="zm-p text-white">Zoomin menyediakan solusi <i>gamification</i> untuk aplikasi
+                karyawan, khususnya teknisi, untuk membantu meningkatkan produktivitas kerja teknisi Anda.</p>
             </div>
             <div class="col-lg-2 zm-xs-bottom-nav">
                 <div class="zm-d-block zm-xs-d-bottom-block">
@@ -76,6 +75,7 @@
 <!-- //footer -->
 
 <!-- copyright -->
+<!-- 
 <section class="copy-right py-4">
 	<div class="container">
 		<div class="row">
@@ -86,7 +86,8 @@
 		</div>
 	</div>
 </section>
-<!-- //copyright -->
+ -->
+ <!-- //copyright -->
 
 <!-- move top -->
 <!-- <div class="move-top text-right">

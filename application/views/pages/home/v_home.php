@@ -2,13 +2,13 @@
 <div id="home"></div>
 <!-- section one -->
 <section class="section-one zm-bg-light" id="home1">
-<div class="d-flex flex-column zm-xs-s_wrap_img" style="background-image: url('<?php echo base_url();?>/dist/Assets/Homepage/hero-homepage.png'); background-repeat:no-repeat; background-size:cover;">
+<div class="hero-bg" style="background-image: url('<?php echo base_url();?>/dist/Assets/Homepage/hero-homepage.png');">
     <div class="container">
         <div class="zm-content-one">
             <div id="ops_and_main" class="zm-d-initial">
                 <div class="row">
                     <div class="col-lg-12 d-flex justify-content-center zm-s-s_wrap">
-                        <p class="zm-content-title zm-xs-s_text text-white">Solusi Gamification untuk<br> Aplikasi Karyawan<br/></p>
+                        <p class="zm-content-title zm-xs-s_text text-white">Mau teknisi Anda lebih produktif?</p>
                     </div>
                     <div class="row">
 						<div class="col-lg-12 d-flex justify-content-center align-items-center zm-xs-s_wrap_img ">
@@ -17,7 +17,7 @@
                         <p class="col-lg-12 zm-content-subtitle text-white" style="padding-bottom:20px">Zoomin menyediakan solusi gamification untuk aplikasi karyawan
 						, khususunya teknisi, <br>untuk membantu meningkatkan produktivitas kinerja teknisi Anda.<br/></p>
                         <div class="col-lg-12 d-flex justify-content-center align-items-center ">
-		                    <a href="<?php echo base_url(); ?>" class="btn zm-s_red-sm">DEMO PRODUK GRATIS</a>
+		                    <a href="<?php echo base_url(); ?>" class="btn zm-s_red-sm">YA, SAYA MAU</a>
 		                </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
 		<div class="zm-content-two" style="padding-top: 30px; padding-bottom: 30px">
 			<div class="row zm-mb_r-4">
 				<div class="col-lg-12">
-					<p class="zm-content-title">Solusi Gamification untuk <br>Berbagai Kondisi Perusahaan<br/></p>
+					<p class="zm-content-title">Pilih solusi kami yang paling tepat untuk Anda</p>
 				</div>
 			</div>
 			<div class="row row-table">
@@ -136,7 +136,8 @@
 			</div>
 			<div class="row zm-mb_r-4" style="padding-top: 50px">
 				<div class="col-lg-12">
-					<p class="zm-content-title">Keuntungan Menggunakan Zoomin</p>
+					<p class="zm-content-title">Kini Anda bisa memiliki tim yang tangguh
+						<br>hanya dengan mengimplementasikan Zoomin</br></p>
 				</div>
 				<div class="col-lg-5" style="padding-left: 50px;">
 					<div class="col-10 row">						
@@ -187,17 +188,16 @@
     					<div class="col-lg-12">
 							<h4 class="zm-title text-center">Apa Kata Mereka</h4>
 							<div class="row">
-								<div class="col-lg-5">
-									<img src="<?php echo base_url(); echo $dist_img; ?>/test.png" class="testimonial-user"/>
+								<div class="col-lg-7 mx-auto">
+									<p class="comment">"Bisa mengetahui Poin, membuat kita berlomba-lomba menjadi yang
+									terbaik, dan mendapatkan Reward"</p>
 								</div>
-								<div class="col-lg-7">
-									<p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat.</p>
-									<p class="name-comment"> John Dee</p>
-									<p class="job-comment">IT Corp</p>
-    							</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12">
+									<p class="name-comment">Irsan</p>
+									<p class="job-comment">Teknisi Preventive Maintenance Indihome</p>
+								</div>
     						</div>
     					</div>
   					</div>
@@ -205,34 +205,32 @@
     					<div class="col-lg-12">
 							<h4 class="zm-title text-center">Apa Kata Mereka</h4>
 							<div class="row">
-								<div class="col-lg-5">
-									<img src="<?php echo base_url(); echo $dist_img; ?>/test.png" class="testimonial-user"/>
+								<div class="col-lg-7 mx-auto">
+									<p class="comment">"Bisa mengetahui Poin, membuat kita berlomba-lomba menjadi yang
+									terbaik, dan mendapatkan Reward"</p>
 								</div>
-								<div class="col-lg-7">
-									<p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat.</p>
-									<p class="name-comment">Mark Lee</p>
-									<p class="job-comment">IT Corp</p>
+							</div>
+							<div class="row">
+								<div class="col-lg-12">
+									<p class="name-comment">Irsan</p>
+									<p class="job-comment">Teknisi Preventive Maintenance Indihome</p>
     							</div>
     						</div>
     					</div>
-  					</div>
+    				</div>
   					<div class="carousel-item">
     					<div class="col-lg-12">
 							<h4 class="zm-title text-center">Apa Kata Mereka</h4>
 							<div class="row">
-								<div class="col-lg-5">
-									<img src="<?php echo base_url(); echo $dist_img; ?>/test.png" class="testimonial-user"/>
+								<div class="col-lg-7 mx-auto">
+									<p class="comment">"Bisa mengetahui Poin, membuat kita berlomba-lomba menjadi yang
+									terbaik, dan mendapatkan Reward"</p>
 								</div>
-								<div class="col-lg-7">
-									<p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat.</p>
-									<p class="name-comment"> John Dee</p>
-									<p class="job-comment">IT Corp</p>
+							</div>
+							<div class="row">
+								<div class="col-lg-12">
+									<p class="name-comment">Irsan</p>
+									<p class="job-comment">Teknisi Preventive Maintenance Indihome</p>
     							</div>
     						</div>
     					</div>

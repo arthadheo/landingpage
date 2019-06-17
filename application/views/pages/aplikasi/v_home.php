@@ -2,7 +2,7 @@
 <div id="home"></div>
 <!-- section one -->
 <section class="section-one zm-bg-light" id="home1">
-<div class="d-flex flex-column zm-xs-s_wrap_img" style="background-image: url('<?php echo base_url();?>/dist/Assets/Solusi-Aplikasi/hero-aplikasi.png'); background-repeat:no-repeat; background-size:cover;">
+<div class="hero-bg" style="background-image: url('<?php echo base_url();?>/dist/Assets/Solusi - Aplikasi/hero-aplikasi.png');">
     <div class="container">
         <div class="zm-content-one">
             <div id="ops_and_main" class="zm-d-initial">
