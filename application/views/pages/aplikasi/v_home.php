@@ -2,7 +2,7 @@
 <div id="home"></div>
 <!-- section one -->
 <section class="section-one zm-bg-light" id="home1">
-<div class="d-flex flex-column zm-xs-s_wrap_img" style="background-image: url('<?php echo base_url();?>/dist/Assets/Solusi-Aplikasi/hero-aplikasi.png'); background-repeat:no-repeat; background-size:cover;">
+<div class="d-flex flex-column zm-xs-s_wrap_img" style="background-image: url('<?php echo base_url();?>/dist/Assets/Solusi - Aplikasi/hero-aplikasi.png'); background-repeat:no-repeat; background-size:cover;">
     <div class="container">
         <div class="zm-content-one">
             <div id="ops_and_main" class="zm-d-initial">
@@ -38,7 +38,7 @@
                     <br><br>Pembagian WO dapat diberikan berdasarkan wilayah pekerjaan ataupun tim kerja teknisi<br/><br/></p>
 			    </div>
                 <div class="col-md-6 d-flex align-items-right zm-xs-s_wrap_img">
-                    <img class="zm-xs-s_img" style="max-height: 300px; padding-bottom:30px; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi-Aplikasi/aplikasi-1.png" alt="">
+                    <img class="zm-xs-s_img" style="max-height: 300px; padding-bottom:30px; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/aplikasi-1.png" alt="">
                 </div>
             </div>
             <!--Work Order-->
@@ -46,7 +46,7 @@
                 <!--Navigasi-->
                 <div class="row zm-xs-product">
                     <div class="col-md-6 d-flex align-items-left zm-xs-s_wrap_img">
-                        <img class="zm-xs-s_img" style="max-height: 300px; padding-bottom:30px; padding-left:0px" src="<?php echo base_url();?>dist/Assets/Solusi-Aplikasi/aplikasi-2.png" alt="">
+                        <img class="zm-xs-s_img" style="max-height: 300px; padding-bottom:30px; padding-left:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/aplikasi-2.png" alt="">
                     </div>
                     <div class="col-lg-6">
 					    <p class="zm-title zm-font-right">Bantuan Navigasi</p>
@@ -67,7 +67,7 @@
                             <br><br>Kini, teknisi dapat melaporkan pekerjaannya langsung dari aplikasi, dengan cara upload foto dan laporan saat sebelum, on-progress, dan sesudah pekerjaan selesai<br/><br/></p>
 			            </div>
                         <div class="col-6 col-md-6 d-flex align-items-right zm-xs-s_wrap_img">
-                            <img class="zm-xs-s_img" style="max-height: 300px; padding-bottom:30px; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi-Aplikasi/aplikasi-3.png" alt="">
+                            <img class="zm-xs-s_img" style="max-height: 300px; padding-bottom:30px; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/aplikasi-3.png" alt="">
                         </div>    
                     </div>        
                     <!--Laporan-->
@@ -98,7 +98,7 @@
                     adakan kompetisi harian atau tahunan, semua bisa diatur melalui dashboard<br/><br/></p>
 			    </div>
                 <div class="col-6 col-lg-6 d-flex align-items-right zm-xs-s_wrap_img">
-                    <img class="zm-xs-s_img" style="max-height: 300px; padding-bottom:30px; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi-Platform/platform-2.png" alt="">
+                    <img class="zm-xs-s_img" style="max-height: 300px; padding-bottom:30px; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Platform/platform-2.png" alt="">
                 </div>
             </div>
             <!--Dashboard-->

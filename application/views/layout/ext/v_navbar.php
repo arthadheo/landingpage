@@ -16,7 +16,7 @@
 				<span class="caret"></span></a>
         			<ul class="dropdown-menu">
           				<li id="aplikasi"><a href="<?php echo base_url(); ?>aplikasi">Aplikasi</a></li>
-          				<li><a href="#">Platform</a></li>
+          				<li id="platform"><a href="<?php echo base_url(); ?>platform">Platform</a></li>
         			</ul>
       			</li>
 				<li id="blog" class=""><a href="<?php echo base_url(); ?>blog">Blog</a></li>
