@@ -2,28 +2,44 @@
 <div id="home"></div>
 <!-- section one -->
 <section class="section-one zm-bg-light" id="home1">
-<div class="d-flex flex-column zm-xs-s_wrap_img" style="background-image: url('<?php echo base_url();?>/dist/Assets/Homepage/hero-homepage.png'); background-repeat:no-repeat; background-size:cover;">
+<div class="hero-bg" style="background-image: url('<?php echo base_url();?>/dist/Assets/Homepage/hero-homepage.png');" alt="video tentang gamification zoomin">
     <div class="container">
         <div class="zm-content-one">
             <div id="ops_and_main" class="zm-d-initial">
                 <div class="row">
                     <div class="col-lg-12 d-flex justify-content-center zm-s-s_wrap">
-                        <p class="zm-content-title zm-xs-s_text text-white">Solusi Gamification untuk<br> Aplikasi Karyawan<br/></p>
+                        <p class="zm-home-title zm-xs-s_text text-white">Mau teknisi Anda lebih produktif?</p>
                     </div>
-                    <div class="row">
-						<div class="col-lg-12 d-flex justify-content-center align-items-center zm-xs-s_wrap_img ">
-                    		<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/play-button.png" alt="">
-                    	</div>
-                        <p class="col-lg-12 zm-content-subtitle text-white" style="padding-bottom:20px">Zoomin menyediakan solusi gamification untuk aplikasi karyawan
+					<div class="col-lg-12 d-flex justify-content-center align-items-center zm-xs-s_wrap_img ">
+						<div class="bs-example">
+					    	<!-- Button HTML (to Trigger Modal) -->
+					    	<a href="#myModal" data-toggle="modal">
+ 								<img src="<?php echo base_url();?>/dist/Assets/Homepage/play-button.png" height="90"> 
+							</a>						    
+						    <!-- Modal HTML -->
+						   	<div id="myModal" class="modal fade">
+						       	<div class="modal-dialog">
+						           	<div class="modal-content">
+					              		<div class="modal-header">
+					                    	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					                	</div>
+					                	<div class="modal-body">
+					                    	<iframe id="zoominVideo" width="560" height="315" src="//www.youtube.com/embed/dgPx5HbrOxg" frameborder="0" allowfullscreen></iframe>
+						                </div>
+						            </div>
+						        </div>
+						    </div>
+						</div>
+                    </div>
+                        <p class="col-lg-12 zm-content-subtitle text-white" style="padding-bottom: 40px; font-size: 14px">Zoomin menyediakan solusi gamification untuk aplikasi karyawan
 						, khususunya teknisi, <br>untuk membantu meningkatkan produktivitas kinerja teknisi Anda.<br/></p>
-                        <div class="col-lg-12 d-flex justify-content-center align-items-center ">
-		                    <a href="<?php echo base_url(); ?>" class="btn zm-s_red-sm">DEMO PRODUK GRATIS</a>
-		                </div>
-                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center align-items-center ">
+		       	        <a href="<?php echo base_url(); ?>" class="btn zm-s_red-ct">YA, SAYA MAU</a>
+		            </div>
                 </div>
             </div>
         </div>
-	</div>
+    </div>
 </div>
 </section>
 <!-- /section one -->
@@ -40,7 +56,7 @@
   				</ol>
   				<div class="carousel-inner">
     				<div class="carousel-item active" style="text-align: center">
-						<div class="col-lg-12">
+						<div class="col-lg-12" style="padding-bottom: 30px;">
                        		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/gamification.png" alt="" width="40" height="40">&nbsp; Gamification</span>
                     	</div>
 						<p class="zm-subtitle">&nbsp; ... menurut <i>Merriam-Webster Dictionary</i> adalah proses penambahan 
@@ -48,19 +64,17 @@
 						</p>
     				</div>
     				<div class="carousel-item" style="text-align: center">
-						<div class="col-lg-12">
-                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/gamification.png" alt="" width="40" height="40">&nbsp; Gamification </span>
+						<div class="col-lg-12" style="padding-bottom: 30px;">
+                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/77_.png" alt="" width="40" height="40">&nbsp; 77% </span>
                     	</div>
-						<p class="zm-subtitle">&nbsp; ... menurut <i>Merriam-Webster Dictionary</i> adalah proses penambahan 
-						elemen-elemen game (seperti poin, kompetisi, dll) ke dalam aktivitas tertentu untuk meningkatkan engangement
+						<p class="zm-subtitle">&nbsp; Menurut survey oleh Gallup, 77% karyawan di Indonesia tidak engaged dengan pekerjaannya, yang menyebabkan karyawan tersebut rentan pindah pekerjaan. Hal ini tentu berdampak terhadap biaya rekrutmen ataupun pelatihan yang harus dikeluarkan perusahaan
 						</p>
     				</div>
     				<div class="carousel-item" style="text-align: center">
-						<div class="col-lg-12">
-                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/gamification.png" alt="" width="40" height="40">&nbsp; Gamification</span>
+						<div class="col-lg-12" style="padding-bottom: 30px;">
+                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/90_.png" alt="" width="40" height="40">&nbsp; 90%</span>
                     	</div>
-						<p class="zm-subtitle">&nbsp; ... menurut <i>Merriam-Webster Dictionary</i> adalah proses penambahan 
-						elemen-elemen game (seperti poin, kompetisi, dll) ke dalam aktivitas tertentu untuk meningkatkan engangement
+						<p class="zm-subtitle">&nbsp; Gamification dapat meningkatkan engagement, motivasi, inisiatif, dan jiwa kompetitif karyawan. Terbukti, berdasarkan penelitian, 90% karyawan merasa lebih produktif ketika bekerja dengan menggunakan gamification
 						</p>
     				</div>
   				</div>
@@ -76,7 +90,7 @@
 		<div class="zm-content-two" style="padding-top: 30px; padding-bottom: 30px">
 			<div class="row zm-mb_r-4">
 				<div class="col-lg-12">
-					<p class="zm-content-title">Solusi Gamification untuk <br>Berbagai Kondisi Perusahaan<br/></p>
+					<p class="zm-content-title" style="padding-top: 30px;">Pilih solusi kami yang paling tepat untuk Anda</p>
 				</div>
 			</div>
 			<div class="row row-table">
@@ -87,27 +101,21 @@
                     	</div>
 						<p class="col-4 zm-title zm-font-left">Aplikasi</p>
 					</div>
-					<p class="zm-subtitle zm-mb_r-2 zm-font-left border-bottom" style="padding-bottom: 20px">Aplikasi mobile dengan fitur gamification di dalamnya
+					<p class="zm-subtitle zm-mb_r-2 zm-font-left border-bottom" style="padding-bottom: 20px;">Aplikasi mobile dengan fitur gamification di dalamnya
 					untuk meningkatkan produktivitas kerja teknisi Anda. Cocok untuk Anda yang belum memiliki aplikasi untuk pekerjaan teknisi Anda</p>
-					<div class="row ml-1">
-						<p style="font-size: 10px">
-						- Pembagian Work Order
-						<br>- Bantuan Navigasi<br/>
-						</p>
-						<div class="ml-2">
-							<p style="font-size: 10px">
-							- Pelaporan Hasil Kerja
-							<br>- Bantuan Navigasi<br/>
-							</p>
-						</div>
-						<div class="ml-3">
-							<p style="font-size: 10px">
-							- Dashboard monitoring dan konfigurasi
-							</p>
-						</div>
+					<div class="row">
+						<ul class="dashed zm-subtitle col-6">
+							<li> Pembagian Work Order</li>
+							<li> Sistem pelaporan dan feedback</li>
+							<li> Sistem penilaian</li>
+						</ul>
+						<ul class="dashed zm-subtitle col-6" style="padding: 0">
+							<li> Sistem rewarding</li>
+							<li> Dashboard monitoring dan konfigurasi</li>
+						</ul>
 					</div>
 					<div class="text-center" style="padding-top: 20px">
-						<a href=""><button type="button" class="btn btn-float btn-float-lg btn-outline-danger btn-block" style="font-weight: bold">Pelajari Lebih Lanjut</button></a>
+						<a href="<?php echo base_url(); ?>aplikasi"><button id="button-stop" type="button" class="btn btn-float btn-float-lg btn-outline-danger btn-block" style="font-weight: bold; font-size: 14px; padding: 10px;">PELAJARI LEBIH LANJUT</button></a>
 					</div>
 				</div>
                 <div class="col-lg-6 border-left" style="padding-left: 30px;">
@@ -118,50 +126,51 @@
 						<p class="zm-title zm-font-left">Platform</p>
 					</div>
 					<p class="zm-subtitle zm-mb_r-2 zm-font-left border-bottom" style="padding-bottom: 20px">Platform gamification untuk menambahkan elemen game ke dalam keseharian teknisi. Cocok untuk Anda yang sudah memiliki aplikasi untuk pekerjaan teknisi Anda.</p>
-					<div class="row ml-1">
-						<p style="font-size: 10px">
-						- Berbagai pilihan elemen gamification
-						<br>- Easy Integration<br/>
-						</p>	
-						<div class="ml-2">
-							<p style="font-size: 10px">
-							- Dashboard monitoring dan konfigurasi
-							</p>
-						</div>
+					<div class="row">
+						<ul class="dashed zm-subtitle col-6">
+							<li> Berbagai pilihan elemen gamification</li>
+							<li> Integrasi mudah menggunakan API</li>
+						</ul>
+						<ul class="dashed zm-subtitle col-6" style="padding: 0; margin-bottom: 56px;">
+							<li> Dashboard monitoring dan konfigurasi</li>
+						</ul>
 					</div>
 					<div class="text-center" style="padding-top: 20px">
-						<a href=""><button type="button" class="btn btn-float btn-float-lg btn-outline-danger btn-block" style="font-weight: bold">Pelajari Lebih Lanjut</button></a>
+						<a href="<?php echo base_url(); ?>platform"><button type="button" class="btn btn-float btn-float-lg btn-outline-danger btn-block" style="font-weight: bold; font-size: 14px; padding: 10px;">PELAJARI LEBIH LANJUT</button></a>
 					</div>
 			    </div>
 			</div>
 			<div class="row zm-mb_r-4" style="padding-top: 50px">
 				<div class="col-lg-12">
-					<p class="zm-content-title">Keuntungan Menggunakan Zoomin</p>
+					<p class="zm-content-title" style="padding-top: 30px; padding-bottom: 50px">Kini Anda bisa memiliki tim yang tangguh
+						<br>hanya dengan mengimplementasikan Zoomin</br></p>
 				</div>
-				<div class="col-lg-5" style="padding-left: 50px;">
+				<div class="col-lg-5" style="padding-left: 30px;">
 					<div class="col-10 row">						
                         	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-tanpa-zoomin.png" alt="">
-						<h5 class="zm-title" style="padding-left: 0px; padding-top: 20px">Tanpa Gamification</h5>
+						<h5 class="zm-title" style="padding-left: 0px; padding-top: 20px;">Tanpa Gamification</h5>
 					</div>
-					<p class="zm-mb_r-2" style="font-size: 12px">- Pelaporan hasil kerja secara manual
-						<br>- Evaluasi karyawan setahun sekali
-						<br>- Perusahaan tidak tahu performansi masing-masing individu
-						<br>- Targer tidak tercapai
-						<br>- Karyawan tidak betah dan mudah resign<br/>
-					</p>
+					<ul class="dashed zm-subtitle" style="width: 442px; height: 150px;">
+						<li> Perusahaan tidak tahu performansi masing-masing teknisi</li>
+						<li> Teknisi merasa kurang diberi apresiasi dan reward oleh perusahaan</li>
+						<li> Pelaporan kerja manual dan memakan waktu lama</li> 
+						<li> Teknisi tidak betah dan mudah resign</li>
+						<li> Target pekerjaan tidak tercapai</li>
+					</ul>
 				</div>
 				<div class="col-lg-7">
-					<div class="card">
+					<div class="card" style="width: 640px; height: 270px; padding-left: 30px;">
 	  					<div class="card-body">
 	  						<div class="col-12 row">
-                        		<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-pakai-zoomin.png" alt="">
-	    						<h5 class="zm-title text-danger text-center">Dengan Gamification Zoomin</h5>
-	    						<p class="zm-mb_r-2" style="font-size: 12px">- Pelaporan hasil kerja mudah dan tersistem
-									<br>- Feedback diberikan secara langsung
-									<br>- Penilaian performansi masing-masing individu mudah dengan data gamification
-									<br>- Hasil pekerjaan melebihi target
-									<br>- Tidak perlu rekrut karyawan baru untuk mendapatkan hasil yang sama<br/>
-								</p>
+                        		<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-pakai-zoomin.png" alt="" style="width: 60px; height: 60px; padding-top: 10px;">
+	    						<h5 class="zm-title text-danger text-center" style="padding-top: 10px;">Dengan Gamification Zoomin</h5>
+	    						<ul class="dashed zm-subtitle" style="width: 522px; height: 150px;">
+	    							<li> Pelaporan hasil kerja mudah dan tersistem</li>
+	    							<li> Feedback diberikan secara langsung</li>
+	    							<li> Penilaian performansi masing-masing individu mudah dengan data gamification</li>
+	    							<li> Hasil pekerjaan melebihi target</li>
+	    							<li> Tidak perlu rekrut karyawan baru untuk mendapatkan hasil yang sama</li>
+								</ul>
 	    					</div>
 	  					</div>
 					</div>
@@ -176,67 +185,44 @@
 <section class="section-two zm-bg-light-grey" id="gamification">
 	<div class="container">
 		<div class="zm-content-three">
+			<div class="zm-content-title text-center">Apa Kata Mereka</div>
 			<div id="carouselIndicators2" class="carousel slide" style="padding-bottom:30px"data-ride="carousel">
   				<ol class="carousel-indicators">
     				<li data-target="#carouselIndicators2" data-slide-to="0" class="active"></li>
     				<li data-target="#carouselIndicators2" data-slide-to="1"></li>
-    				<li data-target="#carouselIndicators2" data-slide-to="2"></li>
   				</ol>
   				<div class="carousel-inner" role="listbox">
     				<div class="carousel-item active">
     					<div class="col-lg-12">
-							<h4 class="zm-title text-center">Apa Kata Mereka</h4>
 							<div class="row">
-								<div class="col-lg-5">
-									<img src="<?php echo base_url(); echo $dist_img; ?>/test.png" class="testimonial-user"/>
+								<div class="col-lg-7 mx-auto">
+									<p class="comment">"Bisa mengetahui Poin, membuat kita berlomba-lomba menjadi yang
+									terbaik, dan mendapatkan Reward"</p>
 								</div>
-								<div class="col-lg-7">
-									<p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat.</p>
-									<p class="name-comment"> John Dee</p>
-									<p class="job-comment">IT Corp</p>
-    							</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12">
+									<p class="name-comment">Irsan</p>
+									<p class="job-comment">Teknisi Preventive Maintenance Indihome</p>
+								</div>
     						</div>
     					</div>
   					</div>
   					<div class="carousel-item">
     					<div class="col-lg-12">
-							<h4 class="zm-title text-center">Apa Kata Mereka</h4>
 							<div class="row">
-								<div class="col-lg-5">
-									<img src="<?php echo base_url(); echo $dist_img; ?>/test.png" class="testimonial-user"/>
+								<div class="col-lg-7 mx-auto">
+									<p class="comment">"Mempermudah pencarian Work Order. Saya suka dengan adanya Poin, membuat lebih semangat"</p>
 								</div>
-								<div class="col-lg-7">
-									<p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat.</p>
-									<p class="name-comment">Mark Lee</p>
-									<p class="job-comment">IT Corp</p>
+							</div>
+							<div class="row">
+								<div class="col-lg-12">
+									<p class="name-comment">Sahidin</p>
+									<p class="job-comment">Teknisi Preventive Maintenance Indihome</p>
     							</div>
     						</div>
     					</div>
-  					</div>
-  					<div class="carousel-item">
-    					<div class="col-lg-12">
-							<h4 class="zm-title text-center">Apa Kata Mereka</h4>
-							<div class="row">
-								<div class="col-lg-5">
-									<img src="<?php echo base_url(); echo $dist_img; ?>/test.png" class="testimonial-user"/>
-								</div>
-								<div class="col-lg-7">
-									<p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat.</p>
-									<p class="name-comment"> John Dee</p>
-									<p class="job-comment">IT Corp</p>
-    							</div>
-    						</div>
-    					</div>
-  					</div>
+    				</div>
 				</div>
 			</div>
 		</div>
@@ -250,23 +236,43 @@
 		<div class="zm-content-three">
 			<div class="row ">
 				<div class="col-lg-12 zm-mb_r-3">
-					<p class="zm-content-title">Siap melakukan perubahan?</p>
-					<p class="zm-content-subtitle">Coba demo produk kami secara gratis dan rasakan manfaat gamification untuk Anda sekarang.</p>
+					<p class="zm-content-title">Mau teknisi Anda lebih produktif?</p>
+					<p class="zm-content-subtitle">Ubah cara kerja Anda dan teknisi Anda menjadi sesuatu yang mudah dan menyenangkan</p>
 				</div>
 				<div class="col-lg-12 d-flex justify-content-center align-items-center">
-					<a href="<?php echo base_url(); ?>contact" class="btn zm-s_red-sm">Demo Produk Gratis</a>
+					<a href="<?php echo base_url(); ?>contact" class="btn zm-s_red-sm">YA, SAYA MAU</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-
 <!-- Javascript start  -->
 
 <script>
 	$(document).ready(function () {
 		$('#home').addClass('active');
+		var url = $("#zoominVideo").attr('src');
+    
+    /* Assign empty url value to the iframe src attribute when
+    modal hide, which stop the video playing */
+    $("#myModal").on('hide.bs.modal', function(){
+        $("#zoominVideo").attr('src', '');
+    });
+    
+    /* Assign the initially stored url back to the iframe src
+    attribute when modal is displayed again */
+    $("#myModal").on('show.bs.modal', function(){
+        $("#zoominVideo").attr('src', url);
+    });
+});
 
-	})
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124227942-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-124227942-1');
 </script>

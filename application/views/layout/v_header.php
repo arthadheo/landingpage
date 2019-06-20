@@ -22,13 +22,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link rel="shortcut icon" type="image/png" href="<?php echo base_url(); echo $img; ?>/logos/fav-zoomin-black.ico" />
 
 	<script>
-		addEventListener("load", function () {
-			setTimeout(hideURLbar, 0);
-		}, false);
+		// addEventListener("load", function () {
+		// 	setTimeout(hideURLbar, 0);
+		// }, false);
 
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
+		// function hideURLbar() {
+		// 	window.scrollTo(0, 1);
+		// }
 
 	</script>
 
