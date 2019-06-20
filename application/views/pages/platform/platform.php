@@ -204,30 +204,17 @@
 
 <script>
 	$(document).ready(function () {
-		$('#home').addClass('active');
+		$('#solusi').css("color","red");
 
 	})
 
 </script>
-
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124227942-1"></script>
 <script>
- $(document).ready(function () {
-  $('#home').addClass('active');
-  var url = $("#zoominVideo").attr('src');
-    
-    /* Assign empty url value to the iframe src attribute when
-    modal hide, which stop the video playing */
-    $("#myModal").on('hide.bs.modal', function(){
-        $("#zoominVideo").attr('src', '');
-    });
-    
-    /* Assign the initially stored url back to the iframe src
-    attribute when modal is displayed again */
-    $("#myModal").on('show.bs.modal', function(){
-        $("#zoominVideo").attr('src', url);
-    });
-});
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-124227942-1');
 </script>
-
-<!-- /Javascript start  -->
