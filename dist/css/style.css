@@ -116,13 +116,13 @@ nav {
 }
 
 .card {
-	box-shadow: 5px 5px 5px grey; 
+	box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15); 
 	padding-right: 0px; 
 	padding-left: 20px;
+	border-radius: 8px;
 }
 
 .comment {
-	font-family: Raleway;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -135,7 +135,6 @@ nav {
 }
 
 .name-comment {
-	font-family: Raleway;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
@@ -147,7 +146,6 @@ nav {
 }
 
 .job-comment {
-	font-family: Raleway;
 	font-style: italic;
 	font-weight: normal;
 	font-size: 12px;
@@ -158,6 +156,29 @@ nav {
 	align-items: center;
 }
 
+/*subscribe newsletter*/
+#mc_embed_signup {
+	background:#fff; 
+	clear:left; 
+	font-size: :14px; 
+}
+
+/*Pop up video*/
+	.bs-example{
+    	margin: 20px;
+    }
+    .modal-content iframe{
+        margin: 0 auto;
+        display: block;
+    }
+    .modal-header{
+    	width: 600px;
+    	background-color: #ffffff;
+    }
+    .modal-body{
+    	width: 600px;
+    	background-color: #ffffff;
+    }
 
 /* carousel */
 #carouselIndicators > ol > li {
@@ -274,6 +295,7 @@ nav a:hover {
 	color: #ED2A2E;
 	font-weight: bold;
 }
+
 
 /* Hide Dropdowns by Default
  * and giving it a position of absolute */
@@ -409,7 +431,18 @@ li>a:only-child:after {
 /* /Outline Button Style  */
 /* /BUTTON STYLE  */
 
-
+/*list STYLE*/
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+/*list STYLE*/
 
 /* BACKGROUND STYLE  */
 .zm-bg-light {
@@ -434,21 +467,31 @@ li>a:only-child:after {
 .zm-home-title {
 	margin-bottom: 3rem;
 	font-weight: bold;
-	font-size: 3rem;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
 	color: #272A2F;
 }
 
 .zm-home-subtitle {
-	font-size: 18px;
-	margin-bottom: 3rem;
-	color: #272A2F;
-	line-height: 32px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 146.75%;
+	/* or 21px */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
 }
 
 .zm-content-title {
 	margin-bottom: 1.25rem;
 	font-weight: bold;
-	font-size: 2rem;
+	font-size: 30px;
+	line-height: 35px;
 	text-align: center;
 	color: #272A2F;
 }
@@ -464,13 +507,13 @@ li>a:only-child:after {
 	font-weight: bold;
 	margin-bottom: 20px;
 	font-size: 24px;
-	line-height: 35px;
+	line-height: 146.75%;
 	color: #272A2F;
 }
 
 .zm-subtitle {
 	font-size: 14px;
-	line-height: 25px;
+	line-height: 200%;
 	color: #272A2F;
 }
 
@@ -739,7 +782,7 @@ li>a:only-child:after {
 @media all and (max-width : 991px) {
 
 	#logo {
-		display: block;
+		/*display: block;*/
 		padding: 0;
 		width: 100%;
 		text-align: center;
