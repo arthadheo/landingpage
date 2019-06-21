@@ -18,12 +18,21 @@
                     <div class="col-lg-12 d-flex justify-content-center zm-s-s_wrap">
                         <p class="zm-content-title zm-xs-s_text text-white" style="font-weight: bolder!important;">Mau punya aplikasi yang bisa membuat<br> teknisi Anda lebih produktif?<br/></p>
                     </div>
+<<<<<<< HEAD
                         <p class="col-lg-12 zm-font-s_14 justify-content-center text-white" style="padding-top: 20px; padding-bottom: 30px; line-height: 146.75%; font-weight: 500; text-align: center;">Gunakan aplikasi Zoomin, aplikasi HRD untuk teknisi yang dapat meningkatkan <br>produktivitas teknisi Anda dengan gamification<br/></p>
                         <div class="col-lg-12 d-flex justify-content-center align-items-center" style="padding-top: 50px;">
                             <button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
                                 YA, SAYA MAU
                             </button>
                         </div>
+=======
+                        <p class="col-lg-12 d-flex justify-content-center zm-content-subtitle text-white" style="padding-bottom:40px; font-size: 14px;">Gunakan aplikasi Zoomin, aplikasi HRD untuk teknisi yang dapat meningkatkan <br>produktivitas teknisi Anda dengan gamification<br/></p>
+                    <div class="col-lg-12 d-flex justify-content-center align-items-center" style="padding-top: 50px;">
+                        <button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal">
+                            YA, SAYA MAU
+                        </button>
+                    </div>        
+>>>>>>> 4a367fcf0707fb054814127232e54179e09a97a2
                 </div>
             </div>
         </div>
@@ -111,6 +120,7 @@
 </section>
 <!--Section 2-->
 
+<<<<<<< HEAD
 <!-- MockUp Modal --> 
           <!-- Modal HTML -->
           <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -147,6 +157,40 @@
                   </div>
               </div>
           </div>
+=======
+<!-- Mockup modal -->
+<div class="bs-example">     
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog" >
+            <div class="modal-content">
+                <div class="modal-body" style="border-radius: 8px; margin-left: 10px;">
+                    <button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png"></button>
+                    <div class="zm-font-s_30 d-flex" style="line-height: 35px; align-items: center; font-weight: bolder; padding-bottom: 50px; padding-top: 30px; color: black;">Saya mau meningkatkan produktivitas teknisi saya</div>
+                    <form action="<?php echo base_url(); ?>contact/send_wa" method="POST" enctype='multipart/form-data'>
+                    <div class="form-group">
+                        <label class="zm-font-s_16 zm-font-500 zm-font-bolder" style="color: black;" for="name">Nama Lengkap</label>
+                        <input type="text" autocomplete="off" class="form-control" id="name" name="nameContact" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="zm-font-s_16 zm-font-500 zm-font-bolder" style="color: black;" for="institusi">Asal Institusi / Perusahaan</label>
+                        <input type="text" autocomplete="off" class="form-control" id="institusi" name="institusiContact" required>
+                    </div>
+                    <div class="form-group"> 
+                        <label class="zm-font-s_16 zm-font-500 zm-font-bolder" style="color: black;" for="institusi">Email</label>
+                        <input type="text" autocomplete="off" class="form-control" id="institusi" name="emailContact" required>
+                    </div>
+                    <div class="form-group" style=" padding-bottom: 10px; padding-top: 20px;"> 
+                        <button class="btn zm-s_red-ct col-lg-12" type="submit">HUBUNGI SAYA</button>
+                        <!-- <a class="btn zm-s_red-ct col-lg-12" href="https://api.whatsapp.com/send?phone=6282217212700?">HUBUNGI SAYA</a> -->
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+>>>>>>> 4a367fcf0707fb054814127232e54179e09a97a2
 <!-- /MockUp Modal -->
 
 <!--Section 3-->
@@ -158,9 +202,15 @@
                     <p class="zm-content-title">Mau menambahkan gamification<br>ke dalam aplikasi Anda?</p>
                     <p class="zm-subtitle" style="text-align: center;">Ubah cara kerja Anda dan teknisi Anda menjadi sesuatu yang mudah dan menyenangkan</p>
                 </div>
+<<<<<<< HEAD
                 <div class="col-lg-12 d-flex justify-content-center align-items-center">
                     <button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
                             YA, SAYA MAU
+=======
+                <<div class="col-lg-12 d-flex justify-content-center align-items-center" style="padding-top: 50px;">
+                    <button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal">
+                        YA, SAYA MAU
+>>>>>>> 4a367fcf0707fb054814127232e54179e09a97a2
                     </button>
                 </div>
             </div>

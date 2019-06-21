@@ -1,0 +1,346 @@
+# Translation of Themes - Cassions in Indonesian
+# This file is distributed under the same license as the Themes - Cassions package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-08-15 08:42:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: id\n"
+"Project-Id-Version: Themes - Cassions\n"
+
+#. Description of the plugin/theme
+msgid "Cassions is a clean, simple responsive magazine theme for WordPress, packed with a lot of features like: featured posts, sticky menu, custom widgets and many others."
+msgstr "Cassions adalah tema WordPress yang ringan, sederhana, majalah responsive, banyak fitur seperti: pos unggulan, menu lengket, widget kustom dan banyak lagi."
+
+#. Theme Name of the plugin/theme
+msgid "Cassions"
+msgstr "Cassions"
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page"
+msgstr "Laman Lebar Penuh"
+
+#. Template Name of the plugin/theme
+msgid "Home Page"
+msgstr "Beranda"
+
+#: template-parts/content-single.php:42
+msgid "Continue Reading"
+msgstr "Lanjut Membaca"
+
+#: template-parts/content-single.php:40
+msgid "Next article"
+msgstr "Artikel berikutnya"
+
+#: template-parts/content-single.php:39
+msgid "Previous article"
+msgstr "Artikel sebelumnya"
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:33
+msgid "Edit %s"
+msgstr "Sunting %s"
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:31
+msgid "Pages:"
+msgstr "Laman:"
+
+#: template-parts/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Kami tidak dapat menemukan apa yang Anda maksud. Mungkin pencarian dapat membantu."
+
+#: template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Maaf, tidak ada kata kunci yang cocok. Silahkan coba lagi dengan kata kunci berbeda."
+
+#: template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Siap mempublikasikan pos pertama Anda? <a href=\"%1$s\">Mulai disini</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Tidak Ditemukan"
+
+#: search.php:24
+msgid "Search Results for: %s"
+msgstr "Hasil Pencarian untuk: %s"
+
+#: inc/widgets/recent-post.php:109
+msgid "ASC"
+msgstr "ASC"
+
+#: inc/widgets/recent-post.php:108
+msgid "DESC"
+msgstr "DESC"
+
+#: inc/widgets/recent-post.php:106
+msgid "Order"
+msgstr "Urutan"
+
+#: inc/widgets/recent-post.php:103
+msgid "Random"
+msgstr "Acak"
+
+#: inc/widgets/recent-post.php:102
+msgid "Comment count"
+msgstr "Penghitung komentar"
+
+#: inc/widgets/recent-post.php:100
+msgid "Date"
+msgstr "Tanggal"
+
+#: inc/widgets/recent-post.php:98
+msgid "Order by"
+msgstr "Urutkan dengan"
+
+#: inc/widgets/recent-post.php:93
+msgid "Number of photos"
+msgstr "Jumlah foto"
+
+#: inc/widgets/recent-post.php:88 inc/widgets/recent-post.php:101
+msgid "Title"
+msgstr "Judul"
+
+#: inc/widgets/recent-post.php:30 inc/widgets/recent-post.php:77
+msgid "Recent Posts"
+msgstr "Pos Terbaru"
+
+#: inc/widgets/recent-post.php:19
+msgid "Displays recent posts."
+msgstr "Menampilkan pos terbaru."
+
+#: inc/widgets/recent-post.php:16
+msgid "Cassions Posts"
+msgstr "Pos Cassions"
+
+#: inc/widgets/block_4_widget.php:11
+msgid "WPS Block 4"
+msgstr "WPS Blok 4"
+
+#: inc/widgets/block_3_widget.php:11
+msgid "WPS Block 3"
+msgstr "WPS Blok 3"
+
+#: inc/widgets/block_2_widget.php:11
+msgid "WPS Block 2"
+msgstr "WPS Blok 2"
+
+#: inc/widgets/block_1_widget.php:268 inc/widgets/block_2_widget.php:248
+#: inc/widgets/block_3_widget.php:242 inc/widgets/block_4_widget.php:204
+msgid "Order By:"
+msgstr "Urutkan Dengan:"
+
+#: inc/widgets/block_1_widget.php:260 inc/widgets/block_2_widget.php:240
+#: inc/widgets/block_3_widget.php:234 inc/widgets/block_4_widget.php:196
+msgid "Order:"
+msgstr "Urutan:"
+
+#: inc/widgets/block_1_widget.php:257 inc/widgets/block_2_widget.php:237
+#: inc/widgets/block_3_widget.php:231 inc/widgets/block_4_widget.php:193
+msgid "Ignore Sticky Posts"
+msgstr "Abaikan Pos Lengket"
+
+#: inc/widgets/block_1_widget.php:250 inc/widgets/block_2_widget.php:230
+#: inc/widgets/block_3_widget.php:224 inc/widgets/block_4_widget.php:186
+msgid "Number of posts to show:"
+msgstr "Jumlah pos yang ditampilkan:"
+
+#: inc/widgets/block_1_widget.php:243 inc/widgets/block_2_widget.php:223
+#: inc/widgets/block_3_widget.php:217 inc/widgets/block_4_widget.php:179
+msgid "All"
+msgstr "Semua"
+
+#: inc/widgets/block_1_widget.php:241 inc/widgets/block_2_widget.php:221
+#: inc/widgets/block_3_widget.php:215 inc/widgets/block_4_widget.php:177
+msgid "Block Category:"
+msgstr "Kotak Kategori:"
+
+#: inc/widgets/block_1_widget.php:237 inc/widgets/block_2_widget.php:217
+#: inc/widgets/block_3_widget.php:211 inc/widgets/block_4_widget.php:173
+msgid "Widget Title:"
+msgstr "Judul Widget:"
+
+#: inc/widgets/block_1_widget.php:11
+msgid "WPS Block 1"
+msgstr "WPS Blok 1"
+
+#: inc/widgets/block_1_widget.php:10 inc/widgets/block_2_widget.php:10
+#: inc/widgets/block_3_widget.php:10 inc/widgets/block_4_widget.php:10
+msgid "Display posts use on homepage."
+msgstr "Tampilkan pos pada beranda."
+
+#: inc/template-tags.php:228
+msgid "Cassions Theme by %1$s"
+msgstr "Tema Cassions oleh %1$s"
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:175
+msgid "%1$s at %2$s"
+msgstr "%1$s pada %2$s"
+
+#: inc/template-tags.php:166
+msgid "Your comment is awaiting moderation."
+msgstr "Komentar Anda ditahan untuk moederasi."
+
+#: inc/template-tags.php:152
+msgid "Edit"
+msgstr "Sunting"
+
+#: inc/template-tags.php:152
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#. translators: %s: post title
+#: inc/template-tags.php:97
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Tinggalkan Komentar <span class=\"screen-reader-text\"> pada %s</span>"
+
+#: inc/template-tags.php:90
+msgid "Tags: %1$s"
+msgstr "Tag: %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:82 inc/template-tags.php:88
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:33
+msgctxt "post author"
+msgid "by %s"
+msgstr "oleh %s"
+
+#: inc/template-tags.php:28 inc/template-tags.php:61
+msgctxt "post date"
+msgid "on %s"
+msgstr "pada %s"
+
+#: inc/extras.php:76
+msgid "Search"
+msgstr "Cari"
+
+#: inc/extras.php:75
+msgid "Search for:"
+msgstr "Cari:"
+
+#: inc/customizer.php:40
+msgid "Secondary Color"
+msgstr "Warna Sekunder"
+
+#: inc/customizer.php:29
+msgid "Primary Color"
+msgstr "Warna Utama"
+
+#: header.php:29
+msgid "Skip to content"
+msgstr "Lompat ke konten"
+
+#: functions.php:216
+msgid "Footer"
+msgstr "Footer"
+
+#: functions.php:206
+msgid "Home 4"
+msgstr "Beranda 4"
+
+#: functions.php:196
+msgid "Home 3"
+msgstr "Beranda 3"
+
+#: functions.php:186
+msgid "Home 2"
+msgstr "Beranda 2"
+
+#: functions.php:176
+msgid "Home 1"
+msgstr "Beranda 1"
+
+#: functions.php:168 functions.php:178 functions.php:188 functions.php:198
+#: functions.php:208 functions.php:218
+msgid "Add widgets here."
+msgstr "Tambah widget disini."
+
+#: functions.php:166
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#. Translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: functions.php:135
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:127
+msgctxt "Droid Serif font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:75
+msgid "Social Icon"
+msgstr "Ikon MedSos"
+
+#: functions.php:74
+msgid "Primary"
+msgstr "Utama"
+
+#: footer.php:31
+msgid "Copyright &copy; %1$s %2$s. All Rights Reserved."
+msgstr "Copyright &copy; %1$s %2$s. All Rights Reserved."
+
+#: comments.php:92
+msgid "Comments are closed."
+msgstr "Komentar ditutup."
+
+#: comments.php:57 comments.php:79
+msgid "Newer Comments"
+msgstr "Komentar Terbaru"
+
+#: comments.php:56 comments.php:78
+msgid "Older Comments"
+msgstr "Komentar Terdahulu"
+
+#: comments.php:53 comments.php:75
+msgid "Comment navigation"
+msgstr "Navigasi komentar"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:37
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s Balasan pada &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Balasan pada &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:33
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Satu Balasan pada &ldquo;%s&rdquo;"
+
+#: archive.php:55 home.php:49 search.php:56
+msgid "Page"
+msgstr "Laman"
+
+#. translators: %1$s: smiley
+#: 404.php:53
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Cobalah pencarian di laman arsip bulanan. %1$s"
+
+#: 404.php:35
+msgid "Most Used Categories"
+msgstr "Kategori Sering Digunakan"
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Sepertinya tidak ada apa-apa disini. Mungkin mau coba link berikut atau pencarian?"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Uh! Laman tidak ditemukan."
