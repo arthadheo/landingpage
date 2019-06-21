@@ -21,10 +21,10 @@
                     </div>
                         <p class="col-lg-12 zm-font-s_14 justify-content-center text-white" style="padding-top: 20px; padding-bottom: 30px; line-height: 146.75%; font-weight: 500; text-align: center;">Apabila anda sudah memiliki aplikasi HRIS untuk teknisi, tambahkan elemen game ke <br> dalam aplikasi tersebut dengan platform gamification Zoomin</p>
                         <div class="col-lg-12 d-flex justify-content-center align-items-center" style="padding-top: 50px;">
-							<button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal">
+							<button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
 							    YA, SAYA MAU
 							</button>
-                    </div>
+                   		</div>
                 </div>
             </div>
         </div>
@@ -132,22 +132,50 @@
      				<p class="zm-title zm-font-left" style="text-align: justify-all;">Dashboard untuk monitor dan mengatur sistem rewarding</p>
                         <div class="col-lg-3 d-md-block p-1 bg-danger"></div>
     						 <p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify-all; padding-top:30px; padding-bottom:30px">Anda dapat mengevaluasi kinerja masing-masing teknisi melalui dashboard. Selain itu, Anda juga dapat mengatur Mission dan Reward yang ingin Anda berikan kepada tim teknisi. Berikan 10 XP atau 20 XP, semua dapat Anda atur melalui dashboard</p>
-       			</div>
-                <div class="col-md-6 d-flex align-items-left zm-xs-s_wrap_img" style="margin-bottom: 50px;">
-                    <img class="zm-xs-s_img" style="max-height: 300px;" src="<?php echo base_url();?>dist/images/illustrations/platform-2.png" alt="">
-                </div>
+       					</div>
+		                <div class="col-md-6 d-flex align-items-left zm-xs-s_wrap_img" style="margin-bottom: 50px;">
+		                    <img class="zm-xs-s_img" style="max-height: 300px;" src="<?php echo base_url();?>dist/images/illustrations/platform-2.png" alt="">
+		                </div>
 			</div>
 		</div>
 
 </section>
 <!-- /section two -->
 
-<!-- MockUp Modal -->
-<div class="bs-example">     
+<!-- MockUp Modal --> 
           <!-- Modal HTML -->
-          <div id="myModal" class="modal fade">
-              <div class="modal-dialog"	>
+          <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document"	>
                   <div class="modal-content">
+<<<<<<< HEAD
+                      <div class="modal-footer" style="border-radius: 8px; margin-left: 10px;">
+                      	<div style="width: 100%;">
+                      		<button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png"></button>
+                  			<div class="zm-content-title" style="text-align: left; padding-bottom: 30px; padding-top: 30px;">Saya mau meningkatkan produktivitas teknisi saya
+                  			</div>
+	                          <form action="<?php echo base_url(); ?>contact/send_wa" method="POST" enctype='multipart/form-data'>
+							  	<div class="form-group">
+					                <label class=" zm-font-bolder" style="color: black;" for="name">Nama Lengkap</label>
+					                <input type="text" autocomplete="off" class="form-control"
+					                id="name" name="nameContact" required>
+					            </div>
+					          	<div class="form-group">
+				                    <label class="zm-font-bolder" style="color: black;" for="institusi">Asal Institusi / Perusahaan</label>
+				                    <input type="text" autocomplete="off" class="form-control"
+				                    id="institusi" name="institusiContact" required>
+				              	 </div>
+				              	<div class="form-group"> 
+				                    <label class="zm-font-bolder" style="color: black;" for="institusi">Email</label>
+				                    <input type="text" autocomplete="off" class="form-control" 
+				                    id="institusi" name="emailContact" required>
+				              	 </div>
+				              	 <div class="form-group" style=" padding-bottom: 10px; padding-top: 20px;"> 
+				              	<button class="btn zm-s_red-ct col-lg-12" type="submit">HUBUNGI SAYA</button>
+				              	<!-- <a class="btn zm-s_red-ct col-lg-12" href="https://api.whatsapp.com/send?phone=6282217212700?">HUBUNGI SAYA</a> -->
+				              	</div>
+				              </form>
+                      	</div>
+=======
                       <div class="modal-body" style="border-radius: 8px; margin-left: 10px;">
                       	 <button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png"></button>
                       	<div class="zm-font-s_30 d-flex" style="line-height: 35px; align-items: center; font-weight: bolder; padding-bottom: 50px; padding-top: 30px; color: black;">Saya mau meningkatkan produktivitas teknisi saya</div>
@@ -172,11 +200,11 @@
 			              	<!-- <a class="btn zm-s_red-ct col-lg-12" href="https://api.whatsapp.com/send?phone=6282217212700?">HUBUNGI SAYA</a> -->
 			              	</div>
 			              </form>
+>>>>>>> 4a367fcf0707fb054814127232e54179e09a97a2
                       </div>
                   </div>
               </div>
           </div>
-</div>
 <!-- /MockUp Modal -->
 
 <!-- contact us -->
@@ -190,7 +218,7 @@
 					<p class="zm-subtitle" style="text-align: center;">Ubah cara kerja Anda dan teknisi Anda menjadi sesuatu yang mudah dan menyenangkan</p>
 				</div>
 				<div class="col-lg-12 d-flex justify-content-center align-items-center">
-					<button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal">
+					<button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
 							YA, SAYA MAU
 					</button>
 				</div>

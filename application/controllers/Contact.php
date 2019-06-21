@@ -23,7 +23,7 @@ class Contact extends CI_Controller {
     $email_input    = $this->input->post('emailContact');
 
      /*Redirect the user to some site*/ 
-     redirect('https://api.whatsapp.com/send?phone=6282217212700&text=Nama:%20'.$name_input.'%0AAsal%20Institusi:%0A'.$institusi_input.'%0AEmail:%0A'.$email_input.'');
+     redirect('https://api.whatsapp.com/send?phone=6281322151415&text=Nama:%20'.$name_input.'%0AAsal%20Institusi:%20'.$institusi_input.'%0AEmail:%20'.$email_input.'');
 
   }
 

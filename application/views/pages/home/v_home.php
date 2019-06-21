@@ -1,3 +1,11 @@
+<style>
+    input:focus { 
+    outline: none !important;
+    border-color: #ED2A2E !important;
+    box-shadow: 0 0 3px #ED2A2E !important;
+}
+</style>
+
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
 <div id="home"></div>
 <!-- section one -->
@@ -31,11 +39,13 @@
 						    </div>
 						</div>
                     </div>
-                        <p class="col-lg-12 zm-content-subtitle text-white" style="padding-bottom: 40px; font-size: 14px">Zoomin menyediakan solusi gamification untuk aplikasi karyawan
+                        <p class="col-lg-12 zm-content-subtitle text-white" style=" font-size: 14px">Zoomin menyediakan solusi gamification untuk aplikasi karyawan
 						, khususunya teknisi, <br>untuk membantu meningkatkan produktivitas kinerja teknisi Anda.<br/></p>
-                    <div class="col-lg-12 d-flex justify-content-center align-items-center ">
-		       	        <a href="<?php echo base_url(); ?>" class="btn zm-s_red-ct">YA, SAYA MAU</a>
-		            </div>
+                    <div class="col-lg-12 d-flex justify-content-center align-items-center" style="padding-top: 50px;">
+                        <button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
+                            YA, SAYA MAU
+                        </button>
+                    </div>     
                 </div>
             </div>
         </div>
@@ -230,38 +240,42 @@
 </section>
 <!-- /section four -->
 
-<!-- Mockup modal -->
-<div class="bs-example">     
-    <!-- Modal HTML -->
-    <div id="myModal" class="modal fade">
-        <div class="modal-dialog" >
-            <div class="modal-content">
-                <div class="modal-body" style="border-radius: 8px; margin-left: 10px;">
-                    <button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png"></button>
-                    <div class="zm-font-s_30 d-flex" style="line-height: 35px; align-items: center; font-weight: bolder; padding-bottom: 50px; padding-top: 30px; color: black;">Saya mau meningkatkan produktivitas teknisi saya</div>
-                    <form action="<?php echo base_url(); ?>contact/send_wa" method="POST" enctype='multipart/form-data'>
-                    <div class="form-group">
-                        <label class="zm-font-s_16 zm-font-500 zm-font-bolder" style="color: black;" for="name">Nama Lengkap</label>
-                        <input type="text" autocomplete="off" class="form-control" id="name" name="nameContact" required>
-                    </div>
-                    <div class="form-group">
-                        <label class="zm-font-s_16 zm-font-500 zm-font-bolder" style="color: black;" for="institusi">Asal Institusi / Perusahaan</label>
-                        <input type="text" autocomplete="off" class="form-control" id="institusi" name="institusiContact" required>
-                    </div>
-                    <div class="form-group"> 
-                        <label class="zm-font-s_16 zm-font-500 zm-font-bolder" style="color: black;" for="institusi">Email</label>
-                        <input type="text" autocomplete="off" class="form-control" id="institusi" name="emailContact" required>
-                    </div>
-                    <div class="form-group" style=" padding-bottom: 10px; padding-top: 20px;"> 
-                        <button class="btn zm-s_red-ct col-lg-12" type="submit">HUBUNGI SAYA</button>
-                        <!-- <a class="btn zm-s_red-ct col-lg-12" href="https://api.whatsapp.com/send?phone=6282217212700?">HUBUNGI SAYA</a> -->
-                    </div>
-                	</form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<!-- MockUp Modal --> 
+          <!-- Modal HTML -->
+          <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document"	>
+                  <div class="modal-content">
+                      <div class="modal-footer" style="border-radius: 8px; margin-left: 10px;">
+                      	<div style="width: 100%;">
+                      		<button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png"></button>
+                  			<div class="zm-content-title" style="text-align: left; padding-bottom: 30px; padding-top: 30px;">Saya mau meningkatkan produktivitas teknisi saya
+                  			</div>
+	                          <form action="<?php echo base_url(); ?>contact/send_wa" method="POST" enctype='multipart/form-data'>
+							  	<div class="form-group">
+					                <label class=" zm-font-bolder" style="color: black;" for="name">Nama Lengkap</label>
+					                <input type="text" autocomplete="off" class="form-control"
+					                id="name" name="nameContact" required>
+					            </div>
+					          	<div class="form-group">
+				                    <label class="zm-font-bolder" style="color: black;" for="institusi">Asal Institusi / Perusahaan</label>
+				                    <input type="text" autocomplete="off" class="form-control"
+				                    id="institusi" name="institusiContact" required>
+				              	 </div>
+				              	<div class="form-group"> 
+				                    <label class="zm-font-bolder" style="color: black;" for="institusi">Email</label>
+				                    <input type="text" autocomplete="off" class="form-control" 
+				                    id="institusi" name="emailContact" required>
+				              	 </div>
+				              	 <div class="form-group" style=" padding-bottom: 10px; padding-top: 20px;"> 
+				              	<button class="btn zm-s_red-ct col-lg-12" type="submit">HUBUNGI SAYA</button>
+				              	<!-- <a class="btn zm-s_red-ct col-lg-12" href="https://api.whatsapp.com/send?phone=6282217212700?">HUBUNGI SAYA</a> -->
+				              	</div>
+				              </form>
+                      	</div>
+                      </div>
+                  </div>
+              </div>
+          </div>
 <!-- /MockUp Modal -->
 
 <!-- contact us -->
@@ -274,10 +288,10 @@
 					<p class="zm-content-subtitle">Ubah cara kerja Anda dan teknisi Anda menjadi sesuatu yang mudah dan menyenangkan</p>
 				</div>
 				<div class="col-lg-12 d-flex justify-content-center align-items-center" style="padding-top: 50px;">
-					<button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal">
+					<button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
 					    YA, SAYA MAU
 					</button>
-                </div>
+           		</div>
 			</div>
 		</div>
 	</div>
