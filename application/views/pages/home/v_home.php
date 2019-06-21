@@ -230,6 +230,40 @@
 </section>
 <!-- /section four -->
 
+<!-- Mockup modal -->
+<div class="bs-example">     
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog" >
+            <div class="modal-content">
+                <div class="modal-body" style="border-radius: 8px; margin-left: 10px;">
+                    <button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png"></button>
+                    <div class="zm-font-s_30 d-flex" style="line-height: 35px; align-items: center; font-weight: bolder; padding-bottom: 50px; padding-top: 30px; color: black;">Saya mau meningkatkan produktivitas teknisi saya</div>
+                    <form action="<?php echo base_url(); ?>contact/send_wa" method="POST" enctype='multipart/form-data'>
+                    <div class="form-group">
+                        <label class="zm-font-s_16 zm-font-500 zm-font-bolder" style="color: black;" for="name">Nama Lengkap</label>
+                        <input type="text" autocomplete="off" class="form-control" id="name" name="nameContact" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="zm-font-s_16 zm-font-500 zm-font-bolder" style="color: black;" for="institusi">Asal Institusi / Perusahaan</label>
+                        <input type="text" autocomplete="off" class="form-control" id="institusi" name="institusiContact" required>
+                    </div>
+                    <div class="form-group"> 
+                        <label class="zm-font-s_16 zm-font-500 zm-font-bolder" style="color: black;" for="institusi">Email</label>
+                        <input type="text" autocomplete="off" class="form-control" id="institusi" name="emailContact" required>
+                    </div>
+                    <div class="form-group" style=" padding-bottom: 10px; padding-top: 20px;"> 
+                        <button class="btn zm-s_red-ct col-lg-12" type="submit">HUBUNGI SAYA</button>
+                        <!-- <a class="btn zm-s_red-ct col-lg-12" href="https://api.whatsapp.com/send?phone=6282217212700?">HUBUNGI SAYA</a> -->
+                    </div>
+                	</form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /MockUp Modal -->
+
 <!-- contact us -->
 <section class="section-three zm-bg-light" id="home1">
 	<div class="container">
@@ -239,9 +273,11 @@
 					<p class="zm-content-title">Mau teknisi Anda lebih produktif?</p>
 					<p class="zm-content-subtitle">Ubah cara kerja Anda dan teknisi Anda menjadi sesuatu yang mudah dan menyenangkan</p>
 				</div>
-				<div class="col-lg-12 d-flex justify-content-center align-items-center">
-					<a href="<?php echo base_url(); ?>contact" class="btn zm-s_red-sm">YA, SAYA MAU</a>
-				</div>
+				<div class="col-lg-12 d-flex justify-content-center align-items-center" style="padding-top: 50px;">
+					<button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal">
+					    YA, SAYA MAU
+					</button>
+                </div>
 			</div>
 		</div>
 	</div>

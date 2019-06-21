@@ -33,6 +33,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 
 	<!-- css files -->
+	<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url(); echo $dist_css; ?>css_slider.css" rel="stylesheet"><!-- Slider css -->
 	<link href="<?php echo base_url(); echo $dist_css; ?>bootstrap.css" rel='stylesheet' type='text/css' />
 	<!-- bootstrap css -->
