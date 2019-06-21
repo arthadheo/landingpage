@@ -34,13 +34,8 @@
                     <p class="zm-font-s_14 text-white">Dapatkan berita dan informasi teknisi tentang Zoomin</p>
                 </div>
                 <!-- Begin Mailchimp Signup Form -->
-<<<<<<< HEAD
-                <div id="mc_embed_signup" style="background-color: #272A2F">
-                <form action="https://zoomin.us20.list-manage.com/subscribe/post?u=876410a7b51e8d1153c365d7a&amp;id=78562d6058" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate >
-=======
                 <div id="mc_embed_signup"  style="background-color: #272A2F">
-                <form action="https://zoomin.us20.list-manage.com/subscribe/post?u=876410a7b51e8d1153c365d7a&amp;id=78562d6058" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
->>>>>>> 4a367fcf0707fb054814127232e54179e09a97a2
+                <form action="https://zoomin.us20.list-manage.com/subscribe/post?u=876410a7b51e8d1153c365d7a&amp;id=78562d6058" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate >
                     <div id="mc_embed_signup_scroll" class="card-block">
                         <div class="card-body">
                             <fieldset class="input-group">
