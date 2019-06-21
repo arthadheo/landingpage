@@ -147,7 +147,6 @@
           <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
               <div class="modal-dialog" role="document"	>
                   <div class="modal-content">
-<<<<<<< HEAD
                       <div class="modal-footer" style="border-radius: 8px; margin-left: 10px;">
                       	<div style="width: 100%;">
                       		<button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png"></button>
@@ -175,32 +174,6 @@
 				              	</div>
 				              </form>
                       	</div>
-=======
-                      <div class="modal-body" style="border-radius: 8px; margin-left: 10px;">
-                      	 <button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png"></button>
-                      	<div class="zm-font-s_30 d-flex" style="line-height: 35px; align-items: center; font-weight: bolder; padding-bottom: 50px; padding-top: 30px; color: black;">Saya mau meningkatkan produktivitas teknisi saya</div>
-                          <form action="<?php echo base_url(); ?>contact/send_wa" method="POST" enctype='multipart/form-data'>
-						  	<div class="form-group">
-				                <label class="zm-font-s_16 zm-font-500 zm-font-bolder" style="color: black;" for="name">Nama Lengkap</label>
-				                <input type="text" autocomplete="off" class="form-control"
-				                id="name" name="nameContact" required>
-				            </div>
-				          	<div class="form-group">
-			                    <label class="zm-font-s_16 zm-font-500 zm-font-bolder" style="color: black;" for="institusi">Asal Institusi / Perusahaan</label>
-			                    <input type="text" autocomplete="off" class="form-control"
-			                    id="institusi" name="institusiContact" required>
-			              	 </div>
-			              	<div class="form-group"> 
-			                    <label class="zm-font-s_16 zm-font-500 zm-font-bolder" style="color: black;" for="institusi">Email</label>
-			                    <input type="text" autocomplete="off" class="form-control" 
-			                    id="institusi" name="emailContact" required>
-			              	 </div>
-			              	 <div class="form-group" style=" padding-bottom: 10px; padding-top: 20px;"> 
-			              	<button class="btn zm-s_red-ct col-lg-12" type="submit">HUBUNGI SAYA</button>
-			              	<!-- <a class="btn zm-s_red-ct col-lg-12" href="https://api.whatsapp.com/send?phone=6282217212700?">HUBUNGI SAYA</a> -->
-			              	</div>
-			              </form>
->>>>>>> 4a367fcf0707fb054814127232e54179e09a97a2
                       </div>
                   </div>
               </div>
