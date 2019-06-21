@@ -1,23 +1,33 @@
+<style>
+    input:focus { 
+    outline: none !important;
+    border-color: #ED2A2E !important;
+    box-shadow: 0 0 3px #ED2A2E !important;
+}
+</style>
+
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
 <div id="home"></div>
 <!-- section one -->
 <section class="section-one zm-bg-light" id="home1">
-<div class="hero-bg" style="background-image: url('<?php echo base_url();?>/dist/Assets/Solusi - Aplikasi/hero-aplikasi.png');" alt="aplikasi teknisi dengan gamification">
+<div class="d-flex flex-column zm-xs-s_wrap_img responsive-image" style="background-image: url('<?php echo base_url();?>/dist/Assets/Solusi - Aplikasi/hero-aplikasi.png');">
     <div class="container">
         <div class="zm-content-one">
-            <div id="ops_and_main" class="zm-d-initial">
+            <div id="platform" class="zm-d-initial">
                 <div class="row">
                     <div class="col-lg-12 d-flex justify-content-center zm-s-s_wrap">
-                        <p class="zm-home-title zm-xs-s_text text-white">Mau punya aplikasi yang bisa membuat<br> teknisi Anda lebih produktif?<br/></p>
+                        <p class="zm-content-title zm-xs-s_text text-white" style="font-weight: bolder!important;">Mau punya aplikasi yang bisa membuat<br> teknisi Anda lebih produktif?<br/></p>
                     </div>
-                        <p class="col-lg-12 d-flex justify-content-center zm-content-subtitle text-white" style="padding-bottom:40px; font-size: 14px;">Gunakan aplikasi Zoomin, aplikasi HRD untuk teknisi yang dapat meningkatkan <br>produktivitas teknisi Anda dengan gamification<br/></p>
-                    <div class="col-lg-12 d-flex justify-content-center align-items-center">
-		                <a href="<?php echo base_url(); ?>" class="btn zm-s_red-ct">YA, SAYA MAU</a>
-		            </div>        
+                        <p class="col-lg-12 zm-font-s_14 justify-content-center text-white" style="padding-top: 20px; padding-bottom: 30px; line-height: 146.75%; font-weight: 500; text-align: center;">Gunakan aplikasi Zoomin, aplikasi HRD untuk teknisi yang dapat meningkatkan <br>produktivitas teknisi Anda dengan gamification<br/></p>
+                        <div class="col-lg-12 d-flex justify-content-center align-items-center" style="padding-top: 50px;">
+                            <button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
+                                YA, SAYA MAU
+                            </button>
+                        </div>
                 </div>
             </div>
         </div>
-	</div>
+    </div>
 </div>
 </section>
 <!-- /section one -->
@@ -25,7 +35,7 @@
 <!-- /section two -->
 <section class="section-two zm-bg-light-grey" id="home1">
     <div class="container">
-        <div class="zm-content-two">
+        <div class="zm-content-three">
             <div class="row zm-mb_r-4">
                 <div class="col-lg-12">
                     <p class="zm-content-title">Berikut cara aplikasi Zoomin membantu Anda dan teknisi Anda</p>
@@ -39,11 +49,7 @@
 					<p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify; padding-top: 20px">Daftar tugas atau Work Order ditampilkan sebagai sebuah Mission yang harus diselesaikan oleh teknisi. Setiap tahapan pekerjaan akan terasa sebagai sebuah petualangan. Anda dapat memberikan Mission kepada teknisi Anda berdasarkan wilayah pekerjaan ataupun tim kerja teknisi</p>
 			    </div>
                 <div class="col-md-6 d-flex align-items-right zm-xs-s_wrap_img">
-<<<<<<< HEAD
-                    <img class="zm-xs-s_img" style="max-height: 300px; padding-bottom:30px; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/aplikasi-1.png" alt="">
-=======
-                    <img class="zm-xs-s_wrap_img" style="max-height:350px; margin-top: -3rem; padding-right:0px;" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-01.png" alt="">
->>>>>>> 9f876a840409ab443461812f8d991450663dba08
+                <img class="zm-xs-s_wrap_img" style="max-height:350px; margin-top: -3rem; padding-right:0px;" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-01.png" alt="">
                 </div>
             </div>
             <!--Aplikasi 1-->
@@ -51,11 +57,7 @@
                 <!--Aplikasi 2-->
                 <div class="row zm-xs-product" style="margin-bottom: 50px">
                     <div class="col-md-6 d-flex align-items-left zm-xs-s_wrap_img">
-<<<<<<< HEAD
-                        <img class="zm-xs-s_img" style="max-height: 300px; padding-bottom:30px; padding-left:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/aplikasi-2.png" alt="">
-=======
-                        <img class="zm-xs-s_wrap_img" style="max-height:350px; margin-top: -3rem; padding-left:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-02.png" alt="">
->>>>>>> 9f876a840409ab443461812f8d991450663dba08
+                    <img class="zm-xs-s_wrap_img" style="max-height:350px; margin-top: -3rem; padding-left:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-02.png" alt="">
                     </div>
                     <div class="col-lg-6">
 					    <p class="zm-title zm-font-left" style="text-align: justify;">Mendekatkan Anda dan teknisi dengan sistem pelaporan dan feedback yang instan</p>
@@ -73,11 +75,7 @@
 				            <p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify; padding-top: 20px">Setiap tahapan pekerjaan teknisi dinilai dengan Experience Point (XP). Dengan XP, Leaderbord, dan elemen 'game' lainnya, Anda dapat dengan mudah melihat performansi teknisinya. Teknisi juga dapat melihat progress pekerjaannya sendiri</p>
 			            </div>
                         <div class="col-6 col-md-6 d-flex align-items-right zm-xs-s_wrap_img">
-<<<<<<< HEAD
-                            <img class="zm-xs-s_img" style="max-height: 300px; padding-bottom:30px; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/aplikasi-3.png" alt="">
-=======
-                            <img class="zm-xs-s_wrap_img" style="max-height:400px; margin-top: -3rem; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-03.png" alt="">
->>>>>>> 9f876a840409ab443461812f8d991450663dba08
+                        <img class="zm-xs-s_wrap_img" style="max-height:400px; margin-top: -3rem; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-03.png" alt="">
                         </div>    
                     </div>        
                     <!--Aplikasi 3-->
@@ -103,11 +101,7 @@
 				    <p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify; padding-top: 20px">Anda dapat mengevaluasi kinerja masing-masing teknisi melalui dashboard. Selain itu, Anda juga dapat mengatur Mission dan Reward yang ingin Anda berikan kepada tim teknisi. Berikan 10 XP atau 20 XP, semua dapat Anda atur melalui dashboard</p>
 			    </div>
                 <div class="col-6 col-lg-6 d-flex align-items-right zm-xs-s_wrap_img">
-<<<<<<< HEAD
-                    <img class="zm-xs-s_img" style="max-height: 300px; padding-bottom:30px; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Platform/platform-2.png" alt="">
-=======
-                    <img class="zm-xs-s_wrap_img" style="max-height:350px; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Platform/platform-2.png" alt="">
->>>>>>> 9f876a840409ab443461812f8d991450663dba08
+                <img class="zm-xs-s_wrap_img" style="max-height:350px; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Platform/platform-2.png" alt="">
                 </div>
             </div>
             <!--Aplikasi 5-->
@@ -117,17 +111,57 @@
 </section>
 <!--Section 2-->
 
+<!-- MockUp Modal --> 
+          <!-- Modal HTML -->
+          <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document" >
+                  <div class="modal-content">
+                      <div class="modal-footer" style="border-radius: 8px; margin-left: 10px;">
+                        <div style="width: 100%;">
+                            <button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png"></button>
+                            <div class="zm-content-title" style="text-align: left; padding-bottom: 30px; padding-top: 30px;">Saya mau meningkatkan produktivitas teknisi saya
+                            </div>
+                              <form action="<?php echo base_url(); ?>contact/send_wa" method="POST" enctype='multipart/form-data'>
+                                <div class="form-group">
+                                    <label class=" zm-font-bolder" style="color: black;" for="name">Nama Lengkap</label>
+                                    <input type="text" autocomplete="off" class="form-control"
+                                    id="name" name="nameContact" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="zm-font-bolder" style="color: black;" for="institusi">Asal Institusi / Perusahaan</label>
+                                    <input type="text" autocomplete="off" class="form-control"
+                                    id="institusi" name="institusiContact" required>
+                                 </div>
+                                <div class="form-group"> 
+                                    <label class="zm-font-bolder" style="color: black;" for="institusi">Email</label>
+                                    <input type="text" autocomplete="off" class="form-control" 
+                                    id="institusi" name="emailContact" required>
+                                 </div>
+                                 <div class="form-group" style=" padding-bottom: 10px; padding-top: 20px;"> 
+                                <button class="btn zm-s_red-ct col-lg-12" type="submit">HUBUNGI SAYA</button>
+                                <!-- <a class="btn zm-s_red-ct col-lg-12" href="https://api.whatsapp.com/send?phone=6282217212700?">HUBUNGI SAYA</a> -->
+                                </div>
+                              </form>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+<!-- /MockUp Modal -->
+
 <!--Section 3-->
 <section class="section-three zm-bg-light" id="home1">
     <div class="container">
         <div class="zm-content-three">
             <div class="row ">
                 <div class="col-lg-12 zm-mb_r-3">
-                    <p class="zm-content-title">Mau punya aplikasi yang bisa membuat <br>teknisi Anda lebih produktif?<br/></p>
-                    <p class="zm-content-subtitle">Ubah cara kerja Anda dan teknisi Anda menjadi sesuatu yang mudah dan menyenangkan</p>
+                    <p class="zm-content-title">Mau menambahkan gamification<br>ke dalam aplikasi Anda?</p>
+                    <p class="zm-subtitle" style="text-align: center;">Ubah cara kerja Anda dan teknisi Anda menjadi sesuatu yang mudah dan menyenangkan</p>
                 </div>
                 <div class="col-lg-12 d-flex justify-content-center align-items-center">
-                    <a href="<?php echo base_url(); ?>contact" class="btn zm-s_red-sm">YA, SAYA MAU</a>
+                    <button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
+                            YA, SAYA MAU
+                    </button>
                 </div>
             </div>
         </div>
