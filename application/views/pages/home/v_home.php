@@ -39,8 +39,7 @@
 						    </div>
 						</div>
                     </div>
-                        <p class="col-lg-12 zm-content-subtitle text-white" style=" font-size: 14px">Zoomin menyediakan solusi gamification untuk aplikasi karyawan
-						, khususunya teknisi, <br>untuk membantu meningkatkan produktivitas kinerja teknisi Anda.<br/></p>
+                        <p class="col-lg-12 zm-content-subtitle text-white" style=" font-size: 14px">Zoomin menyediakan solusi gamification untuk aplikasi karyawan, khususnya teknisi, <br>untuk membantu meningkatkan produktivitas kinerja teknisi Anda.<br/></p>
                     <div class="col-lg-12 d-flex justify-content-center align-items-center" style="padding-top: 50px;">
                         <button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
                             YA, SAYA MAU
@@ -280,21 +279,21 @@
 
 <!-- contact us -->
 <section class="section-three zm-bg-light" id="home1">
-	<div class="container">
-		<div class="zm-content-three">
-			<div class="row ">
-				<div class="col-lg-12 zm-mb_r-3">
-					<p class="zm-content-title">Mau teknisi Anda lebih produktif?</p>
-					<p class="zm-content-subtitle">Ubah cara kerja Anda dan teknisi Anda menjadi sesuatu yang mudah dan menyenangkan</p>
-				</div>
-				<div class="col-lg-12 d-flex justify-content-center align-items-center" style="padding-top: 50px;">
-					<button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
-					    YA, SAYA MAU
-					</button>
-           		</div>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="zm-content-three">
+            <div class="row ">
+                <div class="col-lg-12 zm-mb_r-3">
+                    <p class="zm-content-title">Mau teknisi Anda lebih produktif?</p>
+                    <p class="zm-subtitle" style="text-align: center;">Ubah cara kerja Anda dan teknisi Anda menjadi sesuatu yang mudah dan menyenangkan</p>
+                </div>
+                <div class="col-lg-12 d-flex justify-content-center align-items-center">
+                    <button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
+                            YA, SAYA MAU
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <!-- Javascript start  -->
 
