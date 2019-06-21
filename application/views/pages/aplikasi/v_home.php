@@ -39,7 +39,7 @@
 					<p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify; padding-top: 20px">Daftar tugas atau Work Order ditampilkan sebagai sebuah Mission yang harus diselesaikan oleh teknisi. Setiap tahapan pekerjaan akan terasa sebagai sebuah petualangan. Anda dapat memberikan Mission kepada teknisi Anda berdasarkan wilayah pekerjaan ataupun tim kerja teknisi</p>
 			    </div>
                 <div class="col-md-6 d-flex align-items-right zm-xs-s_wrap_img">
-                <img class="zm-xs-s_wrap_img" style="max-height:350px; margin-top: -3rem; padding-right:0px;" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-01.png" alt="">
+                    <img class="zm-xs-s_wrap_img" style="max-height:350px; margin-top: -3rem; padding-right:0px;" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-01.png" alt="">
                 </div>
             </div>
             <!--Aplikasi 1-->
@@ -47,7 +47,7 @@
                 <!--Aplikasi 2-->
                 <div class="row zm-xs-product" style="margin-bottom: 50px">
                     <div class="col-md-6 d-flex align-items-left zm-xs-s_wrap_img">
-                    <img class="zm-xs-s_wrap_img" style="max-height:350px; margin-top: -3rem; padding-left:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-02.png" alt="">
+                        <img class="zm-xs-s_wrap_img" style="max-height:350px; margin-top: -3rem; padding-left:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-02.png" alt="">
                     </div>
                     <div class="col-lg-6">
 					    <p class="zm-title zm-font-left" style="text-align: justify;">Mendekatkan Anda dan teknisi dengan sistem pelaporan dan feedback yang instan</p>
@@ -65,7 +65,7 @@
 				            <p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify; padding-top: 20px">Setiap tahapan pekerjaan teknisi dinilai dengan Experience Point (XP). Dengan XP, Leaderbord, dan elemen 'game' lainnya, Anda dapat dengan mudah melihat performansi teknisinya. Teknisi juga dapat melihat progress pekerjaannya sendiri</p>
 			            </div>
                         <div class="col-6 col-md-6 d-flex align-items-right zm-xs-s_wrap_img">
-                        <img class="zm-xs-s_wrap_img" style="max-height:400px; margin-top: -3rem; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-03.png" alt="">
+                            <img class="zm-xs-s_wrap_img" style="max-height:400px; margin-top: -3rem; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-03.png" alt="">
                         </div>    
                     </div>        
                     <!--Aplikasi 3-->
@@ -91,7 +91,7 @@
 				    <p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify; padding-top: 20px">Anda dapat mengevaluasi kinerja masing-masing teknisi melalui dashboard. Selain itu, Anda juga dapat mengatur Mission dan Reward yang ingin Anda berikan kepada tim teknisi. Berikan 10 XP atau 20 XP, semua dapat Anda atur melalui dashboard</p>
 			    </div>
                 <div class="col-6 col-lg-6 d-flex align-items-right zm-xs-s_wrap_img">
-                <img class="zm-xs-s_wrap_img" style="max-height:350px; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Platform/platform-2.png" alt="">
+                    <img class="zm-xs-s_wrap_img" style="max-height:350px; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Platform/platform-2.png" alt="">
                 </div>
             </div>
             <!--Aplikasi 5-->
