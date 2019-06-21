@@ -171,6 +171,7 @@
 			              	<button class="btn zm-s_red-ct col-lg-12" type="submit">HUBUNGI SAYA</button>
 			              	<!-- <a class="btn zm-s_red-ct col-lg-12" href="https://api.whatsapp.com/send?phone=6282217212700?">HUBUNGI SAYA</a> -->
 			              	</div>
+			              </form>
                       </div>
                   </div>
               </div>
