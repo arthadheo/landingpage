@@ -19,7 +19,7 @@
                     <div class="col-lg-12 d-flex justify-content-center zm-s-s_wrap">
                         <p class="zm-content-title zm-xs-s_text text-white" style="font-weight: bolder!important;">Mau menambahkan gamification<br> ke dalam aplikasi Anda?<br/></p>
                     </div>
-                        <p class="col-lg-12 zm-font-s_14 justify-content-center text-white" style="padding-top: 20px; padding-bottom: 30px; line-height: 146.75%; font-weight: 500; text-align: center;">Apabila anda sudah memiliki aplikasi HRIS untuk teknisi, tambahkan elemen game ke <br> dalam aplikasi tersebut dengan platform gamification Zoomin</p>
+                        <p class="col-lg-12 zm-font-s_14 justify-content-center text-white" style="padding-top: 20px; padding-bottom: 30px; line-height: 146.75%; font-weight: 500; text-align: center;">Apabila Anda sudah memiliki aplikasi HRIS untuk teknisi, tambahkan elemen game ke <br> dalam aplikasi tersebut dengan platform gamification Zoomin</p>
                         <div class="col-lg-12 d-flex justify-content-center align-items-center" style="padding-top: 50px;">
 							<button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
 							    YA, SAYA MAU
@@ -117,7 +117,7 @@
 				 	<hr size="10px">
 				 </center>	
 			</div>
-		<div class="row zm-xs-product" style="margin-bottom: 50px;">
+		<div class="row zm-xs-product" style="margin-bottom: 15%;">
 				<div class="col-md-6 d-flex align-items-right zm-xs-s_wrap_img">
 				        <img class="zm-xs-s_img" style="max-height: 300px;" src="<?php echo base_url();?>dist/images/illustrations/platform-1.png" alt="">
 				</div>
@@ -181,7 +181,6 @@
 <!-- /MockUp Modal -->
 
 <!-- contact us -->
-
 <section class="section-three zm-bg-light" id="home1">
 	<div class="container">
 		<div class="zm-content-three">

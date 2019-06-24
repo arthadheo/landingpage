@@ -163,9 +163,9 @@
                             YA, SAYA MAU
                     </button>
                 </div>
-            </div>
         </div>
     </div>
+</div>
 </section>
 <!--Section 3-->
 

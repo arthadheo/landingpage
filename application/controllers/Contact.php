@@ -76,8 +76,8 @@ class Contact extends CI_Controller {
            'charset'   => 'utf-8',
            'protocol'  => 'smtp',
            'smtp_host' => 'ssl://smtp.gmail.com',
-           'smtp_user' => 'enterateindonesia@gmail.com',    // Ganti dengan email gmail kamu
-           'smtp_pass' => 'enterate2019',      // Password gmail kamu
+           'smtp_user' => 'noreply.zoomin@gmail.com',    // Ganti dengan email gmail kamu
+           'smtp_pass' => 'zoominindonesia',      // Password gmail kamu
            'smtp_port' => 465,
            'crlf'      => "\r\n",
            'newline'   => "\r\n"
@@ -92,9 +92,6 @@ class Contact extends CI_Controller {
     // Email penerima
     $this->email->to('halo@zoomin.id'); // Ganti dengan email tujuan kamu
 
-    // Lampiran email, isi dengan url/path file
-   // $this->email->attach('https://masrud.com/content/images/20181215150137-codeigniter-smtp-gmail.png');
-
     // Subject email
     $this->email->subject('Website Zoomin | '.$institusi);
 
@@ -106,7 +103,7 @@ class Contact extends CI_Controller {
         $this->session->set_flashdata('msg',
         '<div class="alert alert-success alert-dismissible">
           <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-          <strong>Yey !</strong> Pesan anda terkirim, tim kami akan segera mengabari anda.
+          <strong>Terima Kasih. !</strong> Pesan Anda telah terkirim.
         </div>');
         redirect('Contact');
     } else {
