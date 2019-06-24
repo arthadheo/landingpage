@@ -39,8 +39,7 @@
 						    </div>
 						</div>
                     </div>
-                        <p class="col-lg-12 zm-content-subtitle text-white" style=" font-size: 14px">Zoomin menyediakan solusi gamification untuk aplikasi karyawan
-						, khususunya teknisi, <br>untuk membantu meningkatkan produktivitas kinerja teknisi Anda.<br/></p>
+                        <p class="col-lg-12 zm-content-subtitle text-white" style=" font-size: 14px">Zoomin menyediakan solusi gamification untuk aplikasi karyawan, khususnya teknisi, <br>untuk membantu meningkatkan produktivitas kinerja teknisi Anda.<br/></p>
                     <div class="col-lg-12 d-flex justify-content-center align-items-center" style="padding-top: 50px;">
                         <button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
                             YA, SAYA MAU
