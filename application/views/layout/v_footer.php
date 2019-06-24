@@ -15,14 +15,14 @@
                     <a href="<?php echo base_url(); ?>" class="zm-p text-white">Beranda</a>
                 </div>
                 <div class="zm-mb-10 zm-d-block">
-                    <a href="" class="zm-p zm-font-500 text-white">Solusi</a>
+                    <a class="zm-p zm-font-500 text-white">Solusi</a>
                     <ul style="margin-left: 2rem;">
                         <li> <a href="<?php echo base_url(); ?>aplikasi" class="zm-p text-white">Aplikasi</a> </li>
-                        <li> <a href="<?php echo base_url(); ?>services" class="zm-p text-white">Teknisi</a> </li>
+                        <li> <a href="<?php echo base_url(); ?>platform" class="zm-p text-white">Platform</a> </li>
                     </ul>
                 </div>
                 <div class="zm-d-block zm-xs-d-bottom-block">
-                    <a href="" class="zm-p text-white">Blog</a>
+                    <a href="https://zoomin.id/landingpage/blog" class="zm-p text-white">Blog</a>
                 </div>
                 <div class="zm-d-block zm-xs-d-bottom-block">
                     <a href="<?php echo base_url(); ?>contact" class="zm-p text-white">Kontak</a>
