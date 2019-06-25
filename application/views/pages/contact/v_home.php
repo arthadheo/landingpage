@@ -12,6 +12,11 @@ textarea:focus {
 </style>
 
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
+<div id="home"></div>
+    <title>Solusi Gamification untuk HR Software Indonesia | Zoomin</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Zoomin menyediakan solusi gamification untuk HR software Indonesia, khususnya untuk tenaga kerja teknisi. Anda tertarik? Hubungi kami untuk demo produk gratis">
+    <meta name="keywords" content="hr software indonesia">
 <!-- section one -->
 <section class="section-one zm-bg-light" id="home1">
 	<div class="container">
@@ -87,10 +92,4 @@ textarea:focus {
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124227942-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-124227942-1');
-</script>
