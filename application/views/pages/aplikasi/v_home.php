@@ -10,7 +10,7 @@
 <div id="home"></div>
 <!-- section one -->
 <section class="section-one zm-bg-light" id="home1">
-<div class="d-flex flex-column zm-xs-s_wrap_img responsive-image" style="background-image: url('<?php echo base_url();?>/dist/Assets/Solusi - Aplikasi/hero-aplikasi.png');">
+<div class="d-flex flex-column zm-xs-s_wrap_img responsive-image" style="background-image: url('<?php echo base_url();?>/dist/Assets/Solusi - Aplikasi/hero-aplikasi1.png');">
     <div class="container">
         <div class="zm-content-one">
             <div id="platform" class="zm-d-initial">
