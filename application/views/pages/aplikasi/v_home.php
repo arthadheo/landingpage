@@ -8,9 +8,13 @@
 
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
 <div id="home"></div>
+    <title>Aplikasi HRD dengan Gamification untuk Teknisi | Zoomin</title>
+    <meta charset="utf-8">
+    <meta  name="description" content="Zoomin menyediakan aplikasi HRD untuk teknisi yang memiliki fitur gamification di dalamnya, sehingga pekerjaan teknisi menjadi lebih mudah dan menyenangkan">    
+    <meta name="keywords" content="aplikasi hrd">
 <!-- section one -->
 <section class="section-one zm-bg-light" id="home1">
-<div class="d-flex flex-column zm-xs-s_wrap_img responsive-image" style="background-image: url('<?php echo base_url();?>/dist/Assets/Solusi - Aplikasi/hero-aplikasi.png');">
+<div class="d-flex flex-column zm-xs-s_wrap_img responsive-image" style="background-image: url('<?php echo base_url();?>/dist/Assets/Solusi - Aplikasi/hero-aplikasi.png');" alt="foto teknisi memanjat tiang">
     <div class="container">
         <div class="zm-content-one">
             <div id="platform" class="zm-d-initial">
@@ -49,7 +53,7 @@
 					<p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify; padding-top: 20px">Daftar tugas atau Work Order ditampilkan sebagai sebuah Mission yang harus diselesaikan oleh teknisi. Setiap tahapan pekerjaan akan terasa sebagai sebuah petualangan. Anda dapat memberikan Mission kepada teknisi Anda berdasarkan wilayah pekerjaan ataupun tim kerja teknisi</p>
 			    </div>
                 <div class="col-md-6 d-flex align-items-right zm-xs-s_wrap_img">
-                <img class="zm-xs-s_wrap_img" style="max-height:350px; margin-top: -3rem; padding-right:0px;" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-01.png" alt="">
+                <img class="zm-xs-s_wrap_img" style="max-height:350px; margin-top: -3rem; padding-right:0px;" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-01.png" alt="tampilan fitur work order pada aplikasi zoomin teknisi">
                 </div>
             </div>
             <!--Aplikasi 1-->
@@ -57,7 +61,7 @@
                 <!--Aplikasi 2-->
                 <div class="row zm-xs-product" style="margin-bottom: 50px">
                     <div class="col-md-6 d-flex align-items-left zm-xs-s_wrap_img">
-                    <img class="zm-xs-s_wrap_img" style="max-height:350px; margin-top: -3rem; padding-left:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-02.png" alt="">
+                    <img class="zm-xs-s_wrap_img" style="max-height:350px; margin-top: -3rem; padding-left:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-02.png" alt="tampilan fitur pelaporan pada aplikasi zoomin teknisi">
                     </div>
                     <div class="col-lg-6">
 					    <p class="zm-title zm-font-left" style="text-align: justify;">Mendekatkan Anda dan teknisi dengan sistem pelaporan dan feedback yang instan</p>
@@ -75,7 +79,7 @@
 				            <p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify; padding-top: 20px">Setiap tahapan pekerjaan teknisi dinilai dengan Experience Point (XP). Dengan XP, Leaderbord, dan elemen 'game' lainnya, Anda dapat dengan mudah melihat performansi teknisinya. Teknisi juga dapat melihat progress pekerjaannya sendiri</p>
 			            </div>
                         <div class="col-6 col-md-6 d-flex align-items-right zm-xs-s_wrap_img">
-                        <img class="zm-xs-s_wrap_img" style="max-height:400px; margin-top: -3rem; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-03.png" alt="">
+                        <img class="zm-xs-s_wrap_img" style="max-height:400px; margin-top: -3rem; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-03.png" alt="tampilan sistem penilaian pada aplikasi zoomin teknisi">
                         </div>    
                     </div>        
                     <!--Aplikasi 3-->
@@ -83,7 +87,7 @@
                 <!--Aplikasi 4-->
                 <div class="row zm-xs-product" style="margin-bottom: 50px">
                     <div class="col-6 col-md-6 d-flex align-items-left zm-xs-s_wrap_img">
-                        <img class="zm-xs-s_wrap_img" style="max-height:400px; margin-top: -3rem; padding-left:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-04.png" alt="">
+                        <img class="zm-xs-s_wrap_img" style="max-height:400px; margin-top: -3rem; padding-left:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-04.png" alt="tampilan sistem rewarding pada aplikasi zoomin teknisi">
                     </div>
                     <div class="col-6 col-lg-6">
 		                <p class="zm-title zm-font-left" style="text-align: justify;">Sistem rewarding yang seru untuk membuat pekerjaan lebih menyenangkan</p>
@@ -101,7 +105,7 @@
 				    <p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify; padding-top: 20px">Anda dapat mengevaluasi kinerja masing-masing teknisi melalui dashboard. Selain itu, Anda juga dapat mengatur Mission dan Reward yang ingin Anda berikan kepada tim teknisi. Berikan 10 XP atau 20 XP, semua dapat Anda atur melalui dashboard</p>
 			    </div>
                 <div class="col-6 col-lg-6 d-flex align-items-right zm-xs-s_wrap_img">
-                <img class="zm-xs-s_wrap_img" style="max-height:350px; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Platform/platform-2.png" alt="">
+                <img class="zm-xs-s_wrap_img" style="max-height:350px; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Platform/platform-2.png" alt="dashboard zoomin untuk monitor dan konfigurasi">
                 </div>
             </div>
             <!--Aplikasi 5-->
@@ -178,10 +182,3 @@
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124227942-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-124227942-1');
-</script>

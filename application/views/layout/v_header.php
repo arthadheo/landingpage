@@ -21,17 +21,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- favicon website -->
 	<link rel="shortcut icon" type="image/png" href="<?php echo base_url(); echo $img; ?>/logos/fav-zoomin-black.ico" />
 
-	<script>
-		// addEventListener("load", function () {
-		// 	setTimeout(hideURLbar, 0);
-		// }, false);
-
-		// function hideURLbar() {
-		// 	window.scrollTo(0, 1);
-		// }
-
-	</script>
-
 	<!-- css files -->
 	<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url(); echo $dist_css; ?>css_slider.css" rel="stylesheet"><!-- Slider css -->
