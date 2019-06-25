@@ -18,7 +18,7 @@
           				<li id="aplikasi" class="zm-subtitle"><a href="<?php echo base_url(); ?>aplikasi" style="font-size: 14px;">Aplikasi</a></li>
           				<li id="platform" class="zm-subtitle"><a href="<?php echo base_url(); ?>platform" style="font-size: 14px;">Platform</a></li>
         			</ul>
-				<li id="blog" class="zm-subtitle"><a href="https://zoomin.id/landingpage/blog" style="font-size: 14px;">Blog</a></li>
+				<li id="blog" class="zm-subtitle"><a href="//blog.zoomin.id" style="font-size: 14px;">Blog</a></li>
 				<li id="contact" class="zm-subtitle"><a href="<?php echo base_url(); ?>contact" style="font-size: 14px;">Kontak</a></li>
 			</ul>
 		</nav>
