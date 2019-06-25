@@ -8,9 +8,13 @@
 
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
 <div id="home"></div>
+	<title>Zoomin | Solusi Gamification untuk Aplikasi Karyawan</title>
+	<meta charset="utf-8">
+	<meta  name="description" content="Zoomin menyediakan solusi gamification untuk aplikasi karyawan, khususnya teknisi. Gamification dapat meningkatkan motivasi dan produktivitas kerja teknisi Anda">
+	<meta name="keywords" content="aplikasi karyawan">
 <!-- section one -->
 <section class="section-one zm-bg-light" id="home1">
-<div class="hero-bg" style="background-image: url('<?php echo base_url();?>/dist/Assets/Homepage/hero-homepage.png');" alt="video tentang gamification zoomin">
+<div class="hero-bg" style="background-image: url('<?php echo base_url();?>/dist/Assets/Homepage/hero-homepage.png');" alt="foto teknisi melakukan perbaikan">
     <div class="container">
         <div class="zm-content-one">
             <div id="ops_and_main" class="zm-d-initial">
@@ -22,7 +26,7 @@
 						<div class="bs-example">
 					    	<!-- Button HTML (to Trigger Modal) -->
 					    	<a href="#myModal" data-toggle="modal">
- 								<img src="<?php echo base_url();?>/dist/Assets/Homepage/play-button.png" height="90"> 
+ 								<img src="<?php echo base_url();?>/dist/Assets/Homepage/play-button.png" alt="" height="90"> 
 							</a>						    
 						    <!-- Modal HTML -->
 						   	<div id="myModal" class="modal fade">
@@ -32,7 +36,9 @@
 					                    	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					                	</div>
 					                	<div class="modal-body">
-					                    	<iframe id="zoominVideo" width="560" height="315" src="//www.youtube.com/embed/dgPx5HbrOxg" frameborder="0" allowfullscreen></iframe>
+					                    	<object id="zoominVideo" width="560" height="315" src="//www.youtube.com/embed/dgPx5HbrOxg" frameborder="0" allowfullscreen>
+					                    		<embed id="zoominVideo" width="560" height="315" src="//www.youtube.com/embed/dgPx5HbrOxg" frameborder="0" allowfullscreen></embed>
+					                    	</object>
 						                </div>
 						            </div>
 						        </div>
@@ -106,7 +112,7 @@
                 <div class="col-lg-6" style="padding-left: 30px; padding-right: 30px">
 					<div class="col-10 row">
 						<div class="col-2 zm-xs-s_wrap_img">
-                        	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-app.png" alt="">
+                        	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-app.png" alt="aplikasi teknisi dengan gamification">
                     	</div>
 						<p class="col-4 zm-title zm-font-left">Aplikasi</p>
 					</div>
@@ -130,7 +136,7 @@
                 <div class="col-lg-6 border-left" style="padding-left: 30px;">
 					<div class="col-10 row">
 						<div class="col-2 zm-xs-s_wrap_img">
-                        	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-platform.png" alt="">
+                        	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-platform.png" alt="platform gamification untuk aplikasi teknisi">
                     	</div>
 						<p class="zm-title zm-font-left">Platform</p>
 					</div>
@@ -297,31 +303,6 @@
 </section>
 <!-- Javascript start  -->
 
-<script>
-	$(document).ready(function () {
-		$('#home').addClass('active');
-		var url = $("#zoominVideo").attr('src');
-    
-    /* Assign empty url value to the iframe src attribute when
-    modal hide, which stop the video playing */
-    $("#myModal").on('hide.bs.modal', function(){
-        $("#zoominVideo").attr('src', '');
-    });
-    
-    /* Assign the initially stored url back to the iframe src
-    attribute when modal is displayed again */
-    $("#myModal").on('show.bs.modal', function(){
-        $("#zoominVideo").attr('src', url);
-    });
-});
 
-</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124227942-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-124227942-1');
-</script>
