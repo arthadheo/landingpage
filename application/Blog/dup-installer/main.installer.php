@@ -254,7 +254,7 @@ if (!empty($unespectOutput)) {
 	<title>Duplicator</title>
     <link rel='stylesheet' href='assets/font-awesome/css/all.min.css' type='text/css' media='all' />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/dup-installer/favicon/lite01_apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/dup-installer/  /lite01_apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/dup-installer/favicon/lite01_favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/dup-installer/favicon/lite01_favicon-16x16.png">
     <link rel="manifest" href="/dup-installer/favicon/site.webmanifest">

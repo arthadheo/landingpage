@@ -8,10 +8,13 @@
 
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
 <div id="home"></div>
-
+	<title>Platform Gamification untuk Aplikasi HRIS Anda | Zoomin</title>
+	<meta charset="utf-8">
+	<meta  name="description" content="Platform gamification Zoomin akan memperkaya aplikasi HRIS yang Anda miliki. Terdapat berbagai macam elemen gamification yang bisa Anda gunakan">
+	<meta name="keywords" content="aplikasi hris">
 <!-- /section one -->
 <section class="section-one zm-bg-light" id="home1">
-<div class="d-flex flex-column zm-xs-s_wrap_img responsive-image" style="background-image: url('<?php echo base_url();?>/dist/Assets/Solusi - Platform/hero-platform.png');">
+<div class="d-flex flex-column zm-xs-s_wrap_img responsive-image" style="background-image: url('<?php echo base_url();?>/dist/Assets/Solusi - Platform/hero-platform.png');" alt="foto dua teknisi melakukan perbaikan">
     <div class="container">
         <div class="zm-content-one">
             <div id="platform" class="zm-d-initial">
@@ -119,7 +122,7 @@
 			</div>
 		<div class="row zm-xs-product" style="margin-bottom: 15%;">
 				<div class="col-md-6 d-flex align-items-right zm-xs-s_wrap_img">
-				        <img class="zm-xs-s_img" style="max-height: 300px;" src="<?php echo base_url();?>dist/images/illustrations/platform-1.png" alt="">
+				        <img class="zm-xs-s_img" style="max-height: 300px;" src="<?php echo base_url();?>dist/images/illustrations/platform-1.png" alt="tampilan API gamification zoomin">
 				</div>
 				<div class="col-lg-6">
 				     <p class="zm-title zm-font-left" style="text-align: justify-all;">Integrasikan API gamification ke dalam aplikasi Anda</p>
@@ -134,7 +137,7 @@
     						 <p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify-all; padding-top:30px; padding-bottom:30px">Anda dapat mengevaluasi kinerja masing-masing teknisi melalui dashboard. Selain itu, Anda juga dapat mengatur Mission dan Reward yang ingin Anda berikan kepada tim teknisi. Berikan 10 XP atau 20 XP, semua dapat Anda atur melalui dashboard</p>
        					</div>
 		                <div class="col-md-6 d-flex align-items-left zm-xs-s_wrap_img" style="margin-bottom: 50px;">
-		                    <img class="zm-xs-s_img" style="max-height: 300px;" src="<?php echo base_url();?>dist/images/illustrations/platform-2.png" alt="">
+		                    <img class="zm-xs-s_img" style="max-height: 300px;" src="<?php echo base_url();?>dist/images/illustrations/platform-2.png" alt="dashboard zoomin untuk monitor dan konfigurasi">
 		                </div>
 			</div>
 		</div>
@@ -149,7 +152,7 @@
                   <div class="modal-content">
                       <div class="modal-footer" style="border-radius: 8px; margin-left: 10px;">
                       	<div style="width: 100%;">
-                      		<button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png"></button>
+                      		<button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png" alt=""></button>
                   			<div class="zm-content-title" style="text-align: left; padding-bottom: 30px; padding-top: 30px;">Saya mau meningkatkan produktivitas teknisi saya
                   			</div>
 	                          <form action="<?php echo base_url(); ?>contact/send_wa" method="POST" enctype='multipart/form-data'>
@@ -212,10 +215,4 @@
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124227942-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-124227942-1');
-</script>
