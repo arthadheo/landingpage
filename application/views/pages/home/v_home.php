@@ -1,6 +1,5 @@
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
 <div id="home"></div>
-	<title>Zoomin | Solusi Gamification untuk Aplikasi Karyawan</title>
 	<meta charset="utf-8">
 	<meta  name="description" content="Zoomin menyediakan solusi gamification untuk aplikasi karyawan, khususnya teknisi. Gamification dapat meningkatkan motivasi dan produktivitas kerja teknisi Anda">
 	<meta name="keywords" content="aplikasi karyawan">
