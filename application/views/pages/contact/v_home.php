@@ -1,6 +1,5 @@
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
 <div id="home"></div>
-    <title>Solusi Gamification untuk HR Software Indonesia | Zoomin</title>
     <meta charset="utf-8">
     <meta name="description" content="Zoomin menyediakan solusi gamification untuk HR software Indonesia, khususnya untuk tenaga kerja teknisi. Anda tertarik? Hubungi kami untuk demo produk gratis">
     <meta name="keywords" content="hr software indonesia">
