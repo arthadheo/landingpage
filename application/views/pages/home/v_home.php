@@ -18,7 +18,7 @@
 						<div class="bs-example">
 					    	<!-- Button HTML (to Trigger Modal) -->
 					    	<a href="#myModal" data-toggle="modal">
- 								<img src="<?php echo base_url();?>/dist/Assets/Homepage/play-button.png" alt="" height="90"> 
+ 								<img src="<?php echo base_url();?>/dist/Assets/Homepage/play-button.png" alt=""> 
 							</a>						    
 						    <!-- Modal HTML -->
 						   	<div id="myModal" class="modal fade">
@@ -64,7 +64,7 @@
   				<div class="carousel-inner">
     				<div class="carousel-item active" style="text-align: center">
 						<div class="col-lg-12" style="padding-bottom: 30px;">
-                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/gamification.png" alt="" width="40" height="40">&nbsp; Gamification</span>
+                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/gamification.png" alt="">&nbsp; Gamification</span>
                     	</div>
 						<p class="zm-subtitle">&nbsp; ... menurut <i>Merriam-Webster Dictionary</i> adalah proses penambahan 
 						elemen-elemen game (seperti poin, kompetisi, dll) ke dalam aktivitas tertentu untuk meningkatkan engangement
@@ -72,14 +72,14 @@
     				</div>
     				<div class="carousel-item" style="text-align: center">
 						<div class="col-lg-12" style="padding-bottom: 30px;">
-                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/77_.png" alt="" width="40" height="40">&nbsp; 77% </span>
+                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/77_.png" alt="">&nbsp; 77% </span>
                     	</div>
 						<p class="zm-subtitle">&nbsp; Menurut survey oleh Gallup, 77% karyawan di Indonesia tidak engaged dengan pekerjaannya, yang menyebabkan karyawan tersebut rentan pindah pekerjaan. Hal ini tentu berdampak terhadap biaya rekrutmen ataupun pelatihan yang harus dikeluarkan perusahaan
 						</p>
     				</div>
     				<div class="carousel-item" style="text-align: center">
 						<div class="col-lg-12" style="padding-bottom: 30px;">
-                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/90_.png" alt="" width="40" height="40">&nbsp; 90%</span>
+                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/90_.png" alt="">&nbsp; 90%</span>
                     	</div>
 						<p class="zm-subtitle">&nbsp; Gamification dapat meningkatkan engagement, motivasi, inisiatif, dan jiwa kompetitif karyawan. Terbukti, berdasarkan penelitian, 90% karyawan merasa lebih produktif ketika bekerja dengan menggunakan gamification
 						</p>

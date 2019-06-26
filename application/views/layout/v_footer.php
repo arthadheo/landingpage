@@ -5,7 +5,7 @@
 		<div class="row">
             <div class="col-lg-5">
                 <div class="zm-d-block;">
-                    <img src="<?php echo base_url(); echo $dist_img; ?>logos/zoomin_logo_white.png" width= "141px;" height= "50.08px"; alt="">
+                    <img src="<?php echo base_url(); echo $dist_img; ?>logos/zoomin_logo_white.png" alt="">
                 </div>
                 <p class="zm-p text-white">Zoomin menyediakan solusi <i>gamification</i> untuk aplikasi
                 karyawan, khususnya teknisi, untuk membantu meningkatkan produktivitas kerja teknisi Anda.</p>
@@ -55,22 +55,22 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-1 col-sm-3 zm-fsosmed-mobile">
-                        <a href="https://www.youtube.com/channel/UC6IremYsOD94kXBE35h70CA" class="zm-social" target="_blank" title="Youtube Zoomin Indonesia">
+                        <a href="https://www.youtube.com/channel/UC6IremYsOD94kXBE35h70CA" class="zm-social" target="_self" title="Youtube Zoomin Indonesia">
                             <i class="fa fa-youtube-square" style="color:white" aria-hidden="true"></i>
                         </a>
                     </div>
                     <div class="col-lg-1 col-sm-3 zm-fsosmed-mobile">
-                        <a href="https://www.linkedin.com/company/zoomin-indonesia/" class="zm-social" target="_blank" title="LinkedIn Zoomin Indonesia">
+                        <a href="https://www.linkedin.com/company/zoomin-indonesia/" class="zm-social" target="_self" title="LinkedIn Zoomin Indonesia">
                             <i class="fa fa-linkedin-square" style="color:white" aria-hidden="true"></i>
                         </a>
                     </div>
                     <div class="col-lg-1 col-sm-3 zm-fsosmed-mobile">
-                        <a href="https://web.facebook.com/zoomin.id/" class="zm-social" target="_blank" title="Facebook Zoomin Indonesia">
+                        <a href="https://web.facebook.com/zoomin.id/" class="zm-social" target="_self" title="Facebook Zoomin Indonesia">
                             <i class="fa fa-facebook-square" style="color:white" aria-hidden="true"></i>
                         </a>
                     </div>
                     <div class="col-lg-1 col-sm-3 zm-fsosmed-mobile">
-                        <a href="https://www.instagram.com/zoominid/" class="zm-social" target="_blank" title="Instagram Zoomin Indonesia">
+                        <a href="https://www.instagram.com/zoominid/" class="zm-social" target="_self" title="Instagram Zoomin Indonesia">
                             <i class="fa fa-instagram" style="color:white" aria-hidden="true"></i>
                         </a>
                     </div>
