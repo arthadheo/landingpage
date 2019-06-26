@@ -5,7 +5,7 @@
 		<!-- nav -->
 		<nav class="py-2">
 			<div id="logo" >
-				 <a href="<?php echo base_url(); ?>"> <img class="zm-logo-brand" src="<?php echo base_url(); echo $img; ?>/logos/zoomin_logo_black.png" alt="zoomin-indonesia-logo" width= "109.32px;" height= "40.1px;"></a>
+				 <a href="<?php echo base_url(); ?>"> <img class="zm-logo-brand" src="<?php echo base_url(); echo $img; ?>/logos/zoomin_logo_black.png" alt="zoomin-indonesia-logo"></a>
 			</div>
 			<label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
 			<input type="checkbox" id="drop" />
