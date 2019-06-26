@@ -1,6 +1,5 @@
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
-<!-- <div id="home"></div> -->
-    <title>Aplikasi HRD dengan Gamification untuk Teknisi | Zoomin</title>
+<div id="home"></div>
     <meta charset="utf-8">
     <meta  name="description" content="Zoomin menyediakan aplikasi HRD untuk teknisi yang memiliki fitur gamification di dalamnya, sehingga pekerjaan teknisi menjadi lebih mudah dan menyenangkan">    
     <meta name="keywords" content="aplikasi hrd">

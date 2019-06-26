@@ -1,6 +1,5 @@
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
 <div id="home"></div>
-	<title>Platform Gamification untuk Aplikasi HRIS Anda | Zoomin</title>
 	<meta charset="utf-8">
 	<meta  name="description" content="Platform gamification Zoomin akan memperkaya aplikasi HRIS yang Anda miliki. Terdapat berbagai macam elemen gamification yang bisa Anda gunakan">
 	<meta name="keywords" content="aplikasi hris">
@@ -145,7 +144,7 @@
                       <div class="modal-footer" style="border-radius: 8px; margin-left: 10px;">
                       	<div style="width: 100%;">
                       		<button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;">
-							  <img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png" alt="">
+							  <img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png" alt="icon close">
 							</button>
                   			<div class="zm-content-title" style="text-align: left; padding-bottom: 30px; padding-top: 30px;">Saya mau meningkatkan produktivitas teknisi saya
                   			</div>
