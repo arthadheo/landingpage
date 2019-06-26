@@ -1,11 +1,3 @@
-<style>
-    input:focus { 
-    outline: none !important;
-    border-color: #ED2A2E !important;
-    box-shadow: 0 0 3px #ED2A2E !important;
-}
-</style>
-
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
 <div id="home"></div>
 	<title>Platform Gamification untuk Aplikasi HRIS Anda | Zoomin</title>
@@ -120,9 +112,9 @@
 				 	<hr size="10px">
 				 </center>	
 			</div>
-		<div class="row zm-xs-product" style="margin-bottom: 15%;">
+		<div class="row zm-xs-product" style="margin-bottom: 25%;">
 				<div class="col-md-6 d-flex align-items-right zm-xs-s_wrap_img">
-				        <img class="zm-xs-s_img" style="max-height: 300px;" src="<?php echo base_url();?>dist/images/illustrations/platform-1.png" alt="tampilan API gamification zoomin">
+				        <img class="zm-xs-s_wrap_img" style="height:auto; width: 100%; margin-top: -3rem; padding-right:50px;" width="600" height="400" src="<?php echo base_url();?>dist/images/illustrations/platform-1.png" alt="tampilan API gamification zoomin">
 				</div>
 				<div class="col-lg-6">
 				     <p class="zm-title zm-font-left" style="text-align: justify-all;">Integrasikan API gamification ke dalam aplikasi Anda</p>
@@ -137,7 +129,7 @@
     						 <p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify-all; padding-top:30px; padding-bottom:30px">Anda dapat mengevaluasi kinerja masing-masing teknisi melalui dashboard. Selain itu, Anda juga dapat mengatur Mission dan Reward yang ingin Anda berikan kepada tim teknisi. Berikan 10 XP atau 20 XP, semua dapat Anda atur melalui dashboard</p>
        					</div>
 		                <div class="col-md-6 d-flex align-items-left zm-xs-s_wrap_img" style="margin-bottom: 50px;">
-		                    <img class="zm-xs-s_img" style="max-height: 300px;" src="<?php echo base_url();?>dist/images/illustrations/platform-2.png" alt="dashboard zoomin untuk monitor dan konfigurasi">
+		                    <img class="zm-xs-s_wrap_img" style="height:auto; width: 100%; margin-top: -3rem; padding-right:50px; margin-bottom:30px;" src="<?php echo base_url();?>dist/images/illustrations/platform-2.png" alt="dashboard zoomin untuk monitor dan konfigurasi">
 		                </div>
 			</div>
 		</div>
@@ -152,7 +144,9 @@
                   <div class="modal-content">
                       <div class="modal-footer" style="border-radius: 8px; margin-left: 10px;">
                       	<div style="width: 100%;">
-                      		<button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png" alt=""></button>
+                      		<button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;">
+							  <img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png" alt="">
+							</button>
                   			<div class="zm-content-title" style="text-align: left; padding-bottom: 30px; padding-top: 30px;">Saya mau meningkatkan produktivitas teknisi saya
                   			</div>
 	                          <form action="<?php echo base_url(); ?>contact/send_wa" method="POST" enctype='multipart/form-data'>

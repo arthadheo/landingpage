@@ -1,20 +1,12 @@
-<style>
-    input:focus { 
-    outline: none !important;
-    border-color: #ED2A2E !important;
-    box-shadow: 0 0 3px #ED2A2E !important;
-}
-</style>
-
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
-<div id="home"></div>
+<!-- <div id="home"></div> -->
     <title>Aplikasi HRD dengan Gamification untuk Teknisi | Zoomin</title>
     <meta charset="utf-8">
     <meta  name="description" content="Zoomin menyediakan aplikasi HRD untuk teknisi yang memiliki fitur gamification di dalamnya, sehingga pekerjaan teknisi menjadi lebih mudah dan menyenangkan">    
     <meta name="keywords" content="aplikasi hrd">
 <!-- section one -->
 <section class="section-one zm-bg-light" id="home1">
-<div class="d-flex flex-column zm-xs-s_wrap_img responsive-image" style="background-image: url('<?php echo base_url();?>/dist/Assets/Solusi - Aplikasi/hero-aplikasi.png');" alt="foto teknisi memanjat tiang">
+<div class="d-flex flex-column zm-xs-s_wrap_img responsive-image" style="background-image: url('<?php echo base_url();?>/dist/Assets/Solusi - Aplikasi/hero-aplikasi1.png');" alt="foto teknisi memanjat tiang">
     <div class="container">
         <div class="zm-content-one">
             <div id="platform" class="zm-d-initial">
@@ -37,14 +29,14 @@
 <!-- /section one -->
 
 <!-- /section two -->
-<section class="section-two zm-bg-light-grey" id="home1">
+ <section class="section-two zm-bg-light-grey" id="home1">
     <div class="container">
         <div class="zm-content-three">
             <div class="row zm-mb_r-4">
                 <div class="col-lg-12">
                     <p class="zm-content-title">Berikut cara aplikasi Zoomin membantu Anda dan teknisi Anda</p>
                 </div>
-            </div>
+            </div> 
             <!--Aplikasi 1-->
             <div class="row zm-xs-product" style="margin-bottom: 50px">
                 <div class="col-lg-6" style="padding-left: 0px;">
@@ -53,7 +45,7 @@
 					<p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify; padding-top: 20px">Daftar tugas atau Work Order ditampilkan sebagai sebuah Mission yang harus diselesaikan oleh teknisi. Setiap tahapan pekerjaan akan terasa sebagai sebuah petualangan. Anda dapat memberikan Mission kepada teknisi Anda berdasarkan wilayah pekerjaan ataupun tim kerja teknisi</p>
 			    </div>
                 <div class="col-md-6 d-flex align-items-right zm-xs-s_wrap_img">
-                <img class="zm-xs-s_wrap_img" style="max-height:350px; margin-top: -3rem; padding-right:0px;" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-01.png" alt="tampilan fitur work order pada aplikasi zoomin teknisi">
+                <img class="zm-xs-s_wrap_img" style="height:auto; width: 100%; margin-top: -3rem; padding-right:0px;" width="600" height="400" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-01.png" alt="tampilan fitur work order pada aplikasi zoomin teknisi">
                 </div>
             </div>
             <!--Aplikasi 1-->
@@ -61,7 +53,7 @@
                 <!--Aplikasi 2-->
                 <div class="row zm-xs-product" style="margin-bottom: 50px">
                     <div class="col-md-6 d-flex align-items-left zm-xs-s_wrap_img">
-                    <img class="zm-xs-s_wrap_img" style="max-height:350px; margin-top: -3rem; padding-left:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-02.png" alt="tampilan fitur pelaporan pada aplikasi zoomin teknisi">
+                    <img class="zm-xs-s_wrap_img" style="height:auto; width: 100%; margin-top: -3rem; padding-right:0px;" width="600" height="400" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-02.png" alt="tampilan fitur pelaporan pada aplikasi zoomin teknisi">
                     </div>
                     <div class="col-lg-6">
 					    <p class="zm-title zm-font-left" style="text-align: justify;">Mendekatkan Anda dan teknisi dengan sistem pelaporan dan feedback yang instan</p>
@@ -73,23 +65,23 @@
 
                     <!--Aplikasi 3-->
                     <div class="row zm-xs-product" style="margin-bottom: 50px">        
-                        <div class="col-6 col-lg-6" style="padding-left: 0px;">
+                        <div class="col-lg-6" style="padding-left: 0px;">
 				            <p class="zm-title zm-font-left" style="text-align: justify;">Sistem penilaian yang seperti 'game' untuk meningkatkan motivasi teknisi</p>
                                 <div class="col-lg-3 d-md-block p-1 bg-danger"></div>
 				            <p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify; padding-top: 20px">Setiap tahapan pekerjaan teknisi dinilai dengan Experience Point (XP). Dengan XP, Leaderbord, dan elemen 'game' lainnya, Anda dapat dengan mudah melihat performansi teknisinya. Teknisi juga dapat melihat progress pekerjaannya sendiri</p>
 			            </div>
-                        <div class="col-6 col-md-6 d-flex align-items-right zm-xs-s_wrap_img">
-                        <img class="zm-xs-s_wrap_img" style="max-height:400px; margin-top: -3rem; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-03.png" alt="tampilan sistem penilaian pada aplikasi zoomin teknisi">
+                        <div class="col-md-6 d-flex align-items-right zm-xs-s_wrap_img">
+                        <img class="zm-xs-s_wrap_img" style="height:auto; width: 100%; margin-top: -3rem; padding-right:0px;" width="600" height="400" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-03.png" alt="tampilan sistem penilaian pada aplikasi zoomin teknisi">
                         </div>    
-                    </div>        
+                    </div>
                     <!--Aplikasi 3-->
 
                 <!--Aplikasi 4-->
                 <div class="row zm-xs-product" style="margin-bottom: 50px">
-                    <div class="col-6 col-md-6 d-flex align-items-left zm-xs-s_wrap_img">
-                        <img class="zm-xs-s_wrap_img" style="max-height:400px; margin-top: -3rem; padding-left:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-04.png" alt="tampilan sistem rewarding pada aplikasi zoomin teknisi">
+                    <div class="col-md-6 d-flex align-items-left zm-xs-s_wrap_img">
+                        <img class="zm-xs-s_wrap_img" style="height:auto; width: 100%; margin-top: -3rem; padding-right:0px;" width="600" height="400" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-04.png" alt="tampilan sistem rewarding pada aplikasi zoomin teknisi">
                     </div>
-                    <div class="col-6 col-lg-6">
+                    <div class="col-lg-6">
 		                <p class="zm-title zm-font-left" style="text-align: justify;">Sistem rewarding yang seru untuk membuat pekerjaan lebih menyenangkan</p>
                             <div class="pull-left col-lg-3 d-md-block p-1 bg-danger"></div>
 		                <p class="zm-subtitle zm-mb_r-2 zm-font-left" style="padding-right:0px; text-align: justify; padding-top: 20px">Terdapat berbagai macam Reward yang bisa didapatkan teknisi, seperti Coin, Badges, Voucher, Coupon, dan Lucky Spin. Anda juga tidak perlu lagi pusing memberikan reward secara berkala. Teknisi dapat menukarkan dan mendapatkan rewardnya sendiri dari hasil kerjanya</p>
@@ -99,20 +91,20 @@
 
             <!--Aplikasi 5-->
             <div class="row zm-xs-product">
-                <div class="col-6 col-lg-6" style="padding-left: 0px;">
+                <div class="col-lg-6" style="padding-left: 0px;">
 			        <p class="zm-title zm-font-left" style="text-align: justify;">Dashboard untuk monitor dan mengatur sistem rewarding</p>
                         <div class="col-lg-3 d-md-block p-1 bg-danger"></div>
 				    <p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify; padding-top: 20px">Anda dapat mengevaluasi kinerja masing-masing teknisi melalui dashboard. Selain itu, Anda juga dapat mengatur Mission dan Reward yang ingin Anda berikan kepada tim teknisi. Berikan 10 XP atau 20 XP, semua dapat Anda atur melalui dashboard</p>
 			    </div>
-                <div class="col-6 col-lg-6 d-flex align-items-right zm-xs-s_wrap_img">
-                <img class="zm-xs-s_wrap_img" style="max-height:350px; padding-right:0px" src="<?php echo base_url();?>dist/Assets/Solusi - Platform/platform-2.png" alt="dashboard zoomin untuk monitor dan konfigurasi">
+                <div class="col-lg-6 d-flex align-items-right zm-xs-s_wrap_img">
+                <img class="zm-xs-s_wrap_img" style="height:auto; width: 100%; margin-top: -3rem; padding-right:0px;" width="600" height="400" src="<?php echo base_url();?>dist/Assets/Solusi - Platform/platform-2.png" alt="dashboard zoomin untuk monitor dan konfigurasi">
                 </div>
             </div>
             <!--Aplikasi 5-->
 
-        </div>
+         </div>
     </div>
-</section>
+</section> 
 <!--Section 2-->
 
 <!-- MockUp Modal --> 

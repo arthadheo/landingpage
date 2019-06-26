@@ -1,16 +1,3 @@
-<style>
-    input:focus { 
-    outline: none !important;
-    border-color: #ED2A2E !important;
-    box-shadow: 0 0 3px #ED2A2E !important;
-}
-textarea:focus { 
-    outline: none !important;
-    border-color: #ED2A2E !important;
-    box-shadow: 0 0 3px #ED2A2E !important;
-}
-</style>
-
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
 <div id="home"></div>
     <title>Solusi Gamification untuk HR Software Indonesia | Zoomin</title>

@@ -1,11 +1,3 @@
-<style>
-    input:focus { 
-    outline: none !important;
-    border-color: #ED2A2E !important;
-    box-shadow: 0 0 3px #ED2A2E !important;
-}
-</style>
-
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
 <div id="home"></div>
 	<title>Zoomin | Solusi Gamification untuk Aplikasi Karyawan</title>
@@ -101,7 +93,7 @@
 
 <!-- section three -->
 <section class="section-three zm-bg-light" id="home1">
-	<div class="container">
+	<div class="container-fluid" style="padding-right:10vw; padding-left:10vw;">
 		<div class="zm-content-two" style="padding-top: 30px; padding-bottom: 30px">
 			<div class="row zm-mb_r-4">
 				<div class="col-lg-12">
@@ -111,10 +103,10 @@
 			<div class="row row-table">
                 <div class="col-lg-6" style="padding-left: 30px; padding-right: 30px">
 					<div class="col-10 row">
-						<div class="col-2 zm-xs-s_wrap_img">
+						<div class="zm-xs-s_wrap_img">
                         	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-app.png" alt="aplikasi teknisi dengan gamification">
                     	</div>
-						<p class="col-4 zm-title zm-font-left">Aplikasi</p>
+						<p class="zm-title zm-font-left" style="padding-left:5px;">Aplikasi</p>
 					</div>
 					<p class="zm-subtitle zm-mb_r-2 zm-font-left border-bottom" style="padding-bottom: 20px;">Aplikasi mobile dengan fitur gamification di dalamnya
 					untuk meningkatkan produktivitas kerja teknisi Anda. Cocok untuk Anda yang belum memiliki aplikasi untuk pekerjaan teknisi Anda</p>
@@ -135,10 +127,10 @@
 				</div>
                 <div class="col-lg-6 border-left" style="padding-left: 30px;">
 					<div class="col-10 row">
-						<div class="col-2 zm-xs-s_wrap_img">
+						<div class="zm-xs-s_wrap_img">
                         	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-platform.png" alt="platform gamification untuk aplikasi teknisi">
                     	</div>
-						<p class="zm-title zm-font-left">Platform</p>
+						<p class="zm-title zm-font-left" style="padding-left:5px;">Platform</p>
 					</div>
 					<p class="zm-subtitle zm-mb_r-2 zm-font-left border-bottom" style="padding-bottom: 20px">Platform gamification untuk menambahkan elemen game ke dalam keseharian teknisi. Cocok untuk Anda yang sudah memiliki aplikasi untuk pekerjaan teknisi Anda.</p>
 					<div class="row">
@@ -155,17 +147,15 @@
 					</div>
 			    </div>
 			</div>
-			<div class="row zm-mb_r-4" style="padding-top: 50px">
-				<div class="col-lg-12">
-					<p class="zm-content-title" style="padding-top: 30px; padding-bottom: 50px">Kini Anda bisa memiliki tim yang tangguh
-						<br>hanya dengan mengimplementasikan Zoomin</br></p>
-				</div>
+			<div class="row zm-mb_r-4" style="padding-top: 50px">	
+				<div class="col-lg-12 zm-content-title text-center" style="padding-bottom: 50px;">Kini Anda bisa memiliki tim yang tangguh
+						<br>hanya dengan mengimplementasikan Zoomin</br></div>
 				<div class="col-lg-5" style="padding-left: 30px;">
-					<div class="col-10 row">						
-                        	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-tanpa-zoomin.png" alt="">
+					<div class="row">						
+                    		<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-tanpa-zoomin.png" alt="">
 						<h5 class="zm-title" style="padding-left: 0px; padding-top: 20px;">Tanpa Gamification</h5>
 					</div>
-					<ul class="dashed zm-subtitle" style="width: 442px; height: 150px;">
+					<ul class="dashed zm-subtitle" style="width: 100%; height: auto">
 						<li> Perusahaan tidak tahu performansi masing-masing teknisi</li>
 						<li> Teknisi merasa kurang diberi apresiasi dan reward oleh perusahaan</li>
 						<li> Pelaporan kerja manual dan memakan waktu lama</li> 
@@ -174,20 +164,20 @@
 					</ul>
 				</div>
 				<div class="col-lg-7">
-					<div class="card" style="width: 640px; height: 270px; padding-left: 30px;">
-	  					<div class="card-body">
-	  						<div class="col-12 row">
-                        		<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-pakai-zoomin.png" alt="" style="width: 60px; height: 60px; padding-top: 10px;">
-	    						<h5 class="zm-title text-danger text-center" style="padding-top: 10px;">Dengan Gamification Zoomin</h5>
-	    						<ul class="dashed zm-subtitle" style="width: 522px; height: 150px;">
-	    							<li> Pelaporan hasil kerja mudah dan tersistem</li>
-	    							<li> Feedback diberikan secara langsung</li>
-	    							<li> Penilaian performansi masing-masing individu mudah dengan data gamification</li>
-	    							<li> Hasil pekerjaan melebihi target</li>
-	    							<li> Tidak perlu rekrut karyawan baru untuk mendapatkan hasil yang sama</li>
+					<div class="card" style="width: 100%; height: auto;">
+						<div class="card-body">
+							<div class="row">
+								<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-pakai-zoomin.png" alt="" style="width: 60px; height: 60px; padding-top: 10px;">
+								<h5 class="zm-title text-danger text-center" style="padding-top: 10px;">Dengan Gamification Zoomin</h5>
+								<ul class="dashed zm-subtitle" style="width: 100%; height: auto">
+									<li> Pelaporan hasil kerja mudah dan tersistem</li>
+									<li> Feedback diberikan secara langsung</li>
+									<li> Penilaian performansi masing-masing individu mudah dengan data gamification</li>
+									<li> Hasil pekerjaan melebihi target</li>
+									<li> Tidak perlu rekrut karyawan baru untuk mendapatkan hasil yang sama</li>
 								</ul>
-	    					</div>
-	  					</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -302,7 +292,17 @@
 </div>
 </section>
 <!-- Javascript start  -->
-
+<script>
+    $(document).ready(function(){
+        $('#home').addClass('active');
+  $(".zm-nmbr").keypress(function (e) {
+   //if the letter is not digit then display error and don't type anything
+   if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+    return false;
+   }
+  });
+    })
+</script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124227942-1"></script>
