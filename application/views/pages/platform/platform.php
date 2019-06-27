@@ -10,10 +10,10 @@
         <div class="zm-content-one">
             <div id="platform" class="zm-d-initial">
                 <div class="row">
-                    <div class="col-lg-12 d-flex justify-content-center zm-s-s_wrap">
-                        <p class="zm-content-title zm-xs-s_text text-white" style="font-weight: bolder!important;">Mau menambahkan gamification<br> ke dalam aplikasi Anda?<br/></p>
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <p class="zm-home-title text-white" style="line-height:1.25em;">Mau menambahkan gamification<br> ke dalam aplikasi Anda?</p>
                     </div>
-                        <p class="col-lg-12 zm-font-s_14 justify-content-center text-white" style="padding-top: 20px; padding-bottom: 30px; line-height: 146.75%; font-weight: 500; text-align: center;">Apabila Anda sudah memiliki aplikasi HRIS untuk teknisi, tambahkan elemen game ke <br> dalam aplikasi tersebut dengan platform gamification Zoomin</p>
+                        <p class="col-lg-12 zm-home-subtitle justify-content-center text-white">Apabila Anda sudah memiliki aplikasi HRIS untuk teknisi, tambahkan elemen game ke <br> dalam aplikasi tersebut dengan platform gamification Zoomin</p>
                         <div class="col-lg-12 d-flex justify-content-center align-items-center" style="padding-top: 50px;">
 							<button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
 							    YA, SAYA MAU
@@ -38,21 +38,21 @@
 			<div class="card-deck" style="margin-top: 2rem">
 			  <div class="card" class="example z-depth-5">
 			    <div class="card-body">
-			    	<img src="<?php echo base_url(); echo $dist_img; ?>/elemen/experience-point.png" alt="">
+			    	<img src="<?php echo base_url(); echo $dist_img; ?>/elemen/experience-point.png" alt="" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Experience Point (XP)</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Diberikan setelah menyelesaikan tugas. Dapat dikumpulkan untuk naik level.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			    	<img src="<?php echo base_url(); echo $dist_img; ?>/elemen/redeemable-point.png" alt="">
+			    	<img src="<?php echo base_url(); echo $dist_img; ?>/elemen/redeemable-point.png" alt="" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Redeemable Point (Coin)</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Diberikan setelah menyelesaikan tugas. Dapat ditukarkan dengan rewards yang tersedia.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/badge.png" alt="">
+			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/badge.png" alt="" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Badge</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Lencana sebagai bentuk pengakuan kepada teknisi untuk mendapatkan <i>sense of achievement</i></p>
 			    </div>
@@ -62,21 +62,21 @@
 			<div class="card-deck" style="margin-top: 2rem">
 			  <div class="card">
 			    <div class="card-body">
-			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/voucher.png" alt="">
+			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/voucher.png" alt="" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Voucher</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Hadiah yang dapat ditukarkan dengan Coin. Voucher dapat berupa voucher belanja, pulsa, dll.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/promo-code.png" alt="">
+			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/promo-code.png" alt="" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Promo Code</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Hadiah yang diberikan perusahaan kepada teknisi dalam bentuk kode khusus, misalnya kode promo diskon, gratis ongkir, dll.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/coupon.png" alt="">
+			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/coupon.png" alt="" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Coupon</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Hadiah yang diberikan setelah teknisi berhasil melakukan tugas tertentu. Dapat berupa Coupon cuti 1 hari, liburan keluarga, dll.</p>
 			    </div>
@@ -86,21 +86,21 @@
 			<div class="card-deck" style="margin-top: 2rem">
 			  <div class="card">
 			    <div class="card-body">
-			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/lucky-spin.png" alt="">
+			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/lucky-spin.png" alt="" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Lucky Spin</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Hadiah yang diberikan setelah teknisi berhasil melakukan tugas tertentu dalam bentuk roda berputar.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/level.png" alt="">
+			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/level.png" alt="" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Level</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Representasi dari semua progress yang telah dilakukan teknisi. Kenaikan level didapatkan ketika XP mencapai angka tertentu.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/leaderboard.png" alt="">
+			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/leaderboard.png" alt="" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Leaderboard</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Menampilkan ranking yang diperoleh oleh teknisi berdasarkan akumulasi XP yang didapat.</p>
 			    </div>
@@ -128,7 +128,7 @@
     						 <p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify-all; padding-top:30px; padding-bottom:30px">Anda dapat mengevaluasi kinerja masing-masing teknisi melalui dashboard. Selain itu, Anda juga dapat mengatur Mission dan Reward yang ingin Anda berikan kepada tim teknisi. Berikan 10 XP atau 20 XP, semua dapat Anda atur melalui dashboard</p>
        					</div>
 		                <div class="col-md-6 d-flex align-items-left zm-xs-s_wrap_img" style="margin-bottom: 50px;">
-		                    <img class="zm-xs-s_wrap_img" style="height:auto; width: 100%; margin-top: -3rem; padding-right:50px; margin-bottom:30px;" src="<?php echo base_url();?>dist/images/illustrations/platform-2.png" alt="dashboard zoomin untuk monitor dan konfigurasi">
+		                    <img class="zm-xs-s_wrap_img" style="height:auto; width: 100%; margin-top: -3rem; padding-right:50px; margin-bottom:30px;" width="600" height="400" src="<?php echo base_url();?>dist/images/illustrations/platform-2.png" alt="dashboard zoomin untuk monitor dan konfigurasi">
 		                </div>
 			</div>
 		</div>
@@ -144,7 +144,7 @@
                       <div class="modal-footer" style="border-radius: 8px; margin-left: 10px;">
                       	<div style="width: 100%;">
                       		<button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;">
-							  <img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png" alt="icon close">
+							  <img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png" alt="icon close" width="30" height="30">
 							</button>
                   			<div class="zm-content-title" style="text-align: left; padding-bottom: 30px; padding-top: 30px;">Saya mau meningkatkan produktivitas teknisi saya
                   			</div>

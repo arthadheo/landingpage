@@ -504,14 +504,14 @@ ul.dashed > li:before {
 .zm-content-title {
 	margin-bottom: 1.25rem;
 	font-weight: bold;
-	font-size: 1.875em
+	font-size: 1.875em;
 	line-height: 2.1875em;
 	text-align: center;
 	color: #272A2F;
 }
 
 .zm-content-subtitle {
-	font-size: 1.125em
+	font-size: 1.125em;
 	line-height: 1.625em;
 	text-align: center;
 	color: #272A2F;
