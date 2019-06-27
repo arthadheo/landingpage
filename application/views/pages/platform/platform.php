@@ -111,7 +111,7 @@
 				 	<hr size="10px">
 				 </center>	
 			</div>
-		<div class="row zm-xs-product zm-mb-25">
+		<div class="row zm-xs-product zm-mb-200">
 				<div class="col-md-6 d-flex align-items-right zm-xs-s_wrap_img">
 				        <img class="zm-xs-s_wrap_img custom-w-h zm-mt_r--3 zm-pr-50" width="600" height="400" src="<?php echo base_url();?>dist/images/illustrations/platform-1.png" alt="tampilan API gamification zoomin">
 				</div>

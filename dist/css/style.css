@@ -633,7 +633,11 @@ ul.dashed > li:before {
 }
 
 .zm-font-bold {
-	font-weight: bold;
+	font-weight: bold !important;
+}
+
+.zm-font-light {
+	font-weight: lighter !important;
 }
 
 .zm-font-normal {
@@ -774,6 +778,10 @@ ul.dashed > li:before {
 
 .zm-mb-50 {
 	margin-bottom: 3.125em !important;
+}
+
+.zm-mb-200 {
+	margin-bottom: 12.5em !important;
 }
 
 .zm-mb-56 {

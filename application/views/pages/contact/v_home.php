@@ -43,9 +43,9 @@
                     </div>
 				</div>
 				<div class="col-lg-4 zm-xs-contact_add">
-					<h1 class="zm-content-subtitle zm-font-left zm-mb-5">Alamat</h1>
+					<h1 class="zm-content-subtitle zm-font-left zm-font-bold zm-mb-5 ">Alamat</h1>
                     <p class="zm-desc-e_gamify zm-mb_r-3 zm-font-left zm-font-s_16 zm-lh-23">
-                        <span class="zm-font-300">Menara Multimedia, Lt.6</span><br> Jl. Kebon Sirih No.12, RT.11/RW.2, Gambir, 
+                        <span class="zm-font-500 zm-font-light">Menara Multimedia, Lt.6</span><br> Jl. Kebon Sirih No.12, RT.11/RW.2, Gambir, 
                         Kota Jakarta Pusat, DKI Jakarta 10110</p>
                         <hr size="100%">
 					<h1 class="zm-content-subtitle zm-font-bold zm-font-left zm-mb-5 zm-pt-30">Email</h1>
