@@ -11,9 +11,9 @@
             <div id="platform" class="zm-d-initial">
                 <div class="row">
                     <div class="col-lg-12 d-flex justify-content-center zm-s-s_wrap">
-                        <p class="zm-content-title zm-xs-s_text text-white" style="font-weight: bolder!important;">Mau punya aplikasi yang bisa membuat<br> teknisi Anda lebih produktif?<br/></p>
+                        <p class="zm-home-title text-white" style="line-height:1.25em;">Mau punya aplikasi yang bisa membuat<br> teknisi Anda lebih produktif?</p>
                     </div>
-                        <p class="col-lg-12 zm-font-s_14 justify-content-center text-white" style="padding-top: 20px; padding-bottom: 30px; line-height: 146.75%; font-weight: 500; text-align: center;">Gunakan aplikasi Zoomin, aplikasi HRD untuk teknisi yang dapat meningkatkan <br>produktivitas teknisi Anda dengan gamification<br/></p>
+                        <p class="col-lg-12 zm-home-subtitle justify-content-center text-white">Gunakan aplikasi Zoomin, aplikasi HRD untuk teknisi yang dapat meningkatkan <br>produktivitas teknisi Anda dengan gamification<br/></p>
                         <div class="col-lg-12 d-flex justify-content-center align-items-center" style="padding-top: 50px;">
                             <button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
                                 YA, SAYA MAU
@@ -113,7 +113,7 @@
                   <div class="modal-content">
                       <div class="modal-footer" style="border-radius: 8px; margin-left: 10px;">
                         <div style="width: 100%;">
-                            <button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png"></button>
+                            <button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png" width="30" height="30"></button>
                             <div class="zm-content-title" style="text-align: left; padding-bottom: 30px; padding-top: 30px;">Saya mau meningkatkan produktivitas teknisi saya
                             </div>
                               <form action="<?php echo base_url(); ?>contact/send_wa" method="POST" enctype='multipart/form-data'>

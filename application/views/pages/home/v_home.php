@@ -17,7 +17,7 @@
 						<div class="bs-example">
 					    	<!-- Button HTML (to Trigger Modal) -->
 					    	<a href="#myModal" data-toggle="modal">
- 								<img src="<?php echo base_url();?>/dist/Assets/Homepage/play-button.png" alt=""> 
+ 								<img src="<?php echo base_url();?>/dist/Assets/Homepage/play-button.png" alt="" width="90" height="90"> 
 							</a>						    
 						    <!-- Modal HTML -->
 						   	<div id="myModal" class="modal fade">
@@ -36,7 +36,7 @@
 						    </div>
 						</div>
                     </div>
-                        <p class="col-lg-12 zm-content-subtitle text-white" style=" font-size: 14px">Zoomin menyediakan solusi gamification untuk aplikasi karyawan, khususnya teknisi, <br>untuk membantu meningkatkan produktivitas kinerja teknisi Anda.<br/></p>
+                        <p class="col-lg-12 zm-subtitle text-white" style="text-align:center">Zoomin menyediakan solusi gamification untuk aplikasi karyawan, khususnya teknisi, <br>untuk membantu meningkatkan produktivitas kinerja teknisi Anda.<br/></p>
                     <div class="col-lg-12 d-flex justify-content-center align-items-center" style="padding-top: 50px;">
                         <button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
                             YA, SAYA MAU
@@ -63,7 +63,7 @@
   				<div class="carousel-inner">
     				<div class="carousel-item active" style="text-align: center">
 						<div class="col-lg-12" style="padding-bottom: 30px;">
-                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/gamification.png" alt="">&nbsp; Gamification</span>
+                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/gamification.png" alt="" width="40" height="40">&nbsp; Gamification</span>
                     	</div>
 						<p class="zm-subtitle">&nbsp; ... menurut <i>Merriam-Webster Dictionary</i> adalah proses penambahan 
 						elemen-elemen game (seperti poin, kompetisi, dll) ke dalam aktivitas tertentu untuk meningkatkan engangement
@@ -71,14 +71,14 @@
     				</div>
     				<div class="carousel-item" style="text-align: center">
 						<div class="col-lg-12" style="padding-bottom: 30px;">
-                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/77_.png" alt="">&nbsp; 77% </span>
+                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/77_.png" alt="" width="40" height="40">&nbsp; 77% </span>
                     	</div>
 						<p class="zm-subtitle">&nbsp; Menurut survey oleh Gallup, 77% karyawan di Indonesia tidak engaged dengan pekerjaannya, yang menyebabkan karyawan tersebut rentan pindah pekerjaan. Hal ini tentu berdampak terhadap biaya rekrutmen ataupun pelatihan yang harus dikeluarkan perusahaan
 						</p>
     				</div>
     				<div class="carousel-item" style="text-align: center">
 						<div class="col-lg-12" style="padding-bottom: 30px;">
-                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/90_.png" alt="">&nbsp; 90%</span>
+                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/90_.png" alt="" width="40" height="40">&nbsp; 90%</span>
                     	</div>
 						<p class="zm-subtitle">&nbsp; Gamification dapat meningkatkan engagement, motivasi, inisiatif, dan jiwa kompetitif karyawan. Terbukti, berdasarkan penelitian, 90% karyawan merasa lebih produktif ketika bekerja dengan menggunakan gamification
 						</p>
@@ -103,7 +103,7 @@
                 <div class="col-lg-6" style="padding-left: 30px; padding-right: 30px">
 					<div class="col-10 row">
 						<div class="zm-xs-s_wrap_img">
-                        	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-app.png" alt="aplikasi teknisi dengan gamification">
+                        	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-app.png" alt="aplikasi teknisi dengan gamification" width="60" height="60">
                     	</div>
 						<p class="zm-title zm-font-left" style="padding-left:5px;">Aplikasi</p>
 					</div>
@@ -127,7 +127,7 @@
                 <div class="col-lg-6 border-left" style="padding-left: 30px;">
 					<div class="col-10 row">
 						<div class="zm-xs-s_wrap_img">
-                        	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-platform.png" alt="platform gamification untuk aplikasi teknisi">
+                        	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-platform.png" alt="platform gamification untuk aplikasi teknisi" width="60" height="60">
                     	</div>
 						<p class="zm-title zm-font-left" style="padding-left:5px;">Platform</p>
 					</div>
@@ -151,7 +151,7 @@
 						<br>hanya dengan mengimplementasikan Zoomin</br></div>
 				<div class="col-lg-5" style="padding-left: 30px;">
 					<div class="row">						
-                    		<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-tanpa-zoomin.png" alt="">
+                    		<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-tanpa-zoomin.png" alt="" width="60" height="60">
 						<h5 class="zm-title" style="padding-left: 0px; padding-top: 20px;">Tanpa Gamification</h5>
 					</div>
 					<ul class="dashed zm-subtitle" style="width: 100%; height: auto">
@@ -166,7 +166,7 @@
 					<div class="card" style="width: 100%; height: auto;">
 						<div class="card-body">
 							<div class="row">
-								<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-pakai-zoomin.png" alt="" style="width: 60px; height: 60px; padding-top: 10px;">
+								<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-pakai-zoomin.png" alt="" width="60" height="60">
 								<h5 class="zm-title text-danger text-center" style="padding-top: 10px;">Dengan Gamification Zoomin</h5>
 								<ul class="dashed zm-subtitle" style="width: 100%; height: auto">
 									<li> Pelaporan hasil kerja mudah dan tersistem</li>
@@ -241,7 +241,7 @@
                   <div class="modal-content">
                       <div class="modal-footer" style="border-radius: 8px; margin-left: 10px;">
                       	<div style="width: 100%;">
-                      		<button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="width: 40px; margin-top: 30px; margin-right: 30px;"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png"></button>
+                      		<button  type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" style="margin-top: 30px; margin-right: 30px;"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png" width="30" height="30"></button>
                   			<div class="zm-content-title" style="text-align: left; padding-bottom: 30px; padding-top: 30px;">Saya mau meningkatkan produktivitas teknisi saya
                   			</div>
 	                          <form action="<?php echo base_url(); ?>contact/send_wa" method="POST" enctype='multipart/form-data'>
