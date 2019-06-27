@@ -169,6 +169,66 @@ nav {
 	align-items: center;
 }
 
+/* Homepage */
+.hero-bg {
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("/landingpage/dist/Assets/Homepage/hero-homepage.png");
+}
+
+.zm-border-100 {
+	border-radius: 100%;
+}
+
+/* PLatform */
+.hero-bg-1 {
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("/landingpage/dist/Assets/Solusi - Platform/hero-platform.png");
+}
+
+.zm-plat {
+	padding-top: 20px !important; 
+	padding-left: 3% !important; 
+	border-radius: 8px !important;
+}
+
+/* Aplikasi */
+.hero-bg-2 {
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("/landingpage/dist/Assets/Solusi - Aplikasi/hero-aplikasi1.png");
+}
+/* Custom */
+.zm-lh-20{
+	line-height: 1.25em !important;
+}
+
+.zm-lh-23{
+	line-height: 1.4375em !important;
+}
+
+.custom-btn {
+	font-weight: bold; 
+	font-size: 14px; 
+	padding: 10px;
+}
+
+.custom-w-h {
+	width: 100%; 
+	height: auto;
+}
+
+.zm-width {
+	width: 100%;
+}
+
+.zm-height-150 {
+	height: 9.375em;
+}
 /*subscribe newsletter*/
 #mc_embed_signup {
 	background:#fff; 
@@ -647,14 +707,37 @@ ul.dashed > li:before {
 
 /* /DISPLAY */
 
-
+/* border-radius */
+.zm-br-8{
+	border-radius: 0.5em;
+}
 /* Margin */
 .zm-ma-0 {
 	margin: 0 !important;
 }
 
+.zm-ma-1 {
+	margin: 1rem !important;
+}
+
+.zm-mc-30 {
+	margin: 1.875em 0 1.875em 0 !important;
+}
+
 .zm-mt-0 {
 	margin-top: 0 !important;
+}
+
+.zm-mt_r-2 {
+	margin-top: 2rem !important;
+}
+
+.zm-mt_r-5 {
+	margin-top: 5rem !important;
+}
+
+.zm-mt_r--3 {
+	margin-top: -3rem !important;
 }
 
 .zm-mr-0 {
@@ -679,6 +762,22 @@ ul.dashed > li:before {
 
 .zm-mb-20 {
 	margin-bottom: 1.25em !important;
+}
+
+.zm-mb-25 {
+	margin-bottom: 1.5625em !important;
+}
+
+.zm-mb-30 {
+	margin-bottom: 1.875em !important;
+}
+
+.zm-mb-50 {
+	margin-bottom: 3.125em !important;
+}
+
+.zm-mb-56 {
+	margin-bottom: 3.5em !important;
 }
 
 .zm-mb_r-1 {
@@ -727,6 +826,62 @@ ul.dashed > li:before {
 	padding: 0.3125em !important;
 }
 
+.zm-pb-10 {
+	padding-bottom: 0.625em	!important;
+}
+
+.zm-pb-20 {
+	padding-bottom: 1.25em	!important;
+}
+
+.zm-pb-30 {
+	padding-bottom: 1.875em	!important;
+}
+
+.zm-pb-50 {
+	padding-bottom: 3.125em	!important;
+}
+
+.zm-pt-10 {
+	padding-top: 0.625em !important;
+}
+
+.zm-pt-20 {
+	padding-top: 1.25em	!important;
+}
+
+.zm-pt-27 {
+	padding-top: 1.6875em !important;
+}
+
+.zm-pt-30 {
+	padding-top: 1.875em !important;
+}
+
+.zm-pt-50 {
+	padding-top: 3.125em	!important;
+}
+
+.zm-pl-0 {
+	padding-left: 0	!important;
+}
+
+.zm-pl-5 {
+	padding-left: 0.3125em	!important;
+}
+
+.zm-pl-30 {
+	padding-left: 1.875em	!important;
+}
+
+.zm-pr-0 {
+	padding-right: 0	!important;
+}
+
+.zm-pr-50 {
+	padding-right: 3.125em	!important;
+}
+
 /* /Padding */
 
 .zm-content-one {
@@ -743,6 +898,16 @@ ul.dashed > li:before {
 
 .zm-content-four {
 	padding: 11vw 0 11vw;
+}
+
+.zm-content-five {
+	padding-right: 10vw !important;
+	padding-left: 10vw !important;
+}
+
+.zm-content-six {
+	padding-right: 1.875em !important;
+	padding-left: 1.875em !important;
 }
 
 .zm-card-type-service {
@@ -2176,14 +2341,6 @@ h5.mt-0 {
 .comment-top {
 	margin-top: 2em;
 }
-
-.hero-bg {
-		min-height: 12.5em;
-		background-size: cover;
-		background-position: 50% 50%;
-		background-repeat: no-repeat;
-	}
-
 /* //blog responsive code */
 
 @media (min-width: 48em) {

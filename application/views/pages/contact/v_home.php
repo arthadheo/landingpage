@@ -9,7 +9,7 @@
 		<div class="zm-content-one">
 			<div class="row">
 				<div class="col-lg-8">
-					<h1 class="zm-content-title zm-font-left" style="font-weight: bolder">Mau teknisi Anda lebih produktif?</h1>
+					<h1 class="zm-content-title zm-font-left">Mau teknisi Anda lebih produktif?</h1>
 					<p class="zm-subtitle zm-mb_r-2 zm-font-left zm-font-normal">Kami menyediakan solusi gamification untuk HR software Indonesia, khususnya untuk tenaga kerja teknisi, Anda tertarik? Silahkan isi data dibawah ini dan ahli gamification kami akan segera menghubungi Anda kembali.
                     </p>
                     <div class="row">
@@ -34,8 +34,8 @@
                                 </div>
                                 <div class="form-group" >
                                     <label class="zm-font-bold" for="msg">Pesan</label>
-                                    <textarea class="zm-font-s_16 zm-font-500 form-control " name="msgContact" 
-                                    id="msg" style="height:150px;" required></textarea>
+                                    <textarea class="zm-font-s_16 zm-font-500 form-control zm-height-150" name="msgContact" 
+                                    id="msg" required></textarea>
                                 </div>
                                 <button type="submit" class="btn zm-s_red-ct zm-font-500" title="Kirim pesan">kirim</button>
                             </form>
@@ -43,18 +43,18 @@
                     </div>
 				</div>
 				<div class="col-lg-4 zm-xs-contact_add">
-					<h1 class="zm-content-subtitle zm-font-left zm-mb-5" style="font-weight: bolder">Alamat</h1>
-                    <p class="zm-desc-e_gamify zm-mb_r-3 zm-font-left zm-font-s_16" style="line-height: 23px;">
-                        <span class="zm-font-500" style="font-weight: lighter;">Menara Multimedia, Lt.6</span><br> Jl. Kebon Sirih No.12, RT.11/RW.2, Gambir, 
+					<h1 class="zm-content-subtitle zm-font-left zm-mb-5">Alamat</h1>
+                    <p class="zm-desc-e_gamify zm-mb_r-3 zm-font-left zm-font-s_16 zm-lh-23">
+                        <span class="zm-font-300">Menara Multimedia, Lt.6</span><br> Jl. Kebon Sirih No.12, RT.11/RW.2, Gambir, 
                         Kota Jakarta Pusat, DKI Jakarta 10110</p>
                         <hr size="100%">
-					<h1 class="zm-content-subtitle zm-font-bold zm-font-left zm-mb-5" style="padding-top: 30px;">Email</h1>
-					<p class="zm-desc-e_gamify zm-mb_r-3 zm-font-left zm-font-s_16" style="line-height: 23px;">
+					<h1 class="zm-content-subtitle zm-font-bold zm-font-left zm-mb-5 zm-pt-30">Email</h1>
+					<p class="zm-desc-e_gamify zm-mb_r-3 zm-font-left zm-font-s_16 zm-lh-23">
                        <span class="zm-font-500">halo@zoomin.id</span></a>
                     </p>
                     <hr size="100%">
-					<h1 class="zm-content-subtitle zm-font-bold zm-font-left zm-mb-5" style="padding-top: 30px;">No. Telp</h1>
-					<p class="zm-desc-e_gamify zm-mb_r-3 zm-font-left zm-font-s_16" style="line-height: 23px;">
+					<h1 class="zm-content-subtitle zm-font-bold zm-font-left zm-mb-5 zm-pt-30">No. Telp</h1>
+					<p class="zm-desc-e_gamify zm-mb_r-3 zm-font-left zm-font-s_16 zm-lh-23">
                        <span class="zm-font-500">0813-2215-1415</span></a>
                     </p>
                     <hr size="100%" >
