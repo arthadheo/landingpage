@@ -13,7 +13,10 @@
                     <div class="col-lg-12 d-flex justify-content-center zm-s-s_wrap">
                         <p class="zm-content-title zm-xs-s_text text-white" style="font-weight: bolder!important;">Mau menambahkan gamification<br> ke dalam aplikasi Anda?<br/></p>
                     </div>
-                        <p class="col-lg-12 zm-font-s_14 justify-content-center text-white" style="padding-top: 20px; padding-bottom: 30px; line-height: 146.75%; font-weight: 500; text-align: center;">Apabila Anda sudah memiliki aplikasi HRIS untuk teknisi, tambahkan elemen game ke <br> dalam aplikasi tersebut dengan platform gamification Zoomin</p>
+                        <span class="col-lg-12 zm-content-subtitle text-white zm-font-s_14" style="padding-top: 20px; padding-bottom: 30px; line-height: 146.75%; font-weight: 500; text-align: center;">Apabila Anda sudah memiliki 
+						<h1 style="display: inline" class="zm-font-s_14 text-white zm-content-subtitle">aplikasi HRIS</h1>
+						<span class="zm-font-s_14 text-white zm-content-subtitle">untuk teknisi, tambahkan elemen game ke 
+						<br /> dalam aplikasi tersebut dengan platform gamification Zoomin</span></span>
                         <div class="col-lg-12 d-flex justify-content-center align-items-center" style="padding-top: 50px;">
 							<button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
 							    YA, SAYA MAU
@@ -32,7 +35,7 @@
 		<div class="zm-content-three">
 			<div class="row zm-mb_r-4">
 				<div class="col-lg-12" style="margin: 1rem">
-					<h1 class="zm-content-title zm-font-s_30">15++ Elemen Game untuk Anda</h1>
+					<h2 class="zm-content-title zm-font-s_30">15++ Elemen Game untuk Anda</h2>
 				</div>
 			</div>
 			<div class="card-deck" style="margin-top: 2rem">
@@ -116,14 +119,14 @@
 				        <img class="zm-xs-s_wrap_img" style="height:auto; width: 100%; margin-top: -3rem; padding-right:50px;" width="600" height="400" src="<?php echo base_url();?>dist/images/illustrations/platform-1.png" alt="tampilan API gamification zoomin">
 				</div>
 				<div class="col-lg-6">
-				     <p class="zm-title zm-font-left" style="text-align: justify-all;">Integrasikan API gamification ke dalam aplikasi Anda</p>
+				     <h3 class="zm-title zm-font-left" style="text-align: justify-all;">Integrasikan API gamification ke dalam aplikasi Anda</h3>
 				        <div class="pull-left col-lg-3 d-md-block p-1 bg-danger"></div>
 				    		<p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify-all; padding-top:30px; padding-bottom:30px"> Berbagai elemen game dapat dengan mudah Anda integrasikan ke dalam aplikasi teknisi Anda dengan menggunakan API</p>
 				</div>
 		</div>
 		<div class="row zm-xs-product" style="margin-bottom: 50px;">		
 				<div class="col-lg-6">
-     				<p class="zm-title zm-font-left" style="text-align: justify-all;">Dashboard untuk monitor dan mengatur sistem rewarding</p>
+     				<h3 class="zm-title zm-font-left" style="text-align: justify-all;">Dashboard untuk monitor dan mengatur sistem rewarding</h3>
                         <div class="col-lg-3 d-md-block p-1 bg-danger"></div>
     						 <p class="zm-subtitle zm-mb_r-2 zm-font-left" style="text-align: justify-all; padding-top:30px; padding-bottom:30px">Anda dapat mengevaluasi kinerja masing-masing teknisi melalui dashboard. Selain itu, Anda juga dapat mengatur Mission dan Reward yang ingin Anda berikan kepada tim teknisi. Berikan 10 XP atau 20 XP, semua dapat Anda atur melalui dashboard</p>
        					</div>
@@ -182,7 +185,7 @@
 		<div class="zm-content-three">
 			<div class="row ">
 				<div class="col-lg-12 zm-mb_r-3">
-					<p class="zm-content-title">Mau menambahkan gamification<br>ke dalam aplikasi Anda?</p>
+					<h2 class="zm-content-title">Mau menambahkan gamification<br>ke dalam aplikasi Anda?</h2>
 					<p class="zm-subtitle" style="text-align: center;">Ubah cara kerja Anda dan teknisi Anda menjadi sesuatu yang mudah dan menyenangkan</p>
 				</div>
 				<div class="col-lg-12 d-flex justify-content-center align-items-center">
