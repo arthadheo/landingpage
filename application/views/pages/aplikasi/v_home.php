@@ -1,8 +1,5 @@
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
 <div id="home"></div>
-    <meta charset="utf-8">
-    <meta  name="description" content="Zoomin menyediakan aplikasi HRD untuk teknisi yang memiliki fitur gamification di dalamnya, sehingga pekerjaan teknisi menjadi lebih mudah dan menyenangkan">    
-    <meta name="keywords" content="aplikasi hrd">
 <!-- section one -->
 <section class="section-one zm-bg-light" id="home1">
 <div class="d-flex flex-column zm-xs-s_wrap_img responsive-image hero-bg-2" alt="foto teknisi memanjat tiang">
@@ -13,7 +10,10 @@
                     <div class="col-lg-12 d-flex justify-content-center zm-s-s_wrap">
                         <p class="zm-home-title text-white zm-lh-20">Mau punya aplikasi yang bisa membuat<br> teknisi Anda lebih produktif?</p>
                     </div>
-                        <p class="col-lg-12 zm-home-subtitle justify-content-center text-white">Gunakan aplikasi Zoomin, aplikasi HRD untuk teknisi yang dapat meningkatkan <br>produktivitas teknisi Anda dengan gamification<br/></p>
+                        <span class="col-lg-12 zm-content-subtitle text-white zm-font-s_14 zm-pt-20 zm-pb-30">Gunakan aplikasi Zoomin, 
+                        <h1 class="zm-font-s_14 text-white zm-content-subtitle zm-d-inline">aplikasi HRD</h1>
+                        <span class="zm-font-s_14 text-white zm-content-subtitle"> untuk teknisi yang dapat meningkatkan 
+                        <br />produktivitas teknisi Anda dengan gamification</span></span>
                         <div class="col-lg-12 d-flex justify-content-center align-items-center zm-pt-50">
                             <button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
                                 YA, SAYA MAU
@@ -33,7 +33,7 @@
         <div class="zm-content-three">
             <div class="row zm-mb_r-4">
                 <div class="col-lg-12">
-                    <p class="zm-content-title">Berikut cara aplikasi Zoomin membantu Anda dan teknisi Anda</p>
+                    <h2 class="zm-content-title">Berikut cara aplikasi Zoomin membantu Anda dan teknisi Anda</h2>
                 </div>
             </div> 
             <!--Aplikasi 1-->

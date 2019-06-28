@@ -12,15 +12,8 @@ class Aplikasi extends CI_Controller {
     $data['title'] = 'Aplikasi HRD dengan Gamification untuk Teknisi | Zoomin';
     $data['meta_description'] = 'Zoomin menyediakan aplikasi HRD untuk teknisi yang memiliki fitur gamification di dalamnya, sehingga pekerjaan teknisi menjadi lebih mudah dan menyenangkan';
     $data['meta_keywords'] = 'aplikasi hrd';
-      $this->output->cache(5);
       $this->load->view('layout/v_header', $data);
       $this->load->view('pages/aplikasi/v_home');
       $this->load->view('layout/v_footer');
   }
-
-  public function delete_file_cache()
-	{
-		$this->output->delete_cache();
-	}
-  
 }

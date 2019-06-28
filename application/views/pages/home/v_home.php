@@ -1,8 +1,5 @@
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
 <div id="home"></div>
-	<meta charset="utf-8">
-	<meta  name="description" content="Zoomin menyediakan solusi gamification untuk aplikasi karyawan, khususnya teknisi. Gamification dapat meningkatkan motivasi dan produktivitas kerja teknisi Anda">
-	<meta name="keywords" content="aplikasi karyawan">
 <!-- section one -->
 <section class="section-one zm-bg-light" id="home1">
 <div class="hero-bg" alt="foto teknisi melakukan perbaikan">
@@ -36,8 +33,11 @@
 						    </div>
 						</div>
                     </div>
-                        <p class="col-lg-12 zm-subtitle text-white zm-font-center zm-pb-50">Zoomin menyediakan solusi gamification untuk aplikasi karyawan, khususnya teknisi, <br>untuk membantu meningkatkan produktivitas kinerja teknisi Anda.<br/></p>
-                    <div class="col-lg-12 d-flex justify-content-center align-items-center">
+						<span class="col-lg-12 zm-content-subtitle text-white zm-font-s_14">Zoomin menyediakan solusi gamification untuk
+						<h1 class="zm-font-s_14 text-white zm-content-subtitle zm-d-inline">aplikasi karyawan</h1>
+						<span class="zm-font-s_14 text-white zm-content-subtitle">, khususnya teknisi,
+						<br />untuk membantu meningkatkan produktivitas kinerja teknisi Anda.</span></span>
+                    <div class="col-lg-12 d-flex justify-content-center align-items-center zm-pt-50">
                         <button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
                             YA, SAYA MAU
                         </button>
