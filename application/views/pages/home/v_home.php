@@ -278,7 +278,7 @@
         <div class="zm-content-three">
             <div class="row ">
                 <div class="col-lg-12 zm-mb_r-3">
-                    <p class="zm-content-title">Mau menambahkan gamification<br>ke dalam aplikasi Anda?</p>
+                    <p class="zm-content-title zm-lh-20">Mau menambahkan gamification<br>ke dalam aplikasi Anda?</p>
                     <p class="zm-subtitle zm-font-center">Ubah cara kerja Anda dan teknisi Anda menjadi sesuatu yang mudah dan menyenangkan</p>
                 </div>
                 <div class="col-lg-12 d-flex justify-content-center align-items-center">
