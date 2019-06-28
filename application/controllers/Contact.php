@@ -14,15 +14,10 @@ class Contact extends CI_Controller {
     $data['title'] = 'Solusi Gamification untuk HR Software Indonesia | Zoomin';
     $data['meta_description'] = 'Zoomin menyediakan solusi gamification untuk HR software Indonesia, khususnya untuk tenaga kerja teknisi. Anda tertarik? Hubungi kami untuk demo produk gratis';
     $data['meta_keywords'] = 'hr software indonesia';
-      $this->output->cache(5);
       $this->load->view('layout/v_header', $data);
       $this->load->view('pages/contact/v_home');
       $this->load->view('layout/v_footer');
   }
-  public function delete_file_cache()
-	{
-		$this->output->delete_cache();
-	}
 
   function send_wa(){
     // DEFINE FORM INPUT

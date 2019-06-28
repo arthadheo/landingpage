@@ -1,8 +1,5 @@
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
 <div id="home"></div>
-	<meta charset="utf-8">
-	<meta  name="description" content="Zoomin menyediakan solusi gamification untuk aplikasi karyawan, khususnya teknisi. Gamification dapat meningkatkan motivasi dan produktivitas kerja teknisi Anda">
-	<meta name="keywords" content="aplikasi karyawan">
 <!-- section one -->
 <section class="section-one zm-bg-light" id="home1">
 <div class="hero-bg" style="background-image: url('<?php echo base_url();?>/dist/Assets/Homepage/hero-homepage.png');" alt="foto teknisi melakukan perbaikan">
@@ -36,7 +33,10 @@
 						    </div>
 						</div>
                     </div>
-                        <p class="col-lg-12 zm-content-subtitle text-white" style=" font-size: 14px">Zoomin menyediakan solusi gamification untuk aplikasi karyawan, khususnya teknisi, <br>untuk membantu meningkatkan produktivitas kinerja teknisi Anda.<br/></p>
+						<span class="col-lg-12 zm-content-subtitle text-white zm-font-s_14">Zoomin menyediakan solusi gamification untuk
+						<h1 style="display: inline" class="zm-font-s_14 text-white zm-content-subtitle">aplikasi karyawan</h1>
+						<span class="zm-font-s_14 text-white zm-content-subtitle">, khususnya teknisi,
+						<br />untuk membantu meningkatkan produktivitas kinerja teknisi Anda.</span></span>
                     <div class="col-lg-12 d-flex justify-content-center align-items-center" style="padding-top: 50px;">
                         <button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
                             YA, SAYA MAU
@@ -96,7 +96,7 @@
 		<div class="zm-content-two" style="padding-top: 30px; padding-bottom: 30px">
 			<div class="row zm-mb_r-4">
 				<div class="col-lg-12">
-					<p class="zm-content-title" style="padding-top: 30px;">Pilih solusi kami yang paling tepat untuk Anda</p>
+					<h2 class="zm-content-title" style="padding-top: 30px;">Pilih solusi kami yang paling tepat untuk Anda</h2>
 				</div>
 			</div>
 			<div class="row row-table">
@@ -105,7 +105,7 @@
 						<div class="zm-xs-s_wrap_img">
                         	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-app.png" alt="aplikasi teknisi dengan gamification">
                     	</div>
-						<p class="zm-title zm-font-left" style="padding-left:5px;">Aplikasi</p>
+						<h3 class="zm-title zm-font-left" style="padding-left:5px;">Aplikasi</h3>
 					</div>
 					<p class="zm-subtitle zm-mb_r-2 zm-font-left border-bottom" style="padding-bottom: 20px;">Aplikasi mobile dengan fitur gamification di dalamnya
 					untuk meningkatkan produktivitas kerja teknisi Anda. Cocok untuk Anda yang belum memiliki aplikasi untuk pekerjaan teknisi Anda</p>
@@ -129,7 +129,7 @@
 						<div class="zm-xs-s_wrap_img">
                         	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-platform.png" alt="platform gamification untuk aplikasi teknisi">
                     	</div>
-						<p class="zm-title zm-font-left" style="padding-left:5px;">Platform</p>
+						<h3 class="zm-title zm-font-left" style="padding-left:5px;">Platform</h3>
 					</div>
 					<p class="zm-subtitle zm-mb_r-2 zm-font-left border-bottom" style="padding-bottom: 20px">Platform gamification untuk menambahkan elemen game ke dalam keseharian teknisi. Cocok untuk Anda yang sudah memiliki aplikasi untuk pekerjaan teknisi Anda.</p>
 					<div class="row">
@@ -147,12 +147,12 @@
 			    </div>
 			</div>
 			<div class="row zm-mb_r-4" style="padding-top: 50px">	
-				<div class="col-lg-12 zm-content-title text-center" style="padding-bottom: 50px;">Kini Anda bisa memiliki tim yang tangguh
-						<br>hanya dengan mengimplementasikan Zoomin</br></div>
+				<h2 class="col-lg-12 zm-content-title text-center" style="padding-bottom: 50px;">Kini Anda bisa memiliki tim yang tangguh
+						<br />hanya dengan mengimplementasikan Zoomin</h2>
 				<div class="col-lg-5" style="padding-left: 30px;">
 					<div class="row">						
                     		<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-tanpa-zoomin.png" alt="">
-						<h5 class="zm-title" style="padding-left: 0px; padding-top: 20px;">Tanpa Gamification</h5>
+						<h3 class="zm-title" style="padding-left: 0px; padding-top: 20px;">Tanpa Gamification</h3>
 					</div>
 					<ul class="dashed zm-subtitle" style="width: 100%; height: auto">
 						<li> Perusahaan tidak tahu performansi masing-masing teknisi</li>
@@ -167,7 +167,7 @@
 						<div class="card-body">
 							<div class="row">
 								<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-pakai-zoomin.png" alt="" style="width: 60px; height: 60px; padding-top: 10px;">
-								<h5 class="zm-title text-danger text-center" style="padding-top: 10px;">Dengan Gamification Zoomin</h5>
+								<h3 class="zm-title text-danger text-center" style="padding-top: 10px;">Dengan Gamification Zoomin</h3>
 								<ul class="dashed zm-subtitle" style="width: 100%; height: auto">
 									<li> Pelaporan hasil kerja mudah dan tersistem</li>
 									<li> Feedback diberikan secara langsung</li>
@@ -189,7 +189,7 @@
 <section class="section-two zm-bg-light-grey" id="gamification">
 	<div class="container">
 		<div class="zm-content-three">
-			<div class="zm-content-title text-center">Apa Kata Mereka</div>
+			<h2 class="zm-content-title text-center">Apa Kata Mereka</h2>
 			<div id="carouselIndicators2" class="carousel slide" style="padding-bottom:30px"data-ride="carousel">
   				<ol class="carousel-indicators">
     				<li data-target="#carouselIndicators2" data-slide-to="0" class="active"></li>
@@ -278,7 +278,7 @@
         <div class="zm-content-three">
             <div class="row ">
                 <div class="col-lg-12 zm-mb_r-3">
-                    <p class="zm-content-title">Mau menambahkan gamification<br>ke dalam aplikasi Anda?</p>
+                    <h2 class="zm-content-title">Mau menambahkan gamification<br>ke dalam aplikasi Anda?</h2>
                     <p class="zm-subtitle" style="text-align: center;">Ubah cara kerja Anda dan teknisi Anda menjadi sesuatu yang mudah dan menyenangkan</p>
                 </div>
                 <div class="col-lg-12 d-flex justify-content-center align-items-center">
