@@ -174,7 +174,7 @@ nav {
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	background-image: url("/landingpage/dist/Assets/Homepage/hero-homepage.png");
+	background-image: url("https://zoomin.id/dist/Assets/Homepage/hero-homepage.png");
 }
 
 .zm-border-100 {
@@ -186,7 +186,7 @@ nav {
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	background-image: url("/landingpage/dist/Assets/Solusi - Platform/hero-platform.png");
+	background-image: url("https://zoomin.id/dist/Assets/Solusi - Platform/hero-platform.png");
 }
 
 .zm-plat {
@@ -200,7 +200,7 @@ nav {
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	background-image: url("/landingpage/dist/Assets/Solusi - Aplikasi/hero-aplikasi1.png");
+	background-image: url("https://zoomin.id/dist/Assets/Solusi - Aplikasi/hero-aplikasi1.png");
 }
 /* Custom */
 .zm-lh-20{
