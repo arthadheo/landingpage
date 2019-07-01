@@ -11,6 +11,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<title><?php echo $title;?></title>
 	<meta name="description" content="<?php echo $meta_description; ?>" />
 	<meta name="keywords" content="<?php echo $meta_keywords; ?>" />
+	<meta name="robots" content="noindex" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<!-- for-mobile-apps -->
 	<?php 

@@ -10,7 +10,7 @@
 			<div class="row">
 				<div class="col-lg-8">
                     <div>
-					    <h1 class="zm-content-title zm-font-left" style="font-weight: bolder">Mau teknisi Anda lebih produktif?</h1>
+					    <h1 class="zm-content-title zm-font-left" style="font-weight: bolder;">Mau teknisi Anda lebih produktif?</h1>
                     </div>
 					<span class="zm-subtitle zm-mb_r-2 zm-font-left zm-font-normal">Kami menyediakan solusi gamification untuk 
                     <h1 style="display: inline" class="zm-subtitle zm-mb_r-2 zm-font-left zm-font-normal">HR software Indonesia</h1>

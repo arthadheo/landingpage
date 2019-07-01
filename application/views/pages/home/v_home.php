@@ -14,7 +14,7 @@
 						<div class="bs-example">
 					    	<!-- Button HTML (to Trigger Modal) -->
 					    	<a href="#myModal" data-toggle="modal">
- 								<img src="<?php echo base_url();?>/dist/Assets/Homepage/play-button.png" alt=""> 
+ 								<img src="<?php echo base_url();?>/dist/Assets/Homepage/play-button.png" alt="pb icon"> 
 							</a>						    
 						    <!-- Modal HTML -->
 						   	<div id="myModal" class="modal fade">
@@ -63,7 +63,7 @@
   				<div class="carousel-inner">
     				<div class="carousel-item active" style="text-align: center">
 						<div class="col-lg-12" style="padding-bottom: 30px;">
-                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/gamification.png" alt="">&nbsp; Gamification</span>
+                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/gamification.png" alt="gamification icon">&nbsp; Gamification</span>
                     	</div>
 						<p class="zm-subtitle">&nbsp; ... menurut <i>Merriam-Webster Dictionary</i> adalah proses penambahan 
 						elemen-elemen game (seperti poin, kompetisi, dll) ke dalam aktivitas tertentu untuk meningkatkan engangement
@@ -71,14 +71,14 @@
     				</div>
     				<div class="carousel-item" style="text-align: center">
 						<div class="col-lg-12" style="padding-bottom: 30px;">
-                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/77_.png" alt="">&nbsp; 77% </span>
+                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/77_.png" alt="down icon">&nbsp; 77% </span>
                     	</div>
 						<p class="zm-subtitle">&nbsp; Menurut survey oleh Gallup, 77% karyawan di Indonesia tidak engaged dengan pekerjaannya, yang menyebabkan karyawan tersebut rentan pindah pekerjaan. Hal ini tentu berdampak terhadap biaya rekrutmen ataupun pelatihan yang harus dikeluarkan perusahaan
 						</p>
     				</div>
     				<div class="carousel-item" style="text-align: center">
 						<div class="col-lg-12" style="padding-bottom: 30px;">
-                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/90_.png" alt="">&nbsp; 90%</span>
+                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/90_.png" alt="up icon">&nbsp; 90%</span>
                     	</div>
 						<p class="zm-subtitle">&nbsp; Gamification dapat meningkatkan engagement, motivasi, inisiatif, dan jiwa kompetitif karyawan. Terbukti, berdasarkan penelitian, 90% karyawan merasa lebih produktif ketika bekerja dengan menggunakan gamification
 						</p>
@@ -151,7 +151,7 @@
 						<br />hanya dengan mengimplementasikan Zoomin</h2>
 				<div class="col-lg-5" style="padding-left: 30px;">
 					<div class="row">						
-                    		<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-tanpa-zoomin.png" alt="">
+                    		<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-tanpa-zoomin.png" alt="icon tanpa zoomin">
 						<h3 class="zm-title" style="padding-left: 0px; padding-top: 20px;">Tanpa Gamification</h3>
 					</div>
 					<ul class="dashed zm-subtitle" style="width: 100%; height: auto">
@@ -166,7 +166,7 @@
 					<div class="card" style="width: 100%; height: auto;">
 						<div class="card-body">
 							<div class="row">
-								<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-pakai-zoomin.png" alt="" style="width: 60px; height: 60px; padding-top: 10px;">
+								<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-pakai-zoomin.png" alt="icon pakai zoomin" style="width: 60px; height: 60px; padding-top: 10px;">
 								<h3 class="zm-title text-danger text-center" style="padding-top: 10px;">Dengan Gamification Zoomin</h3>
 								<ul class="dashed zm-subtitle" style="width: 100%; height: auto">
 									<li> Pelaporan hasil kerja mudah dan tersistem</li>

@@ -5,7 +5,7 @@
 	<meta name="keywords" content="aplikasi hris">
 <!-- /section one -->
 <section class="section-one zm-bg-light" id="home1">
-<div class="d-flex flex-column zm-xs-s_wrap_img responsive-image" style="background-image: url('<?php echo base_url();?>/dist/Assets/Solusi - Platform/hero-platform.png');" alt="foto dua teknisi melakukan perbaikan">
+<div class="d-flex flex-column zm-xs-s_wrap_img responsive-image" style="background-image: url('<?php echo base_url();?>/dist/Assets/Solusi - Platform/hero-platform.png');">
     <div class="container">
         <div class="zm-content-one">
             <div id="platform" class="zm-d-initial">
@@ -41,21 +41,21 @@
 			<div class="card-deck" style="margin-top: 2rem">
 			  <div class="card" class="example z-depth-5">
 			    <div class="card-body">
-			    	<img src="<?php echo base_url(); echo $dist_img; ?>/elemen/experience-point.png" alt="">
+			    	<img src="<?php echo base_url(); echo $dist_img; ?>/elemen/experience-point.png" alt="XP icon">
                         <span class="zm-type-service-title zm-font-bolder">Experience Point (XP)</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Diberikan setelah menyelesaikan tugas. Dapat dikumpulkan untuk naik level.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			    	<img src="<?php echo base_url(); echo $dist_img; ?>/elemen/redeemable-point.png" alt="">
+			    	<img src="<?php echo base_url(); echo $dist_img; ?>/elemen/redeemable-point.png" alt="RP icon">
                         <span class="zm-type-service-title zm-font-bolder">Redeemable Point (Coin)</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Diberikan setelah menyelesaikan tugas. Dapat ditukarkan dengan rewards yang tersedia.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/badge.png" alt="">
+			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/badge.png" alt="badge icon">
                         <span class="zm-type-service-title zm-font-bolder">Badge</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Lencana sebagai bentuk pengakuan kepada teknisi untuk mendapatkan <i>sense of achievement</i></p>
 			    </div>
@@ -65,21 +65,21 @@
 			<div class="card-deck" style="margin-top: 2rem">
 			  <div class="card">
 			    <div class="card-body">
-			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/voucher.png" alt="">
+			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/voucher.png" alt="voucher icon">
                         <span class="zm-type-service-title zm-font-bolder">Voucher</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Hadiah yang dapat ditukarkan dengan Coin. Voucher dapat berupa voucher belanja, pulsa, dll.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/promo-code.png" alt="">
+			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/promo-code.png" alt="PC icon">
                         <span class="zm-type-service-title zm-font-bolder">Promo Code</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Hadiah yang diberikan perusahaan kepada teknisi dalam bentuk kode khusus, misalnya kode promo diskon, gratis ongkir, dll.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/coupon.png" alt="">
+			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/coupon.png" alt="coupon icon">
                         <span class="zm-type-service-title zm-font-bolder">Coupon</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Hadiah yang diberikan setelah teknisi berhasil melakukan tugas tertentu. Dapat berupa Coupon cuti 1 hari, liburan keluarga, dll.</p>
 			    </div>
@@ -89,21 +89,21 @@
 			<div class="card-deck" style="margin-top: 2rem">
 			  <div class="card">
 			    <div class="card-body">
-			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/lucky-spin.png" alt="">
+			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/lucky-spin.png" alt="spin icon">
                         <span class="zm-type-service-title zm-font-bolder">Lucky Spin</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Hadiah yang diberikan setelah teknisi berhasil melakukan tugas tertentu dalam bentuk roda berputar.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/level.png" alt="">
+			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/level.png" alt="level icon">
                         <span class="zm-type-service-title zm-font-bolder">Level</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Representasi dari semua progress yang telah dilakukan teknisi. Kenaikan level didapatkan ketika XP mencapai angka tertentu.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/leaderboard.png" alt="">
+			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/leaderboard.png" alt="leaderboard icon">
                         <span class="zm-type-service-title zm-font-bolder">Leaderboard</span>
 			      <p class="zm-subtitle zm-font-normal" style="padding-top: 20px; padding-left: 3%; border-radius: 8px;">Menampilkan ranking yang diperoleh oleh teknisi berdasarkan akumulasi XP yang didapat.</p>
 			    </div>
