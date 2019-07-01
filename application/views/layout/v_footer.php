@@ -4,8 +4,8 @@
 	<div class="container">
 		<div class="row">
             <div class="col-lg-5">
-                <div class="zm-d-block;">
-                    <img src="<?php echo base_url(); echo $dist_img; ?>logos/zoomin_logo_white.png" alt="">
+                <div class="zm-mb-10 zm-d-block ">
+                    <img src="<?php echo base_url(); echo $dist_img; ?>logos/zoomin_logo_white.png" alt="" width="191" height="69">
                 </div>
                 <p class="zm-p text-white">Zoomin menyediakan solusi <i>gamification</i> untuk aplikasi
                 karyawan, khususnya teknisi, untuk membantu meningkatkan produktivitas kerja teknisi Anda.</p>
