@@ -14,7 +14,7 @@
 						<div class="bs-example">
 					    	<!-- Button HTML (to Trigger Modal) -->
 					    	<a href="#myModal" data-toggle="modal">
- 								<img src="<?php echo base_url();?>/dist/Assets/Homepage/play-button.png" alt="" width="90" height="90"> 
+ 								<img src="<?php echo base_url();?>/dist/Assets/Homepage/play-button.png" alt="pb icon" width="90" height="90"> 
 							</a>						    
 						    <!-- Modal HTML -->
 						   	<div id="myModal" class="modal fade">
@@ -63,7 +63,7 @@
   				<div class="carousel-inner">
     				<div class="carousel-item active zm-font-center">
 						<div class="col-lg-12 zm-mb-30">
-                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/gamification.png" alt="" width="40" height="40">&nbsp; Gamification</span>
+                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/gamification.png" alt="gamification icon" width="40" height="40">&nbsp; Gamification</span>
                     	</div>
 						<p class="zm-subtitle">&nbsp; ... menurut <i>Merriam-Webster Dictionary</i> adalah proses penambahan 
 						elemen-elemen game (seperti poin, kompetisi, dll) ke dalam aktivitas tertentu untuk meningkatkan engangement
@@ -71,14 +71,14 @@
     				</div>
     				<div class="carousel-item zm-font-center">
 						<div class="col-lg-12 zm-mb-30">
-                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/77_.png" alt="" width="40" height="40">&nbsp; 77% </span>
+                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/77_.png" alt="down icon" width="40" height="40">&nbsp; 77% </span>
                     	</div>
 						<p class="zm-subtitle">&nbsp; Menurut survey oleh Gallup, 77% karyawan di Indonesia tidak engaged dengan pekerjaannya, yang menyebabkan karyawan tersebut rentan pindah pekerjaan. Hal ini tentu berdampak terhadap biaya rekrutmen ataupun pelatihan yang harus dikeluarkan perusahaan
 						</p>
     				</div>
     				<div class="carousel-item zm-font-center">
 						<div class="col-lg-12 zm-mb-30">
-                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/90_.png" alt="" width="40" height="40">&nbsp; 90%</span>
+                       		<span class="zm-content-title"><img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/90_.png" alt="up icon" width="40" height="40">&nbsp; 90%</span>
                     	</div>
 						<p class="zm-subtitle">&nbsp; Gamification dapat meningkatkan engagement, motivasi, inisiatif, dan jiwa kompetitif karyawan. Terbukti, berdasarkan penelitian, 90% karyawan merasa lebih produktif ketika bekerja dengan menggunakan gamification
 						</p>
@@ -151,7 +151,7 @@
 						<br>hanya dengan mengimplementasikan Zoomin</br></div>
 				<div class="col-lg-5 zm-pl-30">
 					<div class="row">						
-                    		<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-tanpa-zoomin.png" alt="" width="60" height="60">
+                    		<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-tanpa-zoomin.png" alt="icon tanpa zoomin" width="60" height="60">
 						<h5 class="zm-title zm-pl-0 zm-pt-20">Tanpa Gamification</h5>
 					</div>
 					<ul class="dashed zm-subtitle custom-w-h">
@@ -166,7 +166,7 @@
 					<div class="card custom-w-h">
 						<div class="card-body">
 							<div class="row">
-								<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-pakai-zoomin.png" alt="" width="60" height="60">
+								<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-pakai-zoomin.png" alt="icon pakai zoomin" width="60" height="60">
 								<h5 class="zm-title text-danger text-center zm-pt-10">Dengan Gamification Zoomin</h5>
 								<ul class="dashed zm-subtitle custom-w-h">
 									<li> Pelaporan hasil kerja mudah dan tersistem</li>

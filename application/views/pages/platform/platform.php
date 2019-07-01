@@ -41,21 +41,21 @@
 			<div class="card-deck zm-mt_r-2">
 			  <div class="card" class="example z-depth-5">
 			    <div class="card-body">
-			    	<img src="<?php echo base_url(); echo $dist_img; ?>/elemen/experience-point.png" alt="" width="40" height="40">
+			    	<img src="<?php echo base_url(); echo $dist_img; ?>/elemen/experience-point.png" alt="icon xp" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Experience Point (XP)</span>
 			      <p class="zm-subtitle zm-font-normal zm-plat">Diberikan setelah menyelesaikan tugas. Dapat dikumpulkan untuk naik level.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			    	<img src="<?php echo base_url(); echo $dist_img; ?>/elemen/redeemable-point.png" alt="" width="40" height="40">
+			    	<img src="<?php echo base_url(); echo $dist_img; ?>/elemen/redeemable-point.png" alt="icon rp" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Redeemable Point (Coin)</span>
 			      <p class="zm-subtitle zm-font-normal zm-plat">Diberikan setelah menyelesaikan tugas. Dapat ditukarkan dengan rewards yang tersedia.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/badge.png" alt="" width="40" height="40">
+			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/badge.png" alt="icon badge" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Badge</span>
 			      <p class="zm-subtitle zm-font-normal zm-plat">Lencana sebagai bentuk pengakuan kepada teknisi untuk mendapatkan <i>sense of achievement</i></p>
 			    </div>
@@ -65,21 +65,21 @@
 			<div class="card-deck zm-mt_r-2">
 			  <div class="card">
 			    <div class="card-body">
-			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/voucher.png" alt="" width="40" height="40">
+			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/voucher.png" alt="icon voucher" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Voucher</span>
 			      <p class="zm-subtitle zm-font-normal zm-plat">Hadiah yang dapat ditukarkan dengan Coin. Voucher dapat berupa voucher belanja, pulsa, dll.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/promo-code.png" alt="" width="40" height="40">
+			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/promo-code.png" alt="icon pc" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Promo Code</span>
 			      <p class="zm-subtitle zm-font-normal zm-plat">Hadiah yang diberikan perusahaan kepada teknisi dalam bentuk kode khusus, misalnya kode promo diskon, gratis ongkir, dll.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/coupon.png" alt="" width="40" height="40">
+			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/coupon.png" alt="icon coupon" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Coupon</span>
 			      <p class="zm-subtitle zm-font-normal zm-plat">Hadiah yang diberikan setelah teknisi berhasil melakukan tugas tertentu. Dapat berupa Coupon cuti 1 hari, liburan keluarga, dll.</p>
 			    </div>
@@ -89,21 +89,21 @@
 			<div class="card-deck zm-mt_r-2">
 			  <div class="card">
 			    <div class="card-body">
-			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/lucky-spin.png" alt="" width="40" height="40">
+			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/lucky-spin.png" alt="icon lucky spin" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Lucky Spin</span>
 			      <p class="zm-subtitle zm-font-normal zm-plat">Hadiah yang diberikan setelah teknisi berhasil melakukan tugas tertentu dalam bentuk roda berputar.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/level.png" alt="" width="40" height="40">
+			     <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/level.png" alt="icon level" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Level</span>
 			      <p class="zm-subtitle zm-font-normal zm-plat">Representasi dari semua progress yang telah dilakukan teknisi. Kenaikan level didapatkan ketika XP mencapai angka tertentu.</p>
 			    </div>
 			  </div>
 			  <div class="card">
 			    <div class="card-body">
-			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/leaderboard.png" alt="" width="40" height="40">
+			      <img src="<?php echo base_url(); echo $dist_img; ?>/elemen/leaderboard.png" alt="icon leaderboard" width="40" height="40">
                         <span class="zm-type-service-title zm-font-bolder">Leaderboard</span>
 			      <p class="zm-subtitle zm-font-normal zm-plat">Menampilkan ranking yang diperoleh oleh teknisi berdasarkan akumulasi XP yang didapat.</p>
 			    </div>
