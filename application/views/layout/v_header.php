@@ -13,6 +13,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<meta name="keywords" content="<?php echo $meta_keywords; ?>" />
 	<meta name="robots" content="noindex" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!-- for-mobile-apps -->
 	<?php 
     $img = $this->config->item('dist_images_url');
