@@ -33,7 +33,7 @@
         <div class="zm-content-three">
             <div class="row zm-mb_r-4">
                 <div class="col-lg-12">
-                    <h2 class="zm-content-title">Berikut cara aplikasi Zoomin membantu Anda dan teknisi Anda</h2>
+                    <h2 class="zm-content-title zm-lh-20">Berikut cara aplikasi Zoomin membantu Anda dan teknisi Anda</h2>
                 </div>
             </div> 
             <!--Aplikasi 1-->
