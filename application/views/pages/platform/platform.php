@@ -1,11 +1,8 @@
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
 <div id="home"></div>
-	<meta charset="utf-8">
-	<meta  name="description" content="Platform gamification Zoomin akan memperkaya aplikasi HRIS yang Anda miliki. Terdapat berbagai macam elemen gamification yang bisa Anda gunakan">
-	<meta name="keywords" content="aplikasi hris">
 <!-- /section one -->
 <section class="section-one zm-bg-light" id="home1">
-<div class="d-flex flex-column zm-xs-s_wrap_img responsive-image hero-bg-1" alt="foto dua teknisi melakukan perbaikan">
+<div class="d-flex flex-column zm-xs-s_wrap_img responsive-image hero-bg-1" alt="foto dua teknisi melakukan perbaikan">x
     <div class="container">
         <div class="zm-content-one">
             <div id="platform" class="zm-d-initial">
@@ -35,7 +32,7 @@
 		<div class="zm-content-three">
 			<div class="row zm-mb_r-4">
 				<div class="col-lg-12 zm-ma-1">
-					<h1 class="zm-content-title zm-font-s_30">15++ Elemen Game untuk Anda</h1>
+					<h1 class="zm-content-title zm-font-s_30 zm-lh-20">15++ Elemen Game untuk Anda</h1>
 				</div>
 			</div>
 			<div class="card-deck zm-mt_r-2">
@@ -119,7 +116,7 @@
 				        <img class="zm-xs-s_wrap_img custom-w-h zm-mt_r--3 zm-pr-50" width="600" height="400" src="<?php echo base_url();?>dist/images/illustrations/platform-1.png" alt="tampilan API gamification zoomin">
 				</div>
 				<div class="col-lg-6">
-				     <p class="zm-title zm-font-left text-justify">Integrasikan API gamification ke dalam aplikasi Anda</p>
+				     <p class="zm-title zm-font-left text-justify zm-pt-20">Integrasikan API gamification ke dalam aplikasi Anda</p>
 				        <div class="pull-left col-lg-3 d-md-block p-1 bg-danger"></div>
 				    		<p class="zm-subtitle zm-mb_r-2 zm-font-left text-justify zm-pt-30 zm-pb-30"> Berbagai elemen game dapat dengan mudah Anda integrasikan ke dalam aplikasi teknisi Anda dengan menggunakan API</p>
 				</div>

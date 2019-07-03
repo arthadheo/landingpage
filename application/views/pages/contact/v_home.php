@@ -1,8 +1,5 @@
 <?php $dist_img = $this->config->item('dist_images_url'); ?>
 <div id="home"></div>
-    <meta charset="utf-8">
-    <meta name="description" content="Zoomin menyediakan solusi gamification untuk HR software Indonesia, khususnya untuk tenaga kerja teknisi. Anda tertarik? Hubungi kami untuk demo produk gratis">
-    <meta name="keywords" content="hr software indonesia">
 <!-- section one -->
 <section class="section-one zm-bg-light" id="home1">
 	<div class="container">
@@ -10,12 +7,12 @@
 			<div class="row">
 				<div class="col-lg-8">
                     <div>
-					    <h1 class="zm-content-title zm-font-left">Mau teknisi Anda lebih produktif?</h1>
+					    <h1 class="zm-content-title zm-font-left zm-lh-20">Mau teknisi Anda lebih produktif?</h1>
                     </div>
 					<span class="zm-subtitle zm-mb_r-2 zm-font-left zm-font-normal">Kami menyediakan solusi gamification untuk 
-                    <h1 class="zm-subtitle zm-mb_r-2 zm-font-left zm-font-normal zm-d-inline">HR software Indonesia</h1>
-                    <span>, khususnya untuk tenaga kerja teknisi, Anda tertarik? Silahkan isi data dibawah ini dan ahli gamification kami akan segera menghubungi Anda kembali.</span></span>
-                    <div class="row">
+                    <h1 class="zm-subtitle zm-mb_r-2 zm-font-left zm-font-normal zm-d-inline">HR software Indonesia, </h1>
+                    <span>khususnya untuk tenaga kerja teknisi, Anda tertarik? Silahkan isi data dibawah ini dan ahli gamification kami akan segera menghubungi Anda kembali.</span></span>
+                    <div class="row zm-pt-30">
                         <div class="col-lg-12">
                             <?php echo $this->session->flashdata('msg'); ?>
                             <form action="<?php echo base_url(); ?>contact/send_email" method="POST" enctype='multipart/form-data'>
