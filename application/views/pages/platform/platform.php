@@ -143,7 +143,7 @@
                   <div class="modal-content">
                       <div class="modal-footer zm-br-8 zm-ml-10">
                       	<div class="zm-width">
-                      		<button  type="button" class="close pull-right zm-mc-30" data-dismiss="modal" aria-hidden="true"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png" width="30" height="30"></button>
+                      		<button  type="button" class="close pull-right zm-mc-30" data-dismiss="modal" aria-hidden="true"><img src="<?php echo base_url();?>dist/Assets/Solusi - Platform/elemen/close.png" alt="close icon" width="30" height="30"></button>
                   			<div class="zm-content-title zm-font-left zm-pb-20 zm-pt-10">Saya mau meningkatkan produktivitas teknisi saya
                   			</div>
 	                          <form action="<?php echo base_url(); ?>contact/send_wa" method="POST" enctype='multipart/form-data'>

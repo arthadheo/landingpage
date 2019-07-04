@@ -244,6 +244,12 @@ nav {
 	font-size :0.875em; 
 }
 
+#mc_embed_signup .button{
+	background-color: #FF3333;
+	clear:left; 
+	font-size :0.875em; 
+}
+
 /*Pop up video*/
 	.bs-example{
     	margin: 1.25em;
@@ -535,12 +541,17 @@ ul.dashed > li:before {
 	background: #F5F5F5;
 }
 
-.zm-bg-dark {
-	background-color: #272A2F;
+.zm-bg-dark form {
+	background-color: #272A2F !important;
 }
 
 .zm-bg-red {
 	background-color: #ED2A2E;
+}
+
+
+.zm-cl-white {
+	color:white;
 }
 
 /* /BACKGROUND STYLE  */
