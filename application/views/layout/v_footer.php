@@ -5,7 +5,7 @@
 		<div class="row">
             <div class="col-lg-5">
                 <div class="zm-mb-10 zm-d-block ">
-                    <img src="<?php echo base_url(); echo $dist_img; ?>logos/zoomin_logo_white.png" alt="" width="191" height="69">
+                    <img src="<?php echo base_url(); echo $dist_img; ?>logos/zoomin_logo_white.png" alt="" width="191" height="69" class="zm-img-foot">
                 </div>
                 <p class="zm-p text-white">Zoomin menyediakan solusi <i>gamification</i> untuk aplikasi
                 karyawan, khususnya teknisi, untuk membantu meningkatkan produktivitas kerja teknisi Anda.</p>
@@ -16,32 +16,32 @@
                 </div>
                 <div class="zm-mb-10 zm-d-block">
                     <a class="zm-p zm-font-500 text-white">Solusi</a>
-                    <ul style="margin-left: 2rem;">
+                    <ul class="zm-ml-2rem">
                         <li> <a href="<?php echo base_url(); ?>aplikasi" class="zm-p text-white">Aplikasi</a> </li>
                         <li> <a href="<?php echo base_url(); ?>platform" class="zm-p text-white">Platform</a> </li>
                     </ul>
                 </div>
                 <div class="zm-d-block zm-xs-d-bottom-block">
-                    <a href="//blog.zoomin.id" class="zm-p text-white">Blog</a>
+                    <a href="//zoomin.id/blog" class="zm-p text-white">Blog</a>
                 </div>
                 <div class="zm-d-block zm-xs-d-bottom-block">
                     <a href="<?php echo base_url(); ?>contact" class="zm-p text-white">Kontak</a>
                 </div>
-            </div> -->
-            <div class="col-lg-4" style="padding: 0px">
+            </div>
+            <div class="col-lg-4">
                 <div class="zm-mb-10">
                     <p class="zm-font-s_18 zm-font-300 text-white">Subscribe to our newsletter</p>
                     <p class="zm-font-s_14 text-white">Dapatkan berita dan informasi teknisi tentang Zoomin</p>
                 </div>
                 <!-- Begin Mailchimp Signup Form -->
-                <div id="mc_embed_signup"  style="background-color: #272A2F">
+                <div id="mc_embed_signup">
                 <form action="https://zoomin.us20.list-manage.com/subscribe/post?u=876410a7b51e8d1153c365d7a&amp;id=78562d6058" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate >
                     <div id="mc_embed_signup_scroll" class="card-block">
                         <div class="card-body">
                             <fieldset class="input-group">
                                 <div class="input-group-prepend">
                                     <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                                    <div class="clear"><input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color: #FF3333"></div>
+                                    <div class="clear"><input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
                                 </div>
                             </fieldset>
                         </div>
@@ -56,22 +56,22 @@
                 <div class="row">
                     <div class="col-lg-1 col-sm-3 zm-fsosmed-mobile">
                         <a href="https://www.youtube.com/channel/UC6IremYsOD94kXBE35h70CA" class="zm-social" target="_self" title="Youtube Zoomin Indonesia">
-                            <i class="fa fa-youtube-square" style="color:white" aria-hidden="true"></i>
+                            <i class="fa fa-youtube-square zm-color-light" aria-hidden="true"></i>
                         </a>
                     </div>
                     <div class="col-lg-1 col-sm-3 zm-fsosmed-mobile">
                         <a href="https://www.linkedin.com/company/zoomin-indonesia/" class="zm-social" target="_self" title="LinkedIn Zoomin Indonesia">
-                            <i class="fa fa-linkedin-square" style="color:white" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin-square zm-color-light" aria-hidden="true"></i>
                         </a>
                     </div>
                     <div class="col-lg-1 col-sm-3 zm-fsosmed-mobile">
                         <a href="https://web.facebook.com/zoomin.id/" class="zm-social" target="_self" title="Facebook Zoomin Indonesia">
-                            <i class="fa fa-facebook-square" style="color:white" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-square zm-color-light" aria-hidden="true"></i>
                         </a>
                     </div>
                     <div class="col-lg-1 col-sm-3 zm-fsosmed-mobile">
                         <a href="https://www.instagram.com/zoominid/" class="zm-social" target="_self" title="Instagram Zoomin Indonesia">
-                            <i class="fa fa-instagram" style="color:white" aria-hidden="true"></i>
+                            <i class="fa fa-instagram zm-color-light" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
