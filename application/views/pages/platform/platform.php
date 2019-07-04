@@ -12,7 +12,7 @@
                     </div>
                         <span class="col-lg-12 zm-content-subtitle text-white zm-font-s_14 zm-pt-20 zm-pb-30">Apabila Anda sudah memiliki 
 						<h1 class="zm-font-s_14 text-white zm-content-subtitle zm-d-inline">aplikasi HRIS</h1>
-						<span class="zm-font-s_14 text-white zm-content-subtitle">untuk teknisi, tambahkan elemen game ke 
+						<span class="zm-font-s_14 text-white zm-content-subtitle">untuk teknisi, tambahkan elemen game s
 						<br /> dalam aplikasi tersebut dengan platform gamification Zoomin</span></span>
                         <div class="col-lg-12 d-flex justify-content-center align-items-center zm-pt-50">
 							<button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
