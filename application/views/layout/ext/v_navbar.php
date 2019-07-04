@@ -18,7 +18,7 @@
           				<li id="aplikasi" class="zm-subtitle"><a href="<?php echo base_url(); ?>aplikasi">Aplikasi</a></li>
           				<li id="platform" class="zm-subtitle"><a href="<?php echo base_url(); ?>platform">Platform</a></li>
         			</ul>
-				<li id="blog" class="zm-subtitle"><a href="//blog.zoomin.id">Blog</a></li>
+				<li id="blog" class="zm-subtitle"><a href="//zoomin.id/blog">Blog</a></li>
 				<li id="contact" class="zm-subtitle"><a href="<?php echo base_url(); ?>contact">Kontak</a></li>
 			</ul>
 		</nav>

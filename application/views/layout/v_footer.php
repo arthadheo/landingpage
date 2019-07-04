@@ -22,7 +22,7 @@
                     </ul>
                 </div>
                 <div class="zm-d-block zm-xs-d-bottom-block">
-                    <a href="//blog.zoomin.id" class="zm-p text-white">Blog</a>
+                    <a href="//zoomin.id/blog" class="zm-p text-white">Blog</a>
                 </div>
                 <div class="zm-d-block zm-xs-d-bottom-block">
                     <a href="<?php echo base_url(); ?>contact" class="zm-p text-white">Kontak</a>
