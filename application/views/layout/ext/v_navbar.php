@@ -13,7 +13,7 @@
 				<li id="home" class="zm-subtitle"><a href="<?php echo base_url(); ?>">Beranda</a></li>
 				<li id="services" class="dropdown">
 				<a class="dropdown-toggle red zm-subtitle" id="solusi" data-toggle="dropdown" href="">Solusi</a>
-				<span class="caret"></span></a>
+				<span class="caret"></span>
         			<ul class="dropdown-menu">
           				<li id="aplikasi" class="zm-subtitle"><a href="<?php echo base_url(); ?>aplikasi">Aplikasi</a></li>
           				<li id="platform" class="zm-subtitle"><a href="<?php echo base_url(); ?>platform">Platform</a></li>
