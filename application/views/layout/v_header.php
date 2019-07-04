@@ -14,11 +14,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<meta name="robots" content="noindex" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel=”canonical” href=”https://www.zoomin.id/canonical-urls/” />
+
+
 	<!-- for-mobile-apps -->
 	<?php 
     $img = $this->config->item('dist_images_url');
     $dist_css = $this->config->item('dist_css_url');
-?>
+	?>
 	<!-- favicon website -->
 	<link rel="shortcut icon" type="image/png" href="<?php echo base_url(); echo $img; ?>/logos/fav-zoomin-black.ico" />
 
