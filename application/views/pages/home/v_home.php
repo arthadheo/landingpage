@@ -13,7 +13,11 @@
 					<div class="col-lg-12 d-flex justify-content-center align-items-center zm-xs-s_wrap_img ">
 						<div class="bs-example">
 					    	<!-- Button HTML (to Trigger Modal) -->
-					    	<a href="#myModal" data-toggle="modal">
+					    	<a href="#myModal" class="lg-display" data-toggle="modal">
+ 								<img src="<?php echo base_url();?>/dist/Assets/Homepage/play-button.png" alt="pb icon" width="90" height="90"> 
+							</a>						    
+					    	<!-- Button HTML (to Trigger Modal) -->
+					    	<a href="https://www.youtube.com/watch?v=vws3Lha2WH0" class="xs-display">
  								<img src="<?php echo base_url();?>/dist/Assets/Homepage/play-button.png" alt="pb icon" width="90" height="90"> 
 							</a>						    
 						    <!-- Modal HTML -->
@@ -36,7 +40,7 @@
 						<span class="col-lg-12 zm-content-subtitle text-white zm-font-s_14">Zoomin menyediakan solusi gamification untuk
 						<h1 class="zm-font-s_14 text-white zm-content-subtitle zm-d-inline">aplikasi karyawan</h1>
 						<span class="zm-font-s_14 text-white zm-content-subtitle">, khususnya teknisi,
-						<br />untuk membantu meningkatkan produktivitas kinerja teknisi Anda.</span></span>
+						<br>untuk membantu meningkatkan produktivitas kinerja teknisi Anda.</span></span>
                     <div class="col-lg-12 d-flex justify-content-center align-items-center zm-pt-50">
                         <button type="button" class="btn zm-s_red-ct" data-toggle="modal" data-target="#myModal1">
                             YA, SAYA MAU
@@ -100,7 +104,7 @@
 				</div>
 			</div>
 			<div class="row row-table">
-                <div class="col-lg-6 zm-content-six zm-pb-50">
+                <div class="col-lg-6 zm-pb-50 zm-pl-30">
 					<div class="row">
 						<div class="zm-xs-s_wrap_img zm-pt-27">
                         	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-app.png" alt="aplikasi teknisi dengan gamification" width="60" height="60">
@@ -111,20 +115,20 @@
 					untuk meningkatkan produktivitas kerja teknisi Anda. Cocok untuk Anda yang belum memiliki aplikasi untuk pekerjaan teknisi Anda</p>
 					<div class="row">
 						<ul class="dashed zm-subtitle col-6">
-							<li> Pembagian Work Order</li>
-							<li> Sistem pelaporan dan feedback</li>
-							<li> Sistem penilaian</li>
+							<li class="zm-subtitle"> Pembagian Work Order</li>
+							<li class="zm-subtitle"> Sistem pelaporan dan feedback</li>
+							<li class="zm-subtitle"> Sistem penilaian</li>
 						</ul>
 						<ul class="dashed zm-subtitle col-6 zm-pa-0">
-							<li> Sistem rewarding</li>
-							<li> Dashboard monitoring dan konfigurasi</li>
+							<li class="zm-subtitle"> Sistem rewarding</li>
+							<li class="zm-subtitle"> Dashboard monitoring dan konfigurasi</li>
 						</ul>
 					</div>
 					<div class="text-center zm-pt-20">
 						<a href="<?php echo base_url(); ?>aplikasi"><button id="button-stop" type="button" class="btn btn-float btn-float-lg btn-outline-danger btn-block custom-btn">PELAJARI LEBIH LANJUT</button></a>
 					</div>
 				</div>
-                <div class="col-lg-6 border-left zm-pl-30">
+                <div class="col-lg-6 zm-border-left zm-border-top zm-pl-30">
 					<div class="row">
 						<div class="zm-xs-s_wrap_img zm-pt-27">
                         	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-platform.png" alt="platform gamification untuk aplikasi teknisi" width="60" height="60">
@@ -134,11 +138,11 @@
 					<p class="zm-subtitle zm-mb_r-2 zm-font-left border-bottom zm-pb-20">Platform gamification untuk menambahkan elemen game ke dalam keseharian teknisi. Cocok untuk Anda yang sudah memiliki aplikasi untuk pekerjaan teknisi Anda.</p>
 					<div class="row">
 						<ul class="dashed zm-subtitle col-6">
-							<li> Berbagai pilihan elemen gamification</li>
-							<li> Integrasi mudah menggunakan API</li>
+							<li class="zm-subtitle"> Berbagai pilihan elemen gamification</li>
+							<li class="zm-subtitle"> Integrasi mudah menggunakan API</li>
 						</ul>
 						<ul class="dashed zm-subtitle col-6 zm-pa-0 zm-mb-56">
-							<li> Dashboard monitoring dan konfigurasi</li>
+							<li class="zm-subtitle"> Dashboard monitoring dan konfigurasi</li>
 						</ul>
 					</div>
 					<div class="text-center zm-pt-27 zm-pb-50">
@@ -147,33 +151,35 @@
 			    </div>
 			</div>
 			<div class="row zm-mb_r-4 zm-pt-50">	
-				<div class="col-lg-12 zm-content-title text-center zm-pb-10 zm-wb zm-lh-20">Kini Anda bisa memiliki tim yang tangguh
-						<br>hanya dengan mengimplementasikan Zoomin</br></div>
-				<div class="col-lg-5 zm-pl-30 zm-pt-30">
-					<div class="col-lg-5 row">						
+				<div class="zm-content-title text-center zm-pb-10 zm-lh-20 custom-w-h">Kini Anda bisa memiliki tim yang tangguh
+						<br>hanya dengan mengimplementasikan Zoomin</div>
+				<div class="col-lg-5 zm-pl-30 zm-pt-50">
+					<div class="row zm-pl-0 zm-pt-30">						
                     		<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-tanpa-zoomin.png" alt="icon tanpa zoomin" width="60" height="60">
-						<h5 class="zm-title zm-pl-0 zm-pt-20">Tanpa Gamification</h5>
+						<h5 class="zm-title">Tanpa Gamification</h5>
 					</div>
 					<ul class="dashed zm-subtitle custom-w-h">
-						<li> Perusahaan tidak tahu performansi masing-masing teknisi</li>
-						<li> Teknisi merasa kurang diberi apresiasi dan reward oleh perusahaan</li>
-						<li> Pelaporan kerja manual dan memakan waktu lama</li> 
-						<li> Teknisi tidak betah dan mudah resign</li>
-						<li> Target pekerjaan tidak tercapai</li>
+						<li class="zm-subtitle"> Perusahaan tidak tahu performansi masing-masing teknisi</li>
+						<li class="zm-subtitle"> Teknisi merasa kurang diberi apresiasi dan reward oleh perusahaan</li>
+						<li class="zm-subtitle"> Pelaporan kerja manual dan memakan waktu lama</li> 
+						<li class="zm-subtitle"> Teknisi tidak betah dan mudah resign</li>
+						<li class="zm-subtitle"> Target pekerjaan tidak tercapai</li>
 					</ul>
 				</div>
 				<div class="col-lg-7 zm-pt-50">
 					<div class="card custom-w-h zm-ma-20">
 						<div class="card-body">
 							<div class="row">
-								<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-pakai-zoomin.png" alt="icon pakai zoomin" width="60" height="60">
-								<h5 class="zm-title text-danger text-center zm-pt-10 ">Dengan Gamification Zoomin</h5>
+								<div class="zm-both zm-pb-20">
+									<img class="zm-xs-s_img zm-d-inline" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-pakai-zoomin.png" alt="icon pakai zoomin" width="60" height="60">
+									<h5 class="zm-title text-danger text-center zm-pt-10 zm-d-inline">Dengan Gamification Zoomin</h5>
+								</div>
 								<ul class="dashed zm-subtitle custom-w-h zm-wb">
-									<li> Pelaporan hasil kerja mudah dan tersistem</li>
-									<li> Feedback diberikan secara langsung</li>
-									<li> Penilaian performansi masing-masing individu mudah dengan data gamification</li>
-									<li> Hasil pekerjaan melebihi target</li>
-									<li> Tidak perlu rekrut karyawan baru untuk mendapatkan hasil yang sama</li>
+									<li class="zm-subtitle"> Pelaporan hasil kerja mudah dan tersistem</li>
+									<li class="zm-subtitle"> Feedback diberikan secara langsung</li>
+									<li class="zm-subtitle"> Penilaian performansi masing-masing individu mudah dengan data gamification</li>
+									<li class="zm-subtitle"> Hasil pekerjaan melebihi target</li>
+									<li class="zm-subtitle"> Tidak perlu rekrut karyawan baru untuk mendapatkan hasil yang sama</li>
 								</ul>
 							</div>
 						</div>
