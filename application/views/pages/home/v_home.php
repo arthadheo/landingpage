@@ -114,12 +114,23 @@
 					<p class="zm-subtitle zm-mb_r-2 zm-font-left border-bottom zm-pb-20">Aplikasi mobile dengan fitur gamification di dalamnya
 					untuk meningkatkan produktivitas kerja teknisi Anda. Cocok untuk Anda yang belum memiliki aplikasi untuk pekerjaan teknisi Anda</p>
 					<div class="row">
-						<ul class="dashed zm-subtitle col-6">
+						<ul class="dashed zm-subtitle col-6 d-xs-none d-sm-none d-md-block">
 							<li class="zm-subtitle"> Pembagian Work Order</li>
 							<li class="zm-subtitle"> Sistem pelaporan dan feedback</li>
 							<li class="zm-subtitle"> Sistem penilaian</li>
 						</ul>
-						<ul class="dashed zm-subtitle col-6 zm-pa-0">
+						<ul class="dashed zm-subtitle col-6 zm-pa-0 d-xs-none d-sm-none d-md-block">
+							<li class="zm-subtitle"> Sistem rewarding</li>
+							<li class="zm-subtitle"> Dashboard monitoring dan konfigurasi</li>
+						</ul>
+					</div>
+					<div class="row">
+						<ul class="dashed zm-subtitle d-sm-block d-md-none d-lg-none d-xl-none zm-pl-20">
+							<li class="zm-subtitle"> Pembagian Work Order</li>
+							<li class="zm-subtitle"> Sistem pelaporan dan feedback</li>
+							<li class="zm-subtitle"> Sistem penilaian</li>
+						</ul>
+						<ul class="dashed zm-subtitle zm-pa-0  d-sm-block d-md-none d-lg-none d-xl-none zm-pl-20">
 							<li class="zm-subtitle"> Sistem rewarding</li>
 							<li class="zm-subtitle"> Dashboard monitoring dan konfigurasi</li>
 						</ul>
@@ -137,11 +148,20 @@
 					</div>
 					<p class="zm-subtitle zm-mb_r-2 zm-font-left border-bottom zm-pb-20">Platform gamification untuk menambahkan elemen game ke dalam keseharian teknisi. Cocok untuk Anda yang sudah memiliki aplikasi untuk pekerjaan teknisi Anda.</p>
 					<div class="row">
-						<ul class="dashed zm-subtitle col-6">
+						<ul class="dashed zm-subtitle col-6 d-xs-none d-sm-none d-md-block">
 							<li class="zm-subtitle"> Berbagai pilihan elemen gamification</li>
 							<li class="zm-subtitle"> Integrasi mudah menggunakan API</li>
 						</ul>
-						<ul class="dashed zm-subtitle col-6 zm-pa-0 zm-mb-56">
+						<ul class="dashed zm-subtitle col-6 zm-pa-0 zm-mb-56 d-xs-none d-sm-none d-md-block">
+							<li class="zm-subtitle"> Dashboard monitoring dan konfigurasi</li>
+						</ul>
+					</div>
+					<div class="row">
+						<ul class="dashed zm-subtitle d-sm-block d-md-none d-lg-none d-xl-none zm-pl-20">
+							<li class="zm-subtitle"> Berbagai pilihan elemen gamification</li>
+							<li class="zm-subtitle"> Integrasi mudah menggunakan API</li>
+						</ul>
+						<ul class="dashed zm-subtitle zm-pa-0  d-sm-block d-md-none d-lg-none d-xl-none zm-pl-20">
 							<li class="zm-subtitle"> Dashboard monitoring dan konfigurasi</li>
 						</ul>
 					</div>
@@ -151,8 +171,8 @@
 			    </div>
 			</div>
 			<div class="row zm-mb_r-4 zm-pt-50">	
-				<div class="zm-content-title text-center zm-pb-10 zm-lh-20 custom-w-h">Kini Anda bisa memiliki tim yang tangguh
-						<br>hanya dengan mengimplementasikan Zoomin</div>
+				<div class="zm-content-title text-center zm-pb-10 zm-lh-20 custom-w-h zm-m0"><div class="zm-m-w">Kini Anda bisa memiliki tim yang tangguh
+						hanya dengan mengimplementasikan Zoomin</div></div>
 				<div class="col-lg-5 zm-pl-30 zm-pt-50">
 					<div class="row zm-pl-0 zm-pt-30">						
                     		<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-tanpa-zoomin.png" alt="icon tanpa zoomin" width="60" height="60">
@@ -284,7 +304,7 @@
         <div class="zm-content-three">
             <div class="row ">
                 <div class="col-lg-12 zm-mb_r-3">
-                    <p class="zm-content-title zm-lh-20">Mau menambahkan gamification<br>ke dalam aplikasi Anda?</p>
+                    <p class="zm-content-title zm-lh-20">Mau teknisi Anda lebih produktif?</p>
                     <p class="zm-subtitle zm-font-center">Ubah cara kerja Anda dan teknisi Anda menjadi sesuatu yang mudah dan menyenangkan</p>
                 </div>
                 <div class="col-lg-12 d-flex justify-content-center align-items-center">

@@ -51,14 +51,19 @@
                 
                 <!--Aplikasi 2-->
                 <div class="row zm-xs-product zm-mb-50">
-                    <div class="col-md-6 d-flex align-items-left zm-xs-s_wrap_img">
-                    <img class="zm-xs-s_wrap_img custom-w-h zm-mt_r--3 zm-pr-0" width="600" height="400" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-02.png" alt="tampilan fitur pelaporan pada aplikasi zoomin teknisi">
-                    </div>
-                    <div class="col-lg-6">
-					    <p class="zm-title zm-font-left text-justify">Mendekatkan Anda dan teknisi dengan sistem pelaporan dan feedback yang instan</p>
+                    <div class="d-sm-block d-md-none d-lg-none d-xl-none">
+                        <p class="zm-title zm-font-left text-justify">Mendekatkan Anda dan teknisi dengan sistem pelaporan dan feedback yang instan</p>
                             <div class="pull-left d-flex d-md-block col-lg-3 p-1 bg-danger"></div>
-				        <p class="zm-subtitle zm-mb_r-2 zm-font-left zm-pr-0 text-justify zm-pt-20">Teknisi dapat upload foto dan laporan hasil pekerjaan melalui sistem, dan teknisi akan mendapatkan feedback pekerjaan saat itu juga. Feedback secara langsung membuat teknisi merasa lebih diapresiasi</p>
-			        </div>
+                        <p class="zm-subtitle zm-mb_r-2 zm-font-left zm-pr-0 text-justify zm-pt-20">Teknisi dapat upload foto dan laporan hasil pekerjaan melalui sistem, dan teknisi akan mendapatkan feedback pekerjaan saat itu juga. Feedback secara langsung membuat teknisi merasa lebih diapresiasi</p>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-left zm-xs-s_wrap_img">
+                        <img class="zm-xs-s_wrap_img custom-w-h zm-mt_r--3 zm-pr-20" width="600" height="400" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-02.png" alt="tampilan fitur pelaporan pada aplikasi zoomin teknisi">
+                    </div>
+                    <div class="d-xs-none d-sm-none d-md-block col-lg-6">
+                        <p class="zm-title zm-font-left text-justify">Mendekatkan Anda dan teknisi dengan sistem pelaporan dan feedback yang instan</p>
+                        <div class="pull-left d-flex d-md-block col-lg-3 p-1 bg-danger"></div>
+                        <p class="zm-subtitle zm-mb_r-2 zm-font-left zm-pr-0 text-justify zm-pt-20">Teknisi dapat upload foto dan laporan hasil pekerjaan melalui sistem, dan teknisi akan mendapatkan feedback pekerjaan saat itu juga. Feedback secara langsung membuat teknisi merasa lebih diapresiasi</p>
+                    </div>
                 </div>
                 <!--Aplikasi 2-->   
 
@@ -76,15 +81,20 @@
                     <!--Aplikasi 3-->
 
                 <!--Aplikasi 4-->
-                <div class="row zm-xs-product" style="margin-bottom: 50px">
-                    <div class="col-md-6 d-flex align-items-left zm-xs-s_wrap_img">
-                        <img class="zm-xs-s_wrap_img custom-w-h zm-mt_r--3 zm-pr-0" width="600" height="400" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-04.png" alt="tampilan sistem rewarding pada aplikasi zoomin teknisi">
+                <div class="row zm-xs-product zm-mb-50">
+                    <div class="d-sm-block d-md-none d-lg-none d-xl-none col-lg-6">
+                        <p class="zm-title zm-font-left text-justify">Sistem rewarding yang seru untuk membuat pekerjaan lebih menyenangkan</p>
+                            <div class="pull-left d-flex d-md-block col-lg-3 p-1 bg-danger"></div>
+                        <p class="zm-subtitle zm-mb_r-2 zm-font-left zm-pr-0 text-justify zm-pt-20">Terdapat berbagai macam Reward yang bisa didapatkan teknisi, seperti Coin, Badges, Voucher, Coupon, dan Lucky Spin. Anda juga tidak perlu lagi pusing memberikan reward secara berkala. Teknisi dapat menukarkan dan mendapatkan rewardnya sendiri dari hasil kerjanya</p>
                     </div>
-                    <div class="col-lg-6">
-		                <p class="zm-title zm-font-left text-justify">Sistem rewarding yang seru untuk membuat pekerjaan lebih menyenangkan</p>
-                            <div class="pull-left col-lg-3 d-md-block p-1 bg-danger"></div>
-		                <p class="zm-subtitle zm-mb_r-2 zm-font-left zm-pr-0 text-justify zm-pt-20">Terdapat berbagai macam Reward yang bisa didapatkan teknisi, seperti Coin, Badges, Voucher, Coupon, dan Lucky Spin. Anda juga tidak perlu lagi pusing memberikan reward secara berkala. Teknisi dapat menukarkan dan mendapatkan rewardnya sendiri dari hasil kerjanya</p>
-		            </div>
+                    <div class="col-md-6 d-flex align-items-left zm-xs-s_wrap_img">
+                        <img class="zm-xs-s_wrap_img custom-w-h zm-mt_r--3 zm-pr-20" width="600" height="400" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-04.png" alt="tampilan sistem rewarding pada aplikasi zoomin teknisi">
+                    </div>
+                    <div class="d-xs-none d-sm-none d-md-block col-lg-6">
+                        <p class="zm-title zm-font-left text-justify">Sistem rewarding yang seru untuk membuat pekerjaan lebih menyenangkan</p>
+                        <div class="pull-left d-flex d-md-block col-lg-3 p-1 bg-danger"></div>
+                        <p class="zm-subtitle zm-mb_r-2 zm-font-left zm-pr-0 text-justify zm-pt-20">Terdapat berbagai macam Reward yang bisa didapatkan teknisi, seperti Coin, Badges, Voucher, Coupon, dan Lucky Spin. Anda juga tidak perlu lagi pusing memberikan reward secara berkala. Teknisi dapat menukarkan dan mendapatkan rewardnya sendiri dari hasil kerjanya</p>
+                    </div>
                 </div>
                 <!--Aplikasi 4-->
 
@@ -93,7 +103,7 @@
                 <div class="col-lg-6 zm-pl-0">
 			        <p class="zm-title zm-font-left text-justify">Dashboard untuk monitor dan mengatur sistem rewarding</p>
                         <div class="col-lg-3 d-md-block p-1 bg-danger"></div>
-				    <p class="zm-subtitle zm-mb_r-2 zm-font-left text-justify zm-pt-20">Anda dapat mengevaluasi kinerja masing-masing teknisi melalui dashboard. Selain itu, Anda juga dapat mengatur Mission dan Reward yang ingin Anda berikan kepada tim teknisi. Berikan 10 XP atau 20 XP, semua dapat Anda atur melalui dashboard</p>
+				    <p class="zm-subtitle zm-mb_r-2 zm-font-left text-justify zm-pt-20 zm-pb-30">Anda dapat mengevaluasi kinerja masing-masing teknisi melalui dashboard. Selain itu, Anda juga dapat mengatur Mission dan Reward yang ingin Anda berikan kepada tim teknisi. Berikan 10 XP atau 20 XP, semua dapat Anda atur melalui dashboard</p>
 			    </div>
                 <div class="col-lg-6 d-flex align-items-right zm-xs-s_wrap_img">
                 <img class="zm-xs-s_wrap_img custom-w-h zm-mt_r--3 zm-pr-0" width="600" height="400" src="<?php echo base_url();?>dist/Assets/Solusi - Platform/platform-2.png" alt="dashboard zoomin untuk monitor dan konfigurasi">
