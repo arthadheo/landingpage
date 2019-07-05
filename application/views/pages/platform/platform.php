@@ -112,15 +112,20 @@
 				 </center>	
 			</div>
 		<div class="row zm-xs-product zm-mb-200">
-				<div class="col-md-6 d-flex align-items-right zm-xs-s_wrap_img">
-				        <img class="zm-xs-s_wrap_img custom-w-h zm-mt_r--3 zm-pr-50" width="600" height="400" src="<?php echo base_url();?>dist/images/illustrations/platform-1.png" alt="tampilan API gamification zoomin">
-				</div>
-				<div class="col-lg-6">
-				     <p class="zm-title zm-font-left text-justify zm-pt-20">Integrasikan API gamification ke dalam aplikasi Anda</p>
-				        <div class="pull-left col-lg-3 d-md-block p-1 bg-danger"></div>
-				    		<p class="zm-subtitle zm-mb_r-2 zm-font-left text-justify zm-pt-30 zm-pb-30"> Berbagai elemen game dapat dengan mudah Anda integrasikan ke dalam aplikasi teknisi Anda dengan menggunakan API</p>
-				</div>
-		</div>
+            <div class="d-sm-block d-md-none d-lg-none d-xl-none col-lg-6">
+                <p class="zm-title zm-font-left text-justify">Integrasikan API gamification ke dalam aplikasi Anda</p>
+                    <div class="pull-left d-flex d-md-block col-lg-3 p-1 bg-danger"></div>
+                <p class="zm-subtitle zm-mb_r-2 zm-font-left zm-pr-0 text-justify zm-pt-20">Berbagai elemen game dapat dengan mudah Anda integrasikan ke dalam aplikasi teknisi Anda dengan menggunakan API</p>
+            </div>
+            <div class="col-md-6 d-flex align-items-left zm-xs-s_wrap_img">
+                <img class="zm-xs-s_wrap_img custom-w-h zm-mt_r--3 zm-pr-20 zm-pt-20" width="600" height="400" src="<?php echo base_url();?>dist/images/illustrations/platform-1.png" alt="tampilan API gamification zoomin">
+            </div>
+            <div class="d-xs-none d-sm-none d-md-block col-lg-6">
+                <p class="zm-title zm-font-left text-justify">Integrasikan API gamification ke dalam aplikasi Anda</p>
+                	<div class="pull-left d-flex d-md-block col-lg-3 p-1 bg-danger"></div>
+                <p class="zm-subtitle zm-mb_r-2 zm-font-left zm-pr-0 text-justify zm-pt-20">Berbagai elemen game dapat dengan mudah Anda integrasikan ke dalam aplikasi teknisi Anda dengan menggunakan API</p>
+            </div>
+        </div>
 		<div class="row zm-xs-product zm-mb-50">		
 				<div class="col-lg-6">
      				<p class="zm-title zm-font-left text-justify">Dashboard untuk monitor dan mengatur sistem rewarding</p>

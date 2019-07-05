@@ -219,6 +219,11 @@ nav {
 	background-image: url("https://zoomin.id/dist/Assets/Solusi - Aplikasi/hero-aplikasi1.png");
 }
 /* Custom */
+.zm-m-w {
+	margin: 0 auto;
+	max-width: 40rem;
+}
+
 .zm-wb{
 	word-break: break-word !important;
 	word-wrap: break-word !important;
@@ -564,7 +569,7 @@ ul.dashed > li:before {
 	background: #F5F5F5;
 }
 
-.zm-bg-dark form {
+.zm-bg-dark {
 	background-color: #272A2F !important;
 }
 
@@ -949,12 +954,20 @@ ul.dashed > li:before {
 	padding-left: 0.3125em	!important;
 }
 
+.zm-pl-20 {
+	padding-left: 1.25em	!important;
+}
+
 .zm-pl-30 {
 	padding-left: 1.875em	!important;
 }
 
 .zm-pr-0 {
 	padding-right: 0	!important;
+}
+
+.zm-pr-20 {
+	padding-right: 1.25em	!important;
 }
 
 .zm-pr-50 {
@@ -2602,6 +2615,16 @@ h5.mt-0 {
 		font-size: 1.5rem;
 		line-height: 2em;
 	}
+	
+	.d-xs-none{
+		display: none !important;
+	}
+
+	.zm-m0{
+		margin-left: 0em;
+		margin-right: 0em;
+	}
+	
 	.zm-content-title {
 		font-size: 1.25em;
 		line-height: 2em;
