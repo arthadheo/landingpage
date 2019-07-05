@@ -219,6 +219,9 @@ nav {
 	background-image: url("https://zoomin.id/dist/Assets/Solusi - Aplikasi/hero-aplikasi1.png");
 }
 /* Custom */
+.carousel-item{
+	max-height: 30vh;
+}
 .zm-m-w {
 	margin: 0 auto;
 	max-width: 40rem;
