@@ -56,22 +56,22 @@
                 <div class="row">
                     <div class="col-lg-1 col-sm-3 zm-fsosmed-mobile">
                         <a href="https://www.youtube.com/channel/UC6IremYsOD94kXBE35h70CA" class="zm-social" target="_self" title="Youtube Zoomin Indonesia">
-                            <i class="fa fa-youtube-square" aria-hidden="true"></i>
+                            <i class="fa fa-youtube-square zm-color-light" aria-hidden="true"></i>
                         </a>
                     </div>
                     <div class="col-lg-1 col-sm-3 zm-fsosmed-mobile">
                         <a href="https://www.linkedin.com/company/zoomin-indonesia/" class="zm-social" target="_self" title="LinkedIn Zoomin Indonesia">
-                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin-square zm-color-light" aria-hidden="true"></i>
                         </a>
                     </div>
                     <div class="col-lg-1 col-sm-3 zm-fsosmed-mobile">
                         <a href="https://web.facebook.com/zoomin.id/" class="zm-social" target="_self" title="Facebook Zoomin Indonesia">
-                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-square zm-color-light" aria-hidden="true"></i>
                         </a>
                     </div>
                     <div class="col-lg-1 col-sm-3 zm-fsosmed-mobile">
                         <a href="https://www.instagram.com/zoominid/" class="zm-social" target="_self" title="Instagram Zoomin Indonesia">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-instagram zm-color-light" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
