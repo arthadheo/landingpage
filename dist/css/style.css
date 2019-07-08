@@ -933,6 +933,10 @@ ul.dashed > li:before {
 	padding-top: 0.625em !important;
 }
 
+.zm-pt-3 {
+	padding-top: 0.1875em !important;
+}
+
 .zm-pt-20 {
 	padding-top: 1.25em	!important;
 }

@@ -104,12 +104,12 @@
 				</div>
 			</div>
 			<div class="row row-table">
-                <div class="col-lg-6 zm-pb-50 zm-pl-30">
+				<div class="col-lg-6 zm-pl-30">
 					<div class="row">
 						<div class="zm-xs-s_wrap_img zm-pt-27">
-                        	<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-app.png" alt="aplikasi teknisi dengan gamification" width="60" height="60">
-                    	</div>
-						<p class="zm-title zm-font-left zm-pl-5 zm-pt-27 ">Aplikasi</p>
+							<img class="zm-xs-s_img" src="<?php echo base_url();?>/dist/Assets/Homepage/icon-app.png" alt="aplikasi teknisi dengan gamification" width="60" height="60">
+						</div>
+						<p class="zm-title zm-font-left zm-pl-5 zm-pt-27">Aplikasi</p>
 					</div>
 					<p class="zm-subtitle zm-mb_r-2 zm-font-left border-bottom zm-pb-20">Aplikasi mobile dengan fitur gamification di dalamnya
 					untuk meningkatkan produktivitas kerja teknisi Anda. Cocok untuk Anda yang belum memiliki aplikasi untuk pekerjaan teknisi Anda</p>
@@ -119,7 +119,7 @@
 							<li class="zm-subtitle"> Sistem pelaporan dan feedback</li>
 							<li class="zm-subtitle"> Sistem penilaian</li>
 						</ul>
-						<ul class="dashed zm-subtitle col-6 zm-pa-0 d-xs-none d-sm-none d-md-block">
+						<ul class="dashed zm-subtitle col-6 zm-pa-0 zm-mb-56 d-xs-none d-sm-none d-md-block">
 							<li class="zm-subtitle"> Sistem rewarding</li>
 							<li class="zm-subtitle"> Dashboard monitoring dan konfigurasi</li>
 						</ul>
@@ -135,8 +135,8 @@
 							<li class="zm-subtitle"> Dashboard monitoring dan konfigurasi</li>
 						</ul>
 					</div>
-					<div class="text-center zm-pt-20">
-						<a href="<?php echo base_url(); ?>aplikasi"><button id="button-stop" type="button" class="btn btn-float btn-float-lg btn-outline-danger btn-block custom-btn">PELAJARI LEBIH LANJUT</button></a>
+					<div class="text-center zm-pt-3 zm-pb-50">
+						<a href="<?php echo base_url(); ?>aplikasi"><button type="button" class="btn btn-float btn-float-lg btn-outline-danger btn-block custom-btn">PELAJARI LEBIH LANJUT</button></a>
 					</div>
 				</div>
                 <div class="col-lg-6 zm-border-left zm-border-top zm-pl-30">
