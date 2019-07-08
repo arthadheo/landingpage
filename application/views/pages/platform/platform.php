@@ -107,7 +107,7 @@
 			  </div>
 			</div>
 			<center>
-				 <h3 class="zm-content-subtitle zm-mt_r-5 zm-pb-10">...dan masih banyak lagi</h6>
+				 <h3 class="zm-content-subtitle zm-mt_r-2 zm-pb-10">...dan masih banyak lagi</h6>
 				 	<hr size="10px">
 				 </center>	
 			</div>

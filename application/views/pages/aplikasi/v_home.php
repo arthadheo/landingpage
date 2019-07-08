@@ -82,7 +82,7 @@
 
                 <!--Aplikasi 4-->
                 <div class="row zm-xs-product zm-mb-50">
-                    <div class="d-sm-block d-md-none d-lg-none d-xl-none col-lg-6">
+                    <div class="d-sm-block d-md-none d-lg-none d-xl-none">
                         <p class="zm-title zm-font-left text-justify">Sistem rewarding yang seru untuk membuat pekerjaan lebih menyenangkan</p>
                             <div class="pull-left d-flex d-md-block col-lg-3 p-1 bg-danger"></div>
                         <p class="zm-subtitle zm-mb_r-2 zm-font-left zm-pr-0 text-justify zm-pt-20">Terdapat berbagai macam Reward yang bisa didapatkan teknisi, seperti Coin, Badges, Voucher, Coupon, dan Lucky Spin. Anda juga tidak perlu lagi pusing memberikan reward secara berkala. Teknisi dapat menukarkan dan mendapatkan rewardnya sendiri dari hasil kerjanya</p>
@@ -90,7 +90,7 @@
                     <div class="col-md-6 d-flex align-items-left zm-xs-s_wrap_img">
                         <img class="zm-xs-s_wrap_img custom-w-h zm-mt_r--3 zm-pr-20" width="600" height="400" src="<?php echo base_url();?>dist/Assets/Solusi - Aplikasi/Aset_Solusi-Aplikasi-04.png" alt="tampilan sistem rewarding pada aplikasi zoomin teknisi">
                     </div>
-                    <div class="d-xs-none d-sm-none d-md-block col-lg-6">
+                    <div class="d-xs-none d-sm-none d-md-block">
                         <p class="zm-title zm-font-left text-justify">Sistem rewarding yang seru untuk membuat pekerjaan lebih menyenangkan</p>
                         <div class="pull-left d-flex d-md-block col-lg-3 p-1 bg-danger"></div>
                         <p class="zm-subtitle zm-mb_r-2 zm-font-left zm-pr-0 text-justify zm-pt-20">Terdapat berbagai macam Reward yang bisa didapatkan teknisi, seperti Coin, Badges, Voucher, Coupon, dan Lucky Spin. Anda juga tidak perlu lagi pusing memberikan reward secara berkala. Teknisi dapat menukarkan dan mendapatkan rewardnya sendiri dari hasil kerjanya</p>
